@@ -1,5 +1,5 @@
 ---
-title: "Are we living in depressive society?"
+title: "Are we living in a depressive society?"
 subtitle: "Trends in symptoms of anxiety or depressive disorder in the US population from May 2020 to March 2024"
 author: Chay Park
 thanks: "Code and data are available at: LINK."
