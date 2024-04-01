@@ -1,8 +1,8 @@
-# Starter folder
+# Anxiety Depressive Disorder
 
 ## Overview
 
-This repo provides students with a foundation for their own projects associated with *Telling Stories with Data*. You do not need every aspect for every paper and you should delete aspects that you do not need.
+This repo provides ~
 
 To use this folder, click the green "Code" button", then "Download ZIP". Move the downloaded folder to where you want to work on your own computer, and then modify it to suit.
 
@@ -46,7 +46,7 @@ The entire codebase and datasets used for this analysis are available in this re
 
 For any questions or clarifications, feel free to reach out to the repository owner.
 
-*Code and data supporting this analysis is available at: 
+*Code and data supporting this analysis is available at: https://github.com/Chay-HyunminPark/Anxiety_depressive_disorder
 
 ## Statement on LLM Usage
 Certain sections of the code were generated with the assistance of ChatGPT4. The complete chat history is available in `inputs/llms/usage.txt`. 
