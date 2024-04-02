@@ -12,7 +12,7 @@ library(testthat)
 library(readr)
 
 # Load the dataset from the CSV file
-data <- read.csv(file = here::here("downloads/Anxiety_depressive_disorder/inputs/data/Anxiety_or_Depression.csv"))
+data <- read.csv(file = here::here("inputs/data/Anxiety_or_Depression.csv"))
 
 # Convert Date to Date type and other necessary type conversions
 data$Date <- as.Date(data$Date, format="%Y-%m-%d")
