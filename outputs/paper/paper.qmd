@@ -38,6 +38,70 @@ The study focuses on answering the following research questions:
 
 # Data {#sec-data}
 
+## Methodology
+
+## Features
+
+# Results
+
+## Trend in US Anxiety and Depressive Disorder Rates
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-andtrend-graph
+#| fig-cap: "Trend in US Anxiety and Depressive Disorder Rates"
+
+install.packages("here")
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Load the dataset
+data <- read.csv(file = here::here("inputs/data/Anxiety_or_Depression.csv"))
+
+# Filter the dataset for 'National Estimate' under 'Group' column and select indicators of interest
+
+filtered_data <- data %>%
+  filter(Group == "National Estimate" & Indicator %in% c("Symptoms of Anxiety Disorder", 
+                                                         "Symptoms of Depressive Disorder", 
+                                                         "Symptoms of Anxiety Disorder or Depressive Disorder"))
+
+# Create a YearMonth column from 'Time Period Label'
+
+filtered_data <- filtered_data %>%
+  mutate(YearMonth = as.Date(paste0(sub("^(\\d{4}).+", "\\1", `Time Period Label`), 
+                                    ".", 
+                                    sub(".+(\\d{2})$", "\\1", `Time Period Label`), 
+                                    "01"), format="%Y.%m.%d"))
+
+# Aggregate the data by YearMonth and Indicator
+aggregated_data <- filtered_data %>%
+  group_by(YearMonth, Indicator) %>%
+  summarise(AverageValue = mean(Value, na.rm = TRUE))
+
+# Plot the data
+ggplot(aggregated_data, aes(x = YearMonth, y = AverageValue, color = Indicator)) +
+  geom_line() +
+  scale_x_date(date_breaks = "6 months", date_labels = "%Y.%m") +
+  labs(
+    title = "National Estimates of Mental Health Symptoms",
+    subtitle = "Trends of Symptoms of Anxiety and Depressive Disorders",
+    x = "Year",
+    y = "Rate (%)",
+    color = "Indicator"
+  ) +
+  theme_minimal()
+
+```
+
+
+## Trends in Anxiety and Depressive Disorder Rates by Population Subgroup
+
 
 # Model
 
@@ -49,27 +113,19 @@ The study focuses on answering the following research questions:
 ### Model justification
 
 
-
-# Results
-
-
-
-
-
-
 # Discussion
 
-## First discussion point {#sec-first-point}
+## Findings
 
 If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
 
-## Second discussion point
+## Ethical Implication
 
-## Third discussion point
-
-## Weaknesses and next steps
+## Limitation
 
 The survey was designed to meet the goal of accurate and timely weekly estimates. Hence, it was conducted by an internet questionnaire, with invitations to participate sent by email and text message. 
+
+## Future Research
 
 
 \newpage
@@ -95,4 +151,7 @@ The survey was designed to meet the goal of accurate and timely weekly estimates
 
 # References
 
+---
+nocite: '@*'
+---
 
