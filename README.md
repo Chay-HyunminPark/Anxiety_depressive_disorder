@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repo provides ~
+This repository focuses on analyzing and visualizing data related to anxiety or depressive disorder rates in US. Through an analysis of trends spanning from 2020 to 2024, we investigate variations in anxiety or  depressive disorder rates among different age groups, race/ethnicity, sex, and education levels. Moreover, this paper reveals the correlation between lack or social connection and depressive disorder rates during the first quarter of the year, 2024. 
 
 To use this folder, click the green "Code" button", then "Download ZIP". Move the downloaded folder to where you want to work on your own computer, and then modify it to suit.
 
@@ -13,7 +13,7 @@ The repo is structured as:
 -   `input/data` contains the data sources used in analysis including the raw data.
 -   `outputs/data` contains the cleaned dataset that was constructed.
 -   `outputs/paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
--   `scripts` contains the R scripts used to simulate, download and clean data.
+-   `scripts` contains the R scripts used to simulate, download, clean and test data.
 
 ## Reproducibility
 

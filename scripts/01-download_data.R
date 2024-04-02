@@ -1,26 +1,20 @@
 #### Preamble ####
-# Purpose: Downloads and saves the data from [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Downloads and saves the data from online data source platform, data.cdc.gov
+# Author: Chay Park
+# Date: 2 April 2024
+# Contact: chay.park@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: Stable internet connection, be able to connect to the Web browser
 
 
-#### Workspace setup ####
-library(opendatatoronto)
-library(tidyverse)
-# [...UPDATE THIS...]
-
-#### Download data ####
-# [...ADD CODE HERE TO DOWNLOAD...]
-
-
-
-#### Save data ####
-# [...UPDATE THIS...]
-# change the_raw_data to whatever name you assigned when you downloaded it.
-write_csv(the_raw_data, "inputs/data/raw_data.csv") 
-
+#### Procedure ####
+# Step 1) Type the following url 'data.cdc.gov' on your web browser
+# Step 2) Search "Indicators of Anxiety or Depression Based on Reported Frequency of Symptoms During Last 7 Days"
+# Step 3) Make sure to check the data set is sort by Most Relevant
+# Step 4) Click a data set with a title "Indicators of Anxiety or Depression Based on Reported Frequency of Symptoms During Last 7 Days"
+# Step 5) Double check the data is provided by NCHS/DHIS and the publisher is National Center for Health Statistics
+# Step 6) Click Export button on the top right to export dataset. Before downloading the data, make sure it's set to download file and export format is in CSV.
+# Step 7) Search "Lack of Social Connection" 
+# Step 8) Click the dataset and check the data is provided by NCHS/DHIS and the publisher is National Center for Health Statistics
+# Step 8) Download the dataset by exporting it in CSV format
          
