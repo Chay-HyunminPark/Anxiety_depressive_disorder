@@ -54,7 +54,8 @@ The study focuses on answering the following research questions:
 #| label: fig-andtrend-graph
 #| fig-cap: "Trend in US Anxiety and Depressive Disorder Rates"
 
-install.packages("here")
+# Install the following package if wasn't installed already
+# install.packages("here")
 
 # Load necessary libraries
 library(tidyverse)
@@ -62,7 +63,7 @@ library(lubridate)
 library(here)
 
 # Load the dataset
-data <- read.csv(file = here::here("inputs/data/Anxiety_or_Depression.csv"))
+data <- read.csv(file = here::here("inputs/data/Indicators_of_Anxiety_or_Depression_Based_on_Reported_Frequency_of_Symptoms_During_Last_7_Days_20240401.csv"))
 
 # Filter the dataset for 'National Estimate' under 'Group' column and select indicators of interest
 
@@ -79,13 +80,17 @@ filtered_data <- filtered_data %>%
                                     sub(".+(\\d{2})$", "\\1", `Time Period Label`), 
                                     "01"), format="%Y.%m.%d"))
 
-# Aggregate the data by YearMonth and Indicator
+# Check if the YearMonth column exists
+print(head(filtered_data))
+print(colnames(filtered_data))
+
+# Continue with the aggregation
 aggregated_data <- filtered_data %>%
-  group_by(YearMonth, Indicator) %>%
+  group_by(Time.Period.End.Date, Indicator) %>%
   summarise(AverageValue = mean(Value, na.rm = TRUE))
 
 # Plot the data
-ggplot(aggregated_data, aes(x = YearMonth, y = AverageValue, color = Indicator)) +
+ggplot(aggregated_data, aes(x = Time.Period.End.Data, y = AverageValue, color = Indicator)) +
   geom_line() +
   scale_x_date(date_breaks = "6 months", date_labels = "%Y.%m") +
   labs(
