@@ -2,10 +2,10 @@
 title: "Are we living in a depressive society?"
 subtitle: "Trends in symptoms of anxiety or depressive disorder in the US population from May 2020 to March 2024"
 author: Chay Park
-thanks: "Code and data are available at: LINK."
+thanks: "Code and data are available at: https://github.com/Chay-HyunminPark/Anxiety_depressive_disorder."
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "Analyzing daata spanning from 2020 to 2024, we examine variatinos in anxiety or depressive disorders among different age groups, sex, race/ethnicity, and education level. Our analysis yncovers additional factors contributing to this trend. "
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -23,9 +23,21 @@ library(palmerpenguins)
 
 # Introduction
 
-You can and should cross-reference sections and sub-sections. 
-
+You can and should cross-reference sections and sub-sections.
 The remainder of this paper is structured as follows. @sec-data....
+
+Depression and anxiety are common symptoms of mental disorders in modern world. It could be light or serious. Someone could suffer it for longer period of time than the others, or someone could go through on a regular basis. It could be due to hormonal effect or circumstance that one confronting or even a weather can affect such level. !!According to ~ depression is ~ anxiety ~ !!
+It is not a country specific problem, but matters in the whole generation in global scale. 
+
+Due to the Covid-19 global pandemic, many countries took a lockdown measure and the US was not the exceptional. The U.S. Census Bureau launched the Household Pulse Survey to produce data on the social and economic impacts of Covid-19 on American households in collaboration with five federal agencies. The Household Pulse Survey was designed to gauge the impact of the pandemic on employment status, consumer spending, food security, housing, education disruptions, and dimensions of physical and mental wellness (NCHS, 2024). Here the dataset is about the estimate of anxiety or depression under the mental wellness category. 
+
+The estimand is the difference in whether a rate of symptoms of anxiety or depressive disorder of an individual would be correlated with the socio-cultural factors including age, sex, race/ethnicity, and education. 
+
+This paper utilizes R (R Core Team 2020) for analysis, leveraging packages such as ggplot2(Wickham et al. 2016) for creating graphical representations. Additionally, the gridExtra package was used to enhance the layout and presentation of the figures (Murrell 2021) !!+ add more packages that was used in the paper. !!
+
+The structure of the paper is ~ 
+
+
 
 
 
@@ -148,7 +160,8 @@ If my paper were 10 pages, then should be be at least 2.5 pages. The discussion 
 
 ## Weaknesses and next steps
 
-Weaknesses and next steps should also be included.
+The survey was designed to meet the goal of accurate and timely weekly estimates. Hence, it was conducted by an internet questionnaire, with invitations to participate sent by email and text message. 
+
 
 \newpage
 
