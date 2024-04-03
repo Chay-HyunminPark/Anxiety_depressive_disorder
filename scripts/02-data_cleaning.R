@@ -4,10 +4,11 @@
 # Date: 2 April 2024
 # Contact: chay.park@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: Install package 'tidyverse'
+# Pre-requisites: Install package 'tidyverse', 'dplyr'
 
 # Load the necessary library
 library(tidyverse)
+library(dplyr)
 
 # Define the path to the raw data file
 raw_data_path <- "inputs/data/Indicators_of_Anxiety_or_Depression_Based_on_Reported_Frequency_of_Symptoms_During_Last_7_Days_20240401.csv"
@@ -22,10 +23,13 @@ raw_data$`Time Period End Date` <- as.Date(raw_data$`Time Period End Date`, form
 nonempty_data <- raw_data %>%
   filter(!is.na(Value) & Value != "")
 
+# Rename 'Time Period End Date' to 'Date'
+cleaned_data <- rename(nonempty_data, Date = `Time Period End Date`)
+
 #### Overall_trends #### 
 
 # Filter the dataset for 'National Estimate' group
-national_estimate_data <- nonempty_data %>%
+national_estimate_data <- cleaned_data %>%
   filter(Group == "National Estimate" & 
            Indicator %in% c("Symptoms of Anxiety Disorder or Depressive Disorder",
                             "Symptoms of Depressive Disorder", 
@@ -37,7 +41,7 @@ write_csv(national_estimate_data, "outputs/data/Overall_trends.csv")
 #### Subgroup trends - by age group cleaned dataset ####
 
 # Filter the dataset for 'By Age' group
-by_age_data <- nonempty_data %>%
+by_age_data <- cleaned_data %>%
   filter(Group == "By Age")
 
 # Save the 'By Age' data to a new CSV file in the specified directory
@@ -46,7 +50,7 @@ write_csv(by_age_data, "outputs/data/Age_subgroup_trends.csv")
 #### Subgroup trends - by sex group cleaned dataset ####
 
 # Filter the dataset for 'By Sex' group
-by_sex_data <- nonempty_data %>%
+by_sex_data <- cleaned_data %>%
   filter(Group == "By Sex")
 
 # Save the 'By Age' data to a new CSV file in the specified directory
@@ -56,7 +60,7 @@ write_csv(by_sex_data, "outputs/data/Sex_subgroup_trends.csv")
 #### Subgroup trends - by race/hispanic ethnicity group cleaned dataset ####
 
 # Filter the dataset for 'By Race/Hispanic ethnicity' group
-by_race_data <- nonempty_data %>%
+by_race_data <- cleaned_data %>%
   filter(Group == "By Race/Hispanic ethnicity")
 
 # Save the 'By Age' data to a new CSV file in the specified directory
@@ -65,9 +69,8 @@ write_csv(by_race_data, "outputs/data/Race_subgroup_trends.csv")
 #### Subgroup trends - by education group cleaned dataset ####
 
 # Filter the dataset for 'By Education' group
-by_educ_data <- nonempty_data %>%
+by_educ_data <- cleaned_data %>%
   filter(Group == "By Education")
 
 # Save the 'By Age' data to a new CSV file in the specified directory
 write_csv(by_educ_data, "outputs/data/Educ_subgroup_trends.csv")
-

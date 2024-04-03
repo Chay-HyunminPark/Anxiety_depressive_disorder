@@ -1,4 +1,4 @@
-Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
+Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
 Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,23.5,22.7,24.3,22.7 - 24.3,NA
 Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,30.8,30,31.7,30.0 - 31.7,NA
 Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,35.9,35,36.8,35.0 - 36.8,NA

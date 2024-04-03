@@ -1,4 +1,4 @@
-Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
+Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
 Symptoms of Depressive Disorder,By Education,United States,Less than a high school diploma,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,32.7,27.8,38,27.8 - 38.0,NA
 Symptoms of Depressive Disorder,By Education,United States,High school diploma or GED,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,25.4,23.9,26.9,23.9 - 26.9,NA
 Symptoms of Depressive Disorder,By Education,United States,Some college/Associate's degree,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,25.6,24.4,26.9,24.4 - 26.9,NA

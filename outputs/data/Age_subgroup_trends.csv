@@ -1,4 +1,4 @@
-Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
+Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
 Symptoms of Depressive Disorder,By Age,United States,18 - 29 years,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,32.7,30.2,35.2,30.2 - 35.2,NA
 Symptoms of Depressive Disorder,By Age,United States,30 - 39 years,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,25.7,24.1,27.3,24.1 - 27.3,NA
 Symptoms of Depressive Disorder,By Age,United States,40 - 49 years,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,24.8,23.3,26.2,23.3 - 26.2,NA

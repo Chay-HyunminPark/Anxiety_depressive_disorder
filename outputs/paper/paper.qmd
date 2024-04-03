@@ -77,7 +77,7 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
                             "2023-05-08", "2023-09-04", "2024-01-08"))
 
 # Plotting the line graph
-ggplot(filtered_data, aes(x = Time.Period.End.Date, y = Value, group = Indicator, color = Indicator)) +
+ggplot(filtered_data, aes(x = Date, y = Value, group = Indicator, color = Indicator)) +
   geom_line() +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  # Set specific dates as x-axis breaks
   labs(x = "Date",
@@ -89,6 +89,7 @@ ggplot(filtered_data, aes(x = Time.Period.End.Date, y = Value, group = Indicator
 ```
 
 Both Anxiety and Depressive Disorder showing the similar trends over the period. 
+
 ## Trends in Anxiety and Depressive Disorder Rates by Population Subgroup
 
 ```{r}
@@ -108,11 +109,7 @@ data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
 
 # Filter the dataset for the specified symptoms
 filtered_data <- data %>%
-  filter(Indicator == "Symptoms of Depressive Disorder")  # Assuming you need only this indicator
-
-# Ensure that 'Time Period End Date' is a Date object
-# Make sure to use the exact column name as it appears in your CSV file, including using backticks if necessary
-filtered_data$`Time Period End Date` <- as.Date(filtered_data$`Time Period End Date`, format = "%Y-%m-%d")
+  filter(Indicator == "Symptoms of Depressive Disorder")
 
 # Define the specific dates for the x-axis scale
 specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
@@ -121,7 +118,7 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
                             "2023-05-08", "2023-09-04", "2024-01-08"))
 
 # Plotting the line graph
-ggplot(filtered_data, aes(x = `Time Period End Date`, y = Value, group = Subgroup, color = Subgroup)) +
+ggplot(filtered_data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  
   labs(x = "Date",
