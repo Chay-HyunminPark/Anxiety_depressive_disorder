@@ -67,11 +67,10 @@ filtered_data <- data %>%
                           'Symptoms of Anxiety Disorder', 
                           'Symptoms of Anxiety Disorder or Depressive Disorder'))
 
-# Define the sequence of dates for x-axis breaks, starting from the first date, incrementing by 4 months
-start_date <- as.Date("2020-05-05")
-end_date <- as.Date("2024-03-04")
+# Ensure that 'Time.Period.End.Date' is a Date object
+filtered_data$Time.Period.End.Date <- as.Date(filtered_data$Time.Period.End.Date, format = "%Y-%m-%d")
 
-# Manually define the specific dates you want to mark on the x-axis
+# Define the specific dates for the x-axis scale
 specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
                             "2021-05-10", "2021-09-13", "2022-01-10", 
                             "2022-05-09", "2022-09-13", "2023-01-16",
@@ -80,8 +79,8 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
 # Plotting the line graph
 ggplot(filtered_data, aes(x = Time.Period.End.Date, y = Value, group = Indicator, color = Indicator)) +
   geom_line() +
-  labs(title = "Overall Symptom Rates Trend",
-       x = "Date",
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  # Set specific dates as x-axis breaks
+  labs(x = "Date",
        y = "Symptom Rates (%)") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
         legend.position = "bottom",
@@ -89,8 +88,49 @@ ggplot(filtered_data, aes(x = Time.Period.End.Date, y = Value, group = Indicator
 
 ```
 
-
+Both Anxiety and Depressive Disorder showing the similar trends over the period. 
 ## Trends in Anxiety and Depressive Disorder Rates by Population Subgroup
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-ageandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Age Subgroup in US"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+
+# Filter the dataset for the specified symptoms
+filtered_data <- data %>%
+  filter(Indicator == "Symptoms of Depressive Disorder")  # Assuming you need only this indicator
+
+# Ensure that 'Time Period End Date' is a Date object
+# Make sure to use the exact column name as it appears in your CSV file, including using backticks if necessary
+filtered_data$`Time Period End Date` <- as.Date(filtered_data$`Time Period End Date`, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+ggplot(filtered_data, aes(x = `Time Period End Date`, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  
+  labs(x = "Date",
+       y = "Symptom Rates (%)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+```
 
 
 # Model
