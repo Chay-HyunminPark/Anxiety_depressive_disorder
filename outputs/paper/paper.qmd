@@ -64,7 +64,10 @@ data <- read.csv(file = here::here("outputs/data/Overall_trends.csv"))
 filtered_data <- data %>%
   filter(Indicator %in% c('Symptoms of Depressive Disorder', 
                           'Symptoms of Anxiety Disorder', 
-                          'Symptoms of Anxiety Disorder or Depressive Disorder'))
+                          'Symptoms of Anxiety Disorder or Depressive Disorder')) %>%
+  mutate(Indicator = factor(Indicator, levels = c('Symptoms of Anxiety Disorder or Depressive Disorder',
+                                                  'Symptoms of Anxiety Disorder',
+                                                  'Symptoms of Depressive Disorder')))
 
 # Ensure that 'Time.Period.End.Date' is a Date object
 filtered_data$Date <- as.Date(filtered_data$Date, format = "%Y-%m-%d")
@@ -78,15 +81,16 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
 # Plotting the line graph
 ggplot(filtered_data, aes(x = Date, y = Value, group = Indicator, color = Indicator)) +
   geom_line() +
-  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
-  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  # Set specific dates as x-axis breaks
+  geom_hline(yintercept = seq(10, 45, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = "Date",
        y = "Symptom Rates (%)") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        legend.position = "bottom",
-        legend.box = "vertical",
-        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+      legend.position = "bottom",
+      legend.box = "vertical",
+      legend.direction = "vertical",
+      plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
 ```
 
@@ -102,14 +106,12 @@ Both Anxiety and Depressive Disorder showing the similar trends over the period.
 #| warning: false
 #| message: false
 #| label: fig-ageandtrend-graph
-#| fig-cap: "Depressive Disorder Trend by Population Subgroup"
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Age"
 
 # Load necessary libraries
 library(tidyverse)
 library(lubridate)
 library(here)
-library(ggrepel)  # For better label placement
-library(dplyr)
 
 # Define the path to the data file and load it
 data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
@@ -123,13 +125,6 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
                             "2022-05-09", "2022-09-13", "2023-01-16",
                             "2023-05-08", "2023-09-04", "2024-01-08"))
 
-# Define the specific date for placing the labels
-mid_date <- as.Date("2024-03-04")
-
-# Filter the data to get the rows for the specific date
-mid_date_data <- data %>%
-  filter(Date == mid_date)
-
 # Plotting the line graph
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
@@ -138,35 +133,30 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
   labs(x = "Date", y = "Symptom Rates (%)") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        legend.position = "none",  # Remove the separate legend
+        legend.position = "right",  # Position the legend on the right side of the plot
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
-# Add labels to the lines with smaller font size
-p + geom_text_repel(
-  data = mid_date_data,
-  aes(label = Subgroup),
-  nudge_x = 0,  # Adjust this value based on your date range and aesthetics
-  nudge_y = 0,
-  direction = "y",
-  size = 3  # Adjust the size of the labels here; smaller values mean smaller text
-)
+# Display the plot
+print(p)
 
 ```
 
 
 ### Population subgroup by sex
+
 ```{r}
 #| echo: false
 #| eval: true
 #| warning: false
 #| message: false
 #| label: fig-sexandtrend-graph
-#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Sex in US"
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Sex"
 
 # Load necessary libraries
 library(tidyverse)
 library(lubridate)
 library(here)
+library(ggrepel)  # For better label placement
 
 # Define the path to the data file and load it
 data <- read.csv(file = here::here("outputs/data/Sex_subgroup_trends.csv"))
@@ -180,15 +170,112 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
                             "2022-05-09", "2022-09-13", "2023-01-16",
                             "2023-05-08", "2023-09-04", "2024-01-08"))
 
+# Filter the data to get the rows for the specific date to label
+label_date <- as.Date("2022-01-10")
+label_data <- data %>%
+  filter(Date == label_date)
+
 # Plotting the line graph
-ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
-  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  
-  labs(x = "Date",
-       y = "Symptom Rates (%)") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        legend.position = "bottom",
+        legend.position = "none",  # Remove the separate legend
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+p + geom_text_repel(
+  data = label_data,
+  aes(label = Subgroup),
+  nudge_x = 0,  # Adjust nudge_x and nudge_y to correctly position the labels
+  nudge_y = 0,
+  direction = "y",
+  color = "black"
+)
+
+```
+
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-raceandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Race"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Race_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right", 
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-educandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Education"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Educ_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right", 
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
 ```
 
 

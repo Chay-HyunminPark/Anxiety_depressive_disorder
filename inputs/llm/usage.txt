@@ -1136,6 +1136,334 @@ In this script:
 Adjust the position and direction of the labels as needed to best fit your graph's layout and to ensure clarity.
 
 User
+This code,
+
+ theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        legend.box = "vertical",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+doesn't make the figure legend placed in vertical way. Instead of having them in line horizontally I want them to accumulate in vertical way. Modify the code accordingly 
+
+ChatGPT
+To make the legend items stack vertically, you should set `legend.direction` to "vertical" in your theme settings. Here is how you can modify your code to achieve this:
+
+```r
+theme(axis.text.x = element_text(angle = 45, hjust = 1),
+      legend.position = "bottom",
+      legend.box = "vertical",
+      legend.direction = "vertical",  # This line will make the legend items stack vertically
+      plot.margin = unit(c(1, 1, 1, 1), "cm"))
+```
+
+This change should make the legend items in your plot accumulate vertically at the bottom of your plot.
+
+User
+can I also set up a order? 
+Instead of <Symptoms of Anxiety Disorder> coming at top, I want to have <Symptoms of Anxiety Disorder or Depressive Disorder> at the top and <Symptoms of Anxiety Disorder> in the middle then <Symptoms of Depressive Disorder> at the bottom
+
+ChatGPT
+Yes, you can control the order of the items in the legend by manually setting the levels of the factor that determines the legend items. Here's how you can do it:
+
+Assuming you have a factor (let's call it `condition`) that determines the legend items, you can reorder the levels of this factor to change the order in the legend. Here’s how you can do it in your R code:
+
+```r
+# Assuming 'data' is your data frame and 'condition' is the column that determines the legend items
+data$condition <- factor(data$condition, levels = c("Symptoms of Anxiety Disorder or Depressive Disorder",
+                                                    "Symptoms of Anxiety Disorder",
+                                                    "Symptoms of Depressive Disorder"))
+
+# Now plot your data; the legend should follow the order specified above
+ggplot(data, aes(...)) + 
+  geom_...(aes(...)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        legend.box = "vertical",
+        legend.direction = "vertical",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+```
+
+In this example, replace `...` with your specific plotting details. The key part is setting the `levels` of the `condition` factor to your desired order. This will ensure the legend in your plot reflects this order: "Symptoms of Anxiety Disorder or Depressive Disorder" at the top, followed by "Symptoms of Anxiety Disorder", and then "Symptoms of Depressive Disorder" at the bottom.
+
+User
+from this code,
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Overall_trends.csv"))
+
+# Filter the dataset for the specified symptoms
+filtered_data <- data %>%
+  filter(Indicator %in% c('Symptoms of Depressive Disorder', 
+                          'Symptoms of Anxiety Disorder', 
+                          'Symptoms of Anxiety Disorder or Depressive Disorder'))
+
+# Ensure that 'Time.Period.End.Date' is a Date object
+filtered_data$Date <- as.Date(filtered_data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+ggplot(filtered_data, aes(x = Date, y = Value, group = Indicator, color = Indicator)) +
+  geom_line() +
+  geom_hline(yintercept = seq(10, 45, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  # Set specific dates as x-axis breaks
+  labs(x = "Date",
+       y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+      legend.position = "bottom",
+      legend.box = "vertical",
+      legend.direction = "vertical",  # This line will make the legend items stack vertically
+      plot.margin = unit(c(1, 1, 1, 1), "cm"))
+      
+ChatGPT
+To adjust the order of the legend items in your plot, you should set the levels of the `Indicator` factor in your `filtered_data` dataset. Here’s how you can modify your code to achieve the desired order in the legend:
+
+```r
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Overall_trends.csv"))
+
+# Filter the dataset for the specified symptoms
+filtered_data <- data %>%
+  filter(Indicator %in% c('Symptoms of Depressive Disorder', 
+                          'Symptoms of Anxiety Disorder', 
+                          'Symptoms of Anxiety Disorder or Depressive Disorder')) %>%
+  mutate(Indicator = factor(Indicator, levels = c('Symptoms of Anxiety Disorder or Depressive Disorder',
+                                                  'Symptoms of Anxiety Disorder',
+                                                  'Symptoms of Depressive Disorder')))
+
+# Ensure that 'Time.Period.End.Date' is a Date object
+filtered_data$Date <- as.Date(filtered_data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+ggplot(filtered_data, aes(x = Date, y = Value, group = Indicator, color = Indicator)) +
+  geom_line() +
+  geom_hline(yintercept = seq(10, 45, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date",
+       y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+      legend.position = "bottom",
+      legend.box = "vertical",
+      legend.direction = "vertical",
+      plot.margin = unit(c(1, 1, 1, 1), "cm"))
+```
+
+In this modified code, the `mutate()` function is used to redefine the `Indicator` column as a factor with a specified order. This will ensure the legend in your plot will display the items in the order of "Symptoms of Anxiety Disorder or Depressive Disorder" at the top, followed by "Symptoms of Anxiety Disorder" in the middle, and "Symptoms of Depressive Disorder" at the bottom.
+
+User
+From this code, 
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+library(ggrepel)  # For better label placement
+library(dplyr)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Define the specific date for placing the labels
+mid_date <- as.Date("2024-03-04")
+
+# Filter the data to get the rows for the specific date
+mid_date_data <- data %>%
+  filter(Date == mid_date)
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none",  # Remove the separate legend
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Add labels to the lines with smaller font size
+p + geom_text_repel(
+  data = mid_date_data,
+  aes(label = Subgroup),
+  nudge_x = 0,  # Adjust this value based on your date range and aesthetics
+  nudge_y = 0,
+  direction = "y",
+  size = 3  # Adjust the size of the labels here; smaller values mean smaller text
+)
+
+instead of labeling the lines on the graph, have a separate legend to denote the lines
+
+ChatGPT
+To include a separate legend that denotes the lines instead of labeling them on the graph, you can make the following modifications to your code:
+
+1. Remove the `geom_text_repel()` function, which is used for adding labels directly to the lines.
+2. Set `legend.position` in the `theme()` function to a value other than "none" to enable the legend. Typically, "right" or "bottom" are good choices for the legend position.
+
+Here is the modified version of your code:
+
+```r
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right",  # Position the legend on the right side of the plot
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+```
+
+In this revised code, the `geom_text_repel()` function is removed, and the legend is positioned on the right side of the plot by setting `legend.position = "right"` in the `theme()` function. This will display a separate legend for the lines, with each line color corresponding to a `Subgroup` in your data.
+
+User
+From this code,
+
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-sexandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Sex in US"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Sex_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  
+  labs(x = "Date",
+       y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+Instead of having separate legend, label them on the lines of a graph. 
+
+ChatGPT
+To label the lines directly on the graph instead of using a separate legend, you can use `geom_text()` or `geom_text_repel()` (from the `ggrepel` package) to place labels directly on the lines. Here's how you can modify your code to add labels on the lines:
+
+1. Install and load the `ggrepel` package if you haven't already.
+2. Use `geom_text_repel()` to add labels to the lines. This function helps to place labels without overlapping them with the lines or each other.
+
+Here is the modified code:
+
+```r
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+library(ggrepel)  # For better label placement
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Sex_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none",  # Remove the separate legend
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Add labels to the lines
+# Choose an appropriate position for the label; for example, the last point of each line
+last_points <- data %>%
+  group_by(Subgroup) %>%
+  filter(Date == max(Date))
+
+p + geom_text_repel(
+  data = last_points,
+  aes(label = Subgroup),
+  nudge_x = 0.5,  # Adjust nudge_x and nudge_y to correctly position the labels
+  nudge_y = 0,
+  direction = "y"
+)
+```
+
+In this code, `geom_text_repel()` is used to place labels at the last data point of each line. You may need to adjust `nudge_x` and `nudge_y` parameters to correctly position the labels. This will label the lines directly and eliminate the need for a separate legend.
+
+User
+
+ChatGPT
+
+User
 
 ChatGPT
 
