@@ -1038,8 +1038,102 @@ In this code:
 This code will ensure that only the dates you specified are marked on the x-axis of the graph.
 
 User
+Refer to the following code, write me a code so that I can label the lines on a graph instead of having a separate legend. 
 
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-ageandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Age in US"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+library(ggplot2)
+library(gridExtra)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  
+  labs(x = "Date",
+       y = "Symptom Rates (%)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+        
 ChatGPT
+To label the lines directly on the graph instead of using a separate legend, you can use `geom_text()` or `geom_label()` along with `ggrepel` to avoid overlapping of labels. Here’s how you can modify your code to label the lines directly on the graph:
+
+1. First, you might want to determine a position for the labels, usually at the end of the lines.
+2. Use `geom_text()` or `geom_label()` from the `ggrepel` package to place the labels at the chosen positions.
+
+Here's the modified code:
+
+```r
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+library(ggrepel)  # For better label placement
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Filter or manipulate data if necessary, e.g., selecting specific indicators or groups
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Find the last date in your data for placing the labels
+last_date <- max(data$Date)
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none",  # Remove the separate legend
+        plot.margin = unit(c(1, 1, 1, 1), "cm")) 
+
+# Add labels to the lines
+p + geom_label_repel(
+  data = data %>% filter(Date == last_date),
+  aes(label = Subgroup),
+  nudge_x = 1,  # Adjust this value based on your date range and aesthetics
+  nudge_y = 0,
+  direction = "y"
+)
+```
+
+In this script:
+
+- `ggrepel` is used to add non-overlapping labels to the lines with `geom_label_repel()`.
+- The labels are placed at the last date (`last_date`) for each subgroup. You might need to adjust `nudge_x` and `nudge_y` to position the labels appropriately on your plot.
+- The legend is removed by setting `legend.position = "none"` since the labels are now directly on the lines.
+
+Adjust the position and direction of the labels as needed to best fit your graph's layout and to ensure clarity.
 
 User
 
