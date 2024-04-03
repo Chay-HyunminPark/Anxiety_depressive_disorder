@@ -78,12 +78,14 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
 # Plotting the line graph
 ggplot(filtered_data, aes(x = Date, y = Value, group = Indicator, color = Indicator)) +
   geom_line() +
+  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  # Set specific dates as x-axis breaks
   labs(x = "Date",
        y = "Symptom Rates (%)") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
         legend.position = "bottom",
+        legend.box = "vertical",
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
 ```
@@ -131,6 +133,7 @@ mid_date_data <- data %>%
 # Plotting the line graph
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
+  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = "Date", y = "Symptom Rates (%)") +
   theme_classic() +
