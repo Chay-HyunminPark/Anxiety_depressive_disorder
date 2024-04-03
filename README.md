@@ -1,8 +1,8 @@
-# Anxiety Depressive Disorder
+# Depressive Disorder
 
 ## Overview
 
-This repository focuses on analyzing and visualizing data related to anxiety or depressive disorder rates in US. Through an analysis of trends spanning from 2020 to 2024, we investigate variations in anxiety or  depressive disorder rates among different age groups, race/ethnicity, sex, and education levels. Moreover, this paper uncovers additional factors contributing to this trend. Lastly, this paper reveals the correlation between lack of social connection and depressive disorder rates during the first quarter of the year, 2024. 
+This repository focuses on analyzing and visualizing data related to depressive disorder rates in US. Through an analysis of trends spanning from 2020 to 2024, we investigate variations in depressive disorder rates among different age groups, race/ethnicity, sex, and education levels. Moreover, this paper uncovers additional factors contributing to this trend. Lastly, this paper reveals the correlation between lack of social connection and depressive disorder rates during the first quarter of the year, 2024. 
 
 To use this folder, click the green "Code" button", then "Download ZIP". Move the downloaded folder to where you want to work on your own computer, and then modify it to suit.
 
