@@ -967,8 +967,75 @@ data <- rename(data, Date = `Time Period End Date`)
 In this script, replace `"path_to_your_data_file.csv"` with the actual path to your data file. This code reads your CSV file into the `data` dataframe and then uses `rename()` to change the column name "Time Period End Date" to "Date". After running this, the dataframe `data` will have a column named "Date" instead of "Time Period End Date".
 
 User
+From this code, 
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+
+# Plotting the line graph
+ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  labs(x = "Date",
+       y = "Symptom Rates (%)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+I only want to mark the following dates for the scale on the x-axis,
+"2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"
 
 ChatGPT
+To mark only the specific dates on the x-axis of your plot, you should define these dates and then use them in the `scale_x_date()` function to set the x-axis breaks. Here’s how you can modify your code to include this:
+
+1. Ensure the `Date` column in your data frame is in the correct date format.
+2. Define the specific dates you want to mark on the x-axis.
+3. Use these dates as breaks in `scale_x_date()`.
+
+Here is the modified code:
+
+```r
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  # Set specific dates as x-axis breaks
+  labs(x = "Date",
+       y = "Symptom Rates (%)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+```
+
+In this code:
+
+- Ensure the `Date` column in your dataset is correctly formatted as a date. The `as.Date(data$Date, format = "%Y-%m-%d")` line assumes your dates are in the format `YYYY-MM-DD`. Adjust the format string if your dates are in a different format.
+- `specific_dates` is used in `scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d")` to only mark the specified dates on the x-axis.
+
+This code will ensure that only the dates you specified are marked on the x-axis of the graph.
 
 User
 

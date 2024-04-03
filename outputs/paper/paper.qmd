@@ -1,11 +1,11 @@
 ---
 title: "Are we living in a depressive society?"
-subtitle: "Trends in symptoms of anxiety or depressive disorder in the US population from May 2020 to March 2024"
+subtitle: "Trends in symptoms of depressive disorder in the US population from May 2020 to March 2024"
 author: Chay Park
 thanks: "Code and data are available at: https://github.com/Chay-HyunminPark/Anxiety_depressive_disorder."
 date: today
 date-format: long
-abstract: "This study explores how socio-cultural factors like age, sex, race/ethnicity, and education level influenced anxiety and depressive disorders in the U.S. during and after the COVID-19 pandemic, analyzing data from 2020 to 2024. Using advanced statistical methods in R, it uncovered significant variations in mental health impacts across different demographic groups. The research reveals a complex relationship between socio-cultural factors and mental health, highlighting the increased vulnerability of certain populations during global crises. These insights are crucial for developing targeted public health strategies to mitigate mental health issues during and after pandemics, enhancing our understanding of how socio-cultural dynamics shape mental wellness in times of crisis."
+abstract: "This study explores how socio-cultural factors like age, sex, race/ethnicity, and education level influenced depressive disorder in the U.S. during and after the COVID-19 pandemic, analyzing data from 2020 to 2024. Using advanced statistical methods in R, it uncovered significant variations in mental health impacts across different demographic groups. The research reveals a complex relationship between socio-cultural factors and mental health, highlighting the increased vulnerability of certain populations during global crises. These insights are crucial for developing targeted public health strategies to mitigate mental health issues during and after pandemics, enhancing our understanding of how socio-cultural dynamics shape mental wellness in times of crisis."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -14,7 +14,7 @@ bibliography: references.bib
 
 # Introduction
 
-Depression and anxiety are not only prevalent but escalating issues in the modern world, affecting individuals across the globe regardless of demographic factors (World Health Organization, 2021). These mental health challenges have been further exacerbated by the COVID-19 pandemic, which led to widespread social and economic upheaval (Brooks et al., 2020). While various studies have explored the impact of the pandemic on mental health, there remains a significant gap in understanding the nuanced interactions between socio-cultural factors and the prevalence of anxiety and depressive disorders during this period (Pfefferbaum & North, 2020).
+Depression is not only prevalent but escalating issues in the modern world, affecting individuals across the globe regardless of demographic factors (World Health Organization, 2021). These mental health challenges have been further exacerbated by the COVID-19 pandemic, which led to widespread social and economic upheaval (Brooks et al., 2020). While various studies have explored the impact of the pandemic on mental health, there remains a significant gap in understanding the nuanced interactions between socio-cultural factors and the prevalence of anxiety and depressive disorders during this period (Pfefferbaum & North, 2020).
 
 This paper addresses this gap by analyzing data from the U.S. Census Bureau's Household Pulse Survey, initiated in response to the pandemic to assess its effects on American households, including mental wellness (U.S. Census Bureau, 2020). Our analysis focuses on the correlation between the prevalence of anxiety or depressive disorders and socio-cultural factors such as age, sex, race/ethnicity, and education level during the pandemic and post pandemic years of 2020 to 2024. Specifically, the estimand of this study is the difference in the rates of symptoms of anxiety or depressive disorders across individuals, correlated with socio-cultural factors including age, sex, race/ethnicity, and education level.
 
@@ -90,29 +90,29 @@ ggplot(filtered_data, aes(x = Date, y = Value, group = Indicator, color = Indica
 
 Both Anxiety and Depressive Disorder showing the similar trends over the period. 
 
-## Trends in Anxiety and Depressive Disorder Rates by Population Subgroup
+## Trends in Depressive Disorder Rates by Population Subgroup
 
+### Population subgroup by age
 ```{r}
 #| echo: false
 #| eval: true
 #| warning: false
 #| message: false
 #| label: fig-ageandtrend-graph
-#| fig-cap: "Depressive Disorder Trend by Population Age Subgroup in US"
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Age in US"
 
 # Load necessary libraries
 library(tidyverse)
 library(lubridate)
+library(here)
+library(ggplot2)
+library(gridExtra)
 
 # Define the path to the data file and load it
 data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
 
-# Filter the dataset for the specified symptoms
-filtered_data <- data %>%
-  filter(Indicator == "Symptoms of Depressive Disorder")
-
-# Ensure that 'Time.Period.End.Date' is a Date object
-filtered_data$Date <- as.Date(filtered_data$Date, format = "%Y-%m-%d")
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
 
 # Define the specific dates for the x-axis scale
 specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
@@ -121,7 +121,45 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
                             "2023-05-08", "2023-09-04", "2024-01-08"))
 
 # Plotting the line graph
-ggplot(filtered_data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  
+  labs(x = "Date",
+       y = "Symptom Rates (%)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+```
+
+### Population subgroup by sex
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-sexandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Sex in US"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Sex_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  
   labs(x = "Date",
@@ -131,7 +169,79 @@ ggplot(filtered_data, aes(x = Date, y = Value, group = Subgroup, color = Subgrou
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 ```
 
+### Population subgroup by race
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-raceandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Race and Ethnicity in US"
 
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Race_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  
+  labs(x = "Date",
+       y = "Symptom Rates (%)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+```
+
+### Population subgroup by education
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-sexandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Sex in US"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Sex_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +  
+  labs(x = "Date",
+       y = "Symptom Rates (%)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+```
 
 # Model
 
