@@ -40,8 +40,11 @@ write_csv(national_estimate_data, "outputs/data/Overall_trends.csv")
 
 #### Subgroup trends - by age group cleaned dataset ####
 
+# Filter the dataset to keep only rows where the 'Indicator' column is "Symptoms of Depressive Disorder"
+dep_data <- filter(cleaned_data, Indicator == "Symptoms of Depressive Disorder")
+
 # Filter the dataset for 'By Age' group
-by_age_data <- cleaned_data %>%
+by_age_data <- dep_data %>%
   filter(Group == "By Age")
 
 # Save the 'By Age' data to a new CSV file in the specified directory
@@ -50,7 +53,7 @@ write_csv(by_age_data, "outputs/data/Age_subgroup_trends.csv")
 #### Subgroup trends - by sex group cleaned dataset ####
 
 # Filter the dataset for 'By Sex' group
-by_sex_data <- cleaned_data %>%
+by_sex_data <- dep_data %>%
   filter(Group == "By Sex")
 
 # Save the 'By Age' data to a new CSV file in the specified directory
@@ -60,7 +63,7 @@ write_csv(by_sex_data, "outputs/data/Sex_subgroup_trends.csv")
 #### Subgroup trends - by race/hispanic ethnicity group cleaned dataset ####
 
 # Filter the dataset for 'By Race/Hispanic ethnicity' group
-by_race_data <- cleaned_data %>%
+by_race_data <- dep_data %>%
   filter(Group == "By Race/Hispanic ethnicity")
 
 # Save the 'By Age' data to a new CSV file in the specified directory
@@ -69,7 +72,7 @@ write_csv(by_race_data, "outputs/data/Race_subgroup_trends.csv")
 #### Subgroup trends - by education group cleaned dataset ####
 
 # Filter the dataset for 'By Education' group
-by_educ_data <- cleaned_data %>%
+by_educ_data <- dep_data %>%
   filter(Group == "By Education")
 
 # Save the 'By Age' data to a new CSV file in the specified directory

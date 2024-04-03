@@ -68,7 +68,7 @@ filtered_data <- data %>%
                           'Symptoms of Anxiety Disorder or Depressive Disorder'))
 
 # Ensure that 'Time.Period.End.Date' is a Date object
-filtered_data$Time.Period.End.Date <- as.Date(filtered_data$Time.Period.End.Date, format = "%Y-%m-%d")
+filtered_data$Date <- as.Date(filtered_data$Date, format = "%Y-%m-%d")
 
 # Define the specific dates for the x-axis scale
 specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
@@ -111,6 +111,9 @@ data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
 filtered_data <- data %>%
   filter(Indicator == "Symptoms of Depressive Disorder")
 
+# Ensure that 'Time.Period.End.Date' is a Date object
+filtered_data$Date <- as.Date(filtered_data$Date, format = "%Y-%m-%d")
+
 # Define the specific dates for the x-axis scale
 specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
                             "2021-05-10", "2021-09-13", "2022-01-10", 
@@ -126,8 +129,8 @@ ggplot(filtered_data, aes(x = Date, y = Value, group = Subgroup, color = Subgrou
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
         legend.position = "bottom",
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
-
 ```
+
 
 
 # Model
