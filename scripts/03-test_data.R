@@ -4,7 +4,7 @@
 # Date: 2 April 2024
 # Contact: chay.park@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: Pre-install necessary packages, readdr and testthat
+# Pre-requisites: Install necessary packages, readdr and testthat
 
 #### Test data ####
 # Load the necessary library
@@ -12,7 +12,7 @@ library(testthat)
 library(readr)
 
 # Load the dataset from the CSV file
-data <- read.csv(file = here::here("inputs/data/Anxiety_or_Depression.csv"))
+data <- read.csv(file = here::here("inputs/data/Overall_trends.csv"))
 
 # Convert Date to Date type and other necessary type conversions
 data$Date <- as.Date(data$Date, format="%Y-%m-%d")

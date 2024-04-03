@@ -1,226 +1,226 @@
 Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,05/05/2020,23.5,22.7,24.3,22.7 - 24.3,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,05/05/2020,30.8,30,31.7,30.0 - 31.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,05/05/2020,35.9,35,36.8,35.0 - 36.8,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,2,"May 7 - May 12, 2020",05/07/2020,05/12/2020,24.1,23,25.2,23.0 - 25.2,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,2,"May 7 - May 12, 2020",05/07/2020,05/12/2020,30,28.9,31,28.9 - 31.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,2,"May 7 - May 12, 2020",05/07/2020,05/12/2020,34.4,33.3,35.5,33.3 - 35.5,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,3,"May 14 - May 19, 2020",05/14/2020,05/19/2020,24.4,23.7,25.2,23.7 - 25.2,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,3,"May 14 - May 19, 2020",05/14/2020,05/19/2020,28.2,27.6,28.9,27.6 - 28.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,3,"May 14 - May 19, 2020",05/14/2020,05/19/2020,33.9,33.1,34.7,33.1 - 34.7,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,4,"May 21 - May 26, 2020",05/21/2020,05/26/2020,24.9,24.1,25.7,24.1 - 25.7,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,4,"May 21 - May 26, 2020",05/21/2020,05/26/2020,29.4,28.8,30.1,28.8 - 30.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,4,"May 21 - May 26, 2020",05/21/2020,05/26/2020,34.3,33.6,35.1,33.6 - 35.1,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,5,"May 28 - June 2, 2020",05/28/2020,06/02/2020,25.3,24.7,25.8,24.7 - 25.8,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,5,"May 28 - June 2, 2020",05/28/2020,06/02/2020,30.6,30,31.2,30.0 - 31.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,5,"May 28 - June 2, 2020",05/28/2020,06/02/2020,35.5,34.8,36.1,34.8 - 36.1,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,6,"June 4 - June 9, 2020",06/04/2020,06/09/2020,25.8,25,26.7,25.0 - 26.7,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,6,"June 4 - June 9, 2020",06/04/2020,06/09/2020,31.1,30.2,32.1,30.2 - 32.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,6,"June 4 - June 9, 2020",06/04/2020,06/09/2020,36.1,35.2,37,35.2 - 37.0,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,7,"June 11 - June 16, 2020",06/11/2020,06/16/2020,25.1,24.3,25.9,24.3 - 25.9,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,7,"June 11 - June 16, 2020",06/11/2020,06/16/2020,31.7,30.9,32.5,30.9 - 32.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,7,"June 11 - June 16, 2020",06/11/2020,06/16/2020,36,35.2,36.8,35.2 - 36.8,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,8,"June 18 - June 23, 2020",06/18/2020,06/23/2020,25.6,25,26.3,25.0 - 26.3,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,8,"June 18 - June 23, 2020",06/18/2020,06/23/2020,31.2,30.5,32,30.5 - 32.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,8,"June 18 - June 23, 2020",06/18/2020,06/23/2020,36.1,35.4,36.9,35.4 - 36.9,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,9,"June 25 - June 30, 2020",06/25/2020,06/30/2020,26.9,26.1,27.7,26.1 - 27.7,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,9,"June 25 - June 30, 2020",06/25/2020,06/30/2020,33,32.3,33.6,32.3 - 33.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,9,"June 25 - June 30, 2020",06/25/2020,06/30/2020,37.8,37,38.5,37.0 - 38.5,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,10,"July 2 - July 7, 2020",07/02/2020,07/07/2020,27.6,27,28.1,27.0 - 28.1,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,10,"July 2 - July 7, 2020",07/02/2020,07/07/2020,34,33.2,34.7,33.2 - 34.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,10,"July 2 - July 7, 2020",07/02/2020,07/07/2020,39,38.3,39.6,38.3 - 39.6,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,11,"July 9 - July 14, 2020",07/09/2020,07/14/2020,28.1,27.3,28.9,27.3 - 28.9,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,11,"July 9 - July 14, 2020",07/09/2020,07/14/2020,35.6,34.7,36.5,34.7 - 36.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,11,"July 9 - July 14, 2020",07/09/2020,07/14/2020,40.3,39.4,41.2,39.4 - 41.2,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,12,"July 16 - July 21, 2020",07/16/2020,07/21/2020,29.6,28.8,30.5,28.8 - 30.5,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,12,"July 16 - July 21, 2020",07/16/2020,07/21/2020,36.1,35.2,36.9,35.2 - 36.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,12,"July 16 - July 21, 2020",07/16/2020,07/21/2020,40.9,40.1,41.8,40.1 - 41.8,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"July 22 - Aug 18, 2020",07/22/2020,08/18/2020,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,08/31/2020,24.5,24,25,24.0 - 25.0,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"July 22 - Aug 18, 2020",07/22/2020,08/18/2020,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,08/31/2020,31.4,30.9,31.9,30.9 - 31.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"July 22 - Aug 18, 2020",07/22/2020,08/18/2020,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,08/31/2020,36.4,35.9,36.9,35.9 - 36.9,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,09/14/2020,24.4,23.9,25,23.9 - 25.0,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,09/14/2020,31.6,31,32.1,31.0 - 32.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,09/14/2020,36.2,35.5,36.8,35.5 - 36.8,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,09/28/2020,25,24.5,25.6,24.5 - 25.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,09/28/2020,32.6,32,33.2,32.0 - 33.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,09/28/2020,37.2,36.6,37.9,36.6 - 37.9,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,10/12/2020,25.4,24.8,26,24.8 - 26.0,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,10/12/2020,32.4,31.7,33.1,31.7 - 33.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,10/12/2020,37.5,36.8,38.2,36.8 - 38.2,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,10/26/2020,26,25.4,26.6,25.4 - 26.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,10/26/2020,32.8,32.2,33.4,32.2 - 33.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,10/26/2020,37.8,37.2,38.5,37.2 - 38.5,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,11/09/2020,27.7,26.7,28.7,26.7 - 28.7,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,11/09/2020,36.3,35.6,37.1,35.6 - 37.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,11/09/2020,41.4,40.6,42.2,40.6 - 42.2,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,11/23/2020,28.6,27.9,29.3,27.9 - 29.3,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,11/23/2020,37.2,36.3,38.2,36.3 - 38.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,11/23/2020,42.6,41.8,43.4,41.8 - 43.4,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,12/07/2020,28.9,28.2,29.6,28.2 - 29.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,12/07/2020,36.1,35.5,36.8,35.5 - 36.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,12/07/2020,41.4,40.7,42.2,40.7 - 42.2,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,12/21/2020,30.2,29.4,31.1,29.4 - 31.1,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,12/21/2020,36.9,36.1,37.7,36.1 - 37.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,12/21/2020,42.4,41.5,43.3,41.5 - 43.3,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,01/05/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,01/18/2021,28.4,27.5,29.2,27.5 - 29.2,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,01/05/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,01/18/2021,35.8,35.1,36.5,35.1 - 36.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,01/05/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,01/18/2021,41.1,40.2,41.9,40.2 - 41.9,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,02/01/2021,28.4,27.8,29,27.8 - 29.0,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,02/01/2021,36.1,35.3,36.9,35.3 - 36.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,02/01/2021,41.5,40.7,42.2,40.7 - 42.2,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,02/15/2021,28.1,27.5,28.7,27.5 - 28.7,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,02/15/2021,33.8,33.1,34.4,33.1 - 34.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,02/15/2021,39.3,38.7,40,38.7 - 40.0,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,03/01/2021,27.8,27,28.6,27.0 - 28.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,03/01/2021,33.4,32.6,34.1,32.6 - 34.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,03/01/2021,38.9,38.1,39.7,38.1 - 39.7,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,03/15/2021,26.4,25.8,27,25.8 - 27.0,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,03/15/2021,31.4,30.7,32.2,30.7 - 32.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,03/15/2021,36.9,36.2,37.7,36.2 - 37.7,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,03/29/2021,24.7,23.9,25.4,23.9 - 25.4,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,03/29/2021,30.1,29.3,30.8,29.3 - 30.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,03/29/2021,35.1,34.4,35.8,34.4 - 35.8,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,04/13/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,04/26/2021,23,22.1,23.9,22.1 - 23.9,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,04/13/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,04/26/2021,27.4,26.5,28.2,26.5 - 28.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,04/13/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,04/26/2021,32.3,31.4,33.2,31.4 - 33.2,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,05/10/2021,21.9,21.3,22.6,21.3 - 22.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,05/10/2021,26.5,25.8,27.2,25.8 - 27.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,05/10/2021,30.8,30.1,31.4,30.1 - 31.4,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,30,"May 12 - May 24, 2021",05/12/2021,05/24/2021,21.5,21,22.1,21.0 - 22.1,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,30,"May 12 - May 24, 2021",05/12/2021,05/24/2021,25.7,25.2,26.3,25.2 - 26.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,30,"May 12 - May 24, 2021",05/12/2021,05/24/2021,30.1,29.5,30.8,29.5 - 30.8,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,06/07/2021,20.9,20.2,21.6,20.2 - 21.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,06/07/2021,25.4,24.7,26.2,24.7 - 26.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,06/07/2021,29.6,28.9,30.4,28.9 - 30.4,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,06/21/2021,21.6,20.8,22.4,20.8 - 22.4,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,06/21/2021,26.1,25.2,26.9,25.2 - 26.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,06/21/2021,30.4,29.5,31.3,29.5 - 31.3,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,07/05/2021,20.9,20.2,21.6,20.2 - 21.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,07/05/2021,24.5,23.8,25.3,23.8 - 25.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,07/05/2021,29,28.2,29.9,28.2 - 29.9,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,07/20/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,08/02/2021,22.1,21.4,22.9,21.4 - 22.9,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,07/20/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,08/02/2021,27,26.1,27.8,26.1 - 27.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,07/20/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,08/02/2021,31.3,30.4,32.2,30.4 - 32.2,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,08/16/2021,21.4,20.6,22.1,20.6 - 22.1,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,08/16/2021,26.6,25.8,27.4,25.8 - 27.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,08/16/2021,30.9,30,31.7,30.0 - 31.7,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,08/30/2021,22.6,21.9,23.3,21.9 - 23.3,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,08/30/2021,27.8,27.1,28.5,27.1 - 28.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,08/30/2021,32.1,31.4,32.9,31.4 - 32.9,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,09/13/2021,22.4,21.7,23.2,21.7 - 23.2,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,09/13/2021,28.1,27.4,28.8,27.4 - 28.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,09/13/2021,32.1,31.3,33,31.3 - 33.0,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,09/27/2021,22.3,21.6,23.1,21.6 - 23.1,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,09/27/2021,27.8,27.2,28.5,27.2 - 28.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,09/27/2021,32.2,31.4,32.9,31.4 - 32.9,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,10/11/2021,21.8,21.1,22.6,21.1 - 22.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,10/11/2021,27.3,26.5,28,26.5 - 28.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,10/11/2021,31.6,30.9,32.3,30.9 - 32.3,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,11/30/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,12/13/2021,21.4,20.7,22.1,20.7 - 22.1,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,11/30/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,12/13/2021,26.5,25.8,27.2,25.8 - 27.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,11/30/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,12/13/2021,30.7,30,31.5,30.0 - 31.5,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,01/10/2022,22.8,22.1,23.6,22.1 - 23.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,01/10/2022,27.9,27.2,28.5,27.2 - 28.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,01/10/2022,32.1,31.3,32.8,31.3 - 32.8,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,02/07/2022,22.2,21.6,22.7,21.6 - 22.7,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,02/07/2022,27.2,26.6,27.8,26.6 - 27.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,02/07/2022,31.5,30.9,32.2,30.9 - 32.2,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,03/01/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,03/14/2022,21.7,21,22.3,21.0 - 22.3,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,03/01/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,03/14/2022,27.3,26.7,27.9,26.7 - 27.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,03/01/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,03/14/2022,31.5,30.8,32.1,30.8 - 32.1,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,04/11/2022,21.7,21,22.4,21.0 - 22.4,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,04/11/2022,26.9,26.1,27.7,26.1 - 27.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,04/11/2022,30.9,30.1,31.8,30.1 - 31.8,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,05/09/2022,22,21.2,22.8,21.2 - 22.8,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,05/09/2022,26.7,25.9,27.6,25.9 - 27.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,05/09/2022,30.8,29.9,31.7,29.9 - 31.7,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"May 25 - May 31, 2022",05/25/2022,05/31/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,06/13/2022,22.4,21.7,23.2,21.7 - 23.2,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"May 25 - May 31, 2022",05/25/2022,05/31/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,06/13/2022,28.9,28.1,29.6,28.1 - 29.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"May 25 - May 31, 2022",05/25/2022,05/31/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,06/13/2022,32.8,32,33.6,32.0 - 33.6,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,07/11/2022,23.2,22.5,23.9,22.5 - 23.9,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,07/11/2022,28.8,28,29.6,28.0 - 29.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,07/11/2022,33.3,32.5,34,32.5 - 34.0,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,08/08/2022,22,21.3,22.6,21.3 - 22.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,08/08/2022,28.3,27.5,29.1,27.5 - 29.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,08/08/2022,32.3,31.5,33,31.5 - 33.0,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,09/13/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,09/26/2022,24.2,23.4,25,23.4 - 25.0,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,09/13/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,09/26/2022,31.7,30.9,32.5,30.9 - 32.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,09/13/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,09/26/2022,36,35.2,36.8,35.2 - 36.8,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,10/17/2022,25,24.1,26,24.1 - 26.0,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,10/17/2022,31.2,30.3,32,30.3 - 32.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,10/17/2022,36,35.1,37,35.1 - 37.0,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,11/14/2022,23.8,23.1,24.6,23.1 - 24.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,11/14/2022,31.1,30.3,31.9,30.3 - 31.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,11/14/2022,35.6,34.9,36.4,34.9 - 36.4,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,12/08/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,12/19/2022,23.6,22.9,24.3,22.9 - 24.3,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,12/08/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,12/19/2022,29,28.3,29.8,28.3 - 29.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,12/08/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,12/19/2022,33.6,32.9,34.2,32.9 - 34.2,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,01/16/2023,22.2,21.5,22.8,21.5 - 22.8,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,01/16/2023,27.7,27.1,28.4,27.1 - 28.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,01/16/2023,32.3,31.7,33,31.7 - 33.0,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,02/13/2023,21.7,21.1,22.3,21.1 - 22.3,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,02/13/2023,28.2,27.6,28.8,27.6 - 28.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,02/13/2023,32.3,31.6,32.9,31.6 - 32.9,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,03/13/2023,21.8,21.1,22.5,21.1 - 22.5,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,03/13/2023,28.4,27.7,29.1,27.7 - 29.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,03/13/2023,32.8,32.1,33.6,32.1 - 33.6,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,04/10/2023,21,20.4,21.7,20.4 - 21.7,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,04/10/2023,28.1,27.4,28.8,27.4 - 28.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,04/10/2023,32.6,31.8,33.3,31.8 - 33.3,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,05/08/2023,21.8,21.1,22.6,21.1 - 22.6,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,05/08/2023,27.7,26.9,28.5,26.9 - 28.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,05/08/2023,32.3,31.5,33.1,31.5 - 33.1,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,06/19/2023,21.5,20.9,22.1,20.9 - 22.1,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,06/19/2023,28.2,27.6,28.8,27.6 - 28.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,06/19/2023,32.8,32.1,33.5,32.1 - 33.5,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,07/10/2023,22,21.3,22.7,21.3 - 22.7,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,07/10/2023,27.3,26.6,28,26.6 - 28.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,07/10/2023,32.4,31.7,33.1,31.7 - 33.1,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,08/07/2023,21.9,21.2,22.5,21.2 - 22.5,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,08/07/2023,28.2,27.5,29,27.5 - 29.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,08/07/2023,32.7,31.9,33.5,31.9 - 33.5,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,09/04/2023,19,18.4,19.7,18.4 - 19.7,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,09/04/2023,24.2,23.5,24.9,23.5 - 24.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,09/04/2023,28.8,28.1,29.5,28.1 - 29.5,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,10/02/2023,22.5,21.8,23.2,21.8 - 23.2,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,10/02/2023,28.7,28,29.4,28.0 - 29.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,10/02/2023,33.5,32.8,34.3,32.8 - 34.3,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,10/30/2023,22.8,22.2,23.3,22.2 - 23.3,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,10/30/2023,29.5,29,30.1,29.0 - 30.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,10/30/2023,34.2,33.7,34.8,33.7 - 34.8,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,01/08/2024,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,02/05/2024,13.4,12.9,13.9,12.9 - 13.9,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,01/08/2024,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,02/05/2024,17,16.3,17.6,16.3 - 17.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,01/08/2024,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,02/05/2024,20.7,20.1,21.4,20.1 - 21.4,NA
-Symptoms of Depressive Disorder,National Estimate,United States,United States,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,03/04/2024,13.7,13.2,14.2,13.2 - 14.2,NA
-Symptoms of Anxiety Disorder,National Estimate,United States,United States,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,03/04/2024,17.7,17.1,18.2,17.1 - 18.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,03/04/2024,21.2,20.6,21.8,20.6 - 21.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,23.5,22.7,24.3,22.7 - 24.3,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,30.8,30,31.7,30.0 - 31.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,35.9,35,36.8,35.0 - 36.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,2,"May 7 - May 12, 2020",05/07/2020,2020-05-12,24.1,23,25.2,23.0 - 25.2,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,2,"May 7 - May 12, 2020",05/07/2020,2020-05-12,30,28.9,31,28.9 - 31.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,2,"May 7 - May 12, 2020",05/07/2020,2020-05-12,34.4,33.3,35.5,33.3 - 35.5,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,3,"May 14 - May 19, 2020",05/14/2020,2020-05-19,24.4,23.7,25.2,23.7 - 25.2,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,3,"May 14 - May 19, 2020",05/14/2020,2020-05-19,28.2,27.6,28.9,27.6 - 28.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,3,"May 14 - May 19, 2020",05/14/2020,2020-05-19,33.9,33.1,34.7,33.1 - 34.7,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,4,"May 21 - May 26, 2020",05/21/2020,2020-05-26,24.9,24.1,25.7,24.1 - 25.7,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,4,"May 21 - May 26, 2020",05/21/2020,2020-05-26,29.4,28.8,30.1,28.8 - 30.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,4,"May 21 - May 26, 2020",05/21/2020,2020-05-26,34.3,33.6,35.1,33.6 - 35.1,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,5,"May 28 - June 2, 2020",05/28/2020,2020-06-02,25.3,24.7,25.8,24.7 - 25.8,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,5,"May 28 - June 2, 2020",05/28/2020,2020-06-02,30.6,30,31.2,30.0 - 31.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,5,"May 28 - June 2, 2020",05/28/2020,2020-06-02,35.5,34.8,36.1,34.8 - 36.1,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,6,"June 4 - June 9, 2020",06/04/2020,2020-06-09,25.8,25,26.7,25.0 - 26.7,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,6,"June 4 - June 9, 2020",06/04/2020,2020-06-09,31.1,30.2,32.1,30.2 - 32.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,6,"June 4 - June 9, 2020",06/04/2020,2020-06-09,36.1,35.2,37,35.2 - 37.0,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,7,"June 11 - June 16, 2020",06/11/2020,2020-06-16,25.1,24.3,25.9,24.3 - 25.9,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,7,"June 11 - June 16, 2020",06/11/2020,2020-06-16,31.7,30.9,32.5,30.9 - 32.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,7,"June 11 - June 16, 2020",06/11/2020,2020-06-16,36,35.2,36.8,35.2 - 36.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,8,"June 18 - June 23, 2020",06/18/2020,2020-06-23,25.6,25,26.3,25.0 - 26.3,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,8,"June 18 - June 23, 2020",06/18/2020,2020-06-23,31.2,30.5,32,30.5 - 32.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,8,"June 18 - June 23, 2020",06/18/2020,2020-06-23,36.1,35.4,36.9,35.4 - 36.9,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,9,"June 25 - June 30, 2020",06/25/2020,2020-06-30,26.9,26.1,27.7,26.1 - 27.7,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,9,"June 25 - June 30, 2020",06/25/2020,2020-06-30,33,32.3,33.6,32.3 - 33.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,9,"June 25 - June 30, 2020",06/25/2020,2020-06-30,37.8,37,38.5,37.0 - 38.5,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,10,"July 2 - July 7, 2020",07/02/2020,2020-07-07,27.6,27,28.1,27.0 - 28.1,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,10,"July 2 - July 7, 2020",07/02/2020,2020-07-07,34,33.2,34.7,33.2 - 34.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,10,"July 2 - July 7, 2020",07/02/2020,2020-07-07,39,38.3,39.6,38.3 - 39.6,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,11,"July 9 - July 14, 2020",07/09/2020,2020-07-14,28.1,27.3,28.9,27.3 - 28.9,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,11,"July 9 - July 14, 2020",07/09/2020,2020-07-14,35.6,34.7,36.5,34.7 - 36.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,11,"July 9 - July 14, 2020",07/09/2020,2020-07-14,40.3,39.4,41.2,39.4 - 41.2,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,1.0,12,"July 16 - July 21, 2020",07/16/2020,2020-07-21,29.6,28.8,30.5,28.8 - 30.5,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,1.0,12,"July 16 - July 21, 2020",07/16/2020,2020-07-21,36.1,35.2,36.9,35.2 - 36.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,1.0,12,"July 16 - July 21, 2020",07/16/2020,2020-07-21,40.9,40.1,41.8,40.1 - 41.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"July 22 - Aug 18, 2020",07/22/2020,2020-08-18,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,2020-08-31,24.5,24,25,24.0 - 25.0,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"July 22 - Aug 18, 2020",07/22/2020,2020-08-18,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,2020-08-31,31.4,30.9,31.9,30.9 - 31.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"July 22 - Aug 18, 2020",07/22/2020,2020-08-18,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,2020-08-31,36.4,35.9,36.9,35.9 - 36.9,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,2020-09-14,24.4,23.9,25,23.9 - 25.0,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,2020-09-14,31.6,31,32.1,31.0 - 32.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,2020-09-14,36.2,35.5,36.8,35.5 - 36.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,2020-09-28,25,24.5,25.6,24.5 - 25.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,2020-09-28,32.6,32,33.2,32.0 - 33.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,2020-09-28,37.2,36.6,37.9,36.6 - 37.9,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,2020-10-12,25.4,24.8,26,24.8 - 26.0,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,2020-10-12,32.4,31.7,33.1,31.7 - 33.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,2020-10-12,37.5,36.8,38.2,36.8 - 38.2,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,2020-10-26,26,25.4,26.6,25.4 - 26.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,2020-10-26,32.8,32.2,33.4,32.2 - 33.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,2020-10-26,37.8,37.2,38.5,37.2 - 38.5,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,2020-11-09,27.7,26.7,28.7,26.7 - 28.7,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,2020-11-09,36.3,35.6,37.1,35.6 - 37.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,2020-11-09,41.4,40.6,42.2,40.6 - 42.2,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,2020-11-23,28.6,27.9,29.3,27.9 - 29.3,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,2020-11-23,37.2,36.3,38.2,36.3 - 38.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,2020-11-23,42.6,41.8,43.4,41.8 - 43.4,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,2020-12-07,28.9,28.2,29.6,28.2 - 29.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,2020-12-07,36.1,35.5,36.8,35.5 - 36.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,2020-12-07,41.4,40.7,42.2,40.7 - 42.2,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,2020-12-21,30.2,29.4,31.1,29.4 - 31.1,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,2020-12-21,36.9,36.1,37.7,36.1 - 37.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,2020-12-21,42.4,41.5,43.3,41.5 - 43.3,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,2021-01-05,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,2021-01-18,28.4,27.5,29.2,27.5 - 29.2,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,2021-01-05,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,2021-01-18,35.8,35.1,36.5,35.1 - 36.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,2021-01-05,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,2021-01-18,41.1,40.2,41.9,40.2 - 41.9,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,2021-02-01,28.4,27.8,29,27.8 - 29.0,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,2021-02-01,36.1,35.3,36.9,35.3 - 36.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,2021-02-01,41.5,40.7,42.2,40.7 - 42.2,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,2021-02-15,28.1,27.5,28.7,27.5 - 28.7,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,2021-02-15,33.8,33.1,34.4,33.1 - 34.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,2021-02-15,39.3,38.7,40,38.7 - 40.0,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,2021-03-01,27.8,27,28.6,27.0 - 28.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,2021-03-01,33.4,32.6,34.1,32.6 - 34.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,2021-03-01,38.9,38.1,39.7,38.1 - 39.7,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,2021-03-15,26.4,25.8,27,25.8 - 27.0,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,2021-03-15,31.4,30.7,32.2,30.7 - 32.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,2021-03-15,36.9,36.2,37.7,36.2 - 37.7,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,2021-03-29,24.7,23.9,25.4,23.9 - 25.4,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,2021-03-29,30.1,29.3,30.8,29.3 - 30.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,2021-03-29,35.1,34.4,35.8,34.4 - 35.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,2021-04-13,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,2021-04-26,23,22.1,23.9,22.1 - 23.9,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,2021-04-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,2021-04-26,27.4,26.5,28.2,26.5 - 28.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,2021-04-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,2021-04-26,32.3,31.4,33.2,31.4 - 33.2,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,2021-05-10,21.9,21.3,22.6,21.3 - 22.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,2021-05-10,26.5,25.8,27.2,25.8 - 27.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,2021-05-10,30.8,30.1,31.4,30.1 - 31.4,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,30,"May 12 - May 24, 2021",05/12/2021,2021-05-24,21.5,21,22.1,21.0 - 22.1,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,30,"May 12 - May 24, 2021",05/12/2021,2021-05-24,25.7,25.2,26.3,25.2 - 26.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,30,"May 12 - May 24, 2021",05/12/2021,2021-05-24,30.1,29.5,30.8,29.5 - 30.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,2021-06-07,20.9,20.2,21.6,20.2 - 21.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,2021-06-07,25.4,24.7,26.2,24.7 - 26.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,2021-06-07,29.6,28.9,30.4,28.9 - 30.4,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,2021-06-21,21.6,20.8,22.4,20.8 - 22.4,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,2021-06-21,26.1,25.2,26.9,25.2 - 26.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,2021-06-21,30.4,29.5,31.3,29.5 - 31.3,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,2021-07-05,20.9,20.2,21.6,20.2 - 21.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,2021-07-05,24.5,23.8,25.3,23.8 - 25.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,2021-07-05,29,28.2,29.9,28.2 - 29.9,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,2021-07-20,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,2021-08-02,22.1,21.4,22.9,21.4 - 22.9,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,2021-07-20,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,2021-08-02,27,26.1,27.8,26.1 - 27.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,2021-07-20,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,2021-08-02,31.3,30.4,32.2,30.4 - 32.2,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,2021-08-16,21.4,20.6,22.1,20.6 - 22.1,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,2021-08-16,26.6,25.8,27.4,25.8 - 27.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,2021-08-16,30.9,30,31.7,30.0 - 31.7,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,2021-08-30,22.6,21.9,23.3,21.9 - 23.3,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,2021-08-30,27.8,27.1,28.5,27.1 - 28.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,2021-08-30,32.1,31.4,32.9,31.4 - 32.9,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,2021-09-13,22.4,21.7,23.2,21.7 - 23.2,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,2021-09-13,28.1,27.4,28.8,27.4 - 28.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,2021-09-13,32.1,31.3,33,31.3 - 33.0,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,2021-09-27,22.3,21.6,23.1,21.6 - 23.1,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,2021-09-27,27.8,27.2,28.5,27.2 - 28.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,2021-09-27,32.2,31.4,32.9,31.4 - 32.9,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,2021-10-11,21.8,21.1,22.6,21.1 - 22.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,2021-10-11,27.3,26.5,28,26.5 - 28.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,2021-10-11,31.6,30.9,32.3,30.9 - 32.3,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,2021-11-30,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,2021-12-13,21.4,20.7,22.1,20.7 - 22.1,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,2021-11-30,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,2021-12-13,26.5,25.8,27.2,25.8 - 27.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,2021-11-30,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,2021-12-13,30.7,30,31.5,30.0 - 31.5,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,2022-01-10,22.8,22.1,23.6,22.1 - 23.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,2022-01-10,27.9,27.2,28.5,27.2 - 28.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,2022-01-10,32.1,31.3,32.8,31.3 - 32.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,2022-02-07,22.2,21.6,22.7,21.6 - 22.7,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,2022-02-07,27.2,26.6,27.8,26.6 - 27.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,2022-02-07,31.5,30.9,32.2,30.9 - 32.2,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,2022-03-01,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,2022-03-14,21.7,21,22.3,21.0 - 22.3,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,2022-03-01,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,2022-03-14,27.3,26.7,27.9,26.7 - 27.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,2022-03-01,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,2022-03-14,31.5,30.8,32.1,30.8 - 32.1,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,2022-04-11,21.7,21,22.4,21.0 - 22.4,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,2022-04-11,26.9,26.1,27.7,26.1 - 27.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,2022-04-11,30.9,30.1,31.8,30.1 - 31.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,2022-05-09,22,21.2,22.8,21.2 - 22.8,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,2022-05-09,26.7,25.9,27.6,25.9 - 27.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,2022-05-09,30.8,29.9,31.7,29.9 - 31.7,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"May 25 - May 31, 2022",05/25/2022,2022-05-31,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,2022-06-13,22.4,21.7,23.2,21.7 - 23.2,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"May 25 - May 31, 2022",05/25/2022,2022-05-31,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,2022-06-13,28.9,28.1,29.6,28.1 - 29.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"May 25 - May 31, 2022",05/25/2022,2022-05-31,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,2022-06-13,32.8,32,33.6,32.0 - 33.6,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,2022-07-11,23.2,22.5,23.9,22.5 - 23.9,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,2022-07-11,28.8,28,29.6,28.0 - 29.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,2022-07-11,33.3,32.5,34,32.5 - 34.0,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,2022-08-08,22,21.3,22.6,21.3 - 22.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,2022-08-08,28.3,27.5,29.1,27.5 - 29.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,2022-08-08,32.3,31.5,33,31.5 - 33.0,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,2022-09-13,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,2022-09-26,24.2,23.4,25,23.4 - 25.0,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,2022-09-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,2022-09-26,31.7,30.9,32.5,30.9 - 32.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,2022-09-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,2022-09-26,36,35.2,36.8,35.2 - 36.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,2022-10-17,25,24.1,26,24.1 - 26.0,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,2022-10-17,31.2,30.3,32,30.3 - 32.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,2022-10-17,36,35.1,37,35.1 - 37.0,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,2022-11-14,23.8,23.1,24.6,23.1 - 24.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,2022-11-14,31.1,30.3,31.9,30.3 - 31.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,2022-11-14,35.6,34.9,36.4,34.9 - 36.4,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,2022-12-08,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,2022-12-19,23.6,22.9,24.3,22.9 - 24.3,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,2022-12-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,2022-12-19,29,28.3,29.8,28.3 - 29.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,2022-12-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,2022-12-19,33.6,32.9,34.2,32.9 - 34.2,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,2023-01-16,22.2,21.5,22.8,21.5 - 22.8,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,2023-01-16,27.7,27.1,28.4,27.1 - 28.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,2023-01-16,32.3,31.7,33,31.7 - 33.0,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,2023-02-13,21.7,21.1,22.3,21.1 - 22.3,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,2023-02-13,28.2,27.6,28.8,27.6 - 28.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,2023-02-13,32.3,31.6,32.9,31.6 - 32.9,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,2023-03-13,21.8,21.1,22.5,21.1 - 22.5,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,2023-03-13,28.4,27.7,29.1,27.7 - 29.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,2023-03-13,32.8,32.1,33.6,32.1 - 33.6,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,2023-04-10,21,20.4,21.7,20.4 - 21.7,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,2023-04-10,28.1,27.4,28.8,27.4 - 28.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,2023-04-10,32.6,31.8,33.3,31.8 - 33.3,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,2023-05-08,21.8,21.1,22.6,21.1 - 22.6,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,2023-05-08,27.7,26.9,28.5,26.9 - 28.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,2023-05-08,32.3,31.5,33.1,31.5 - 33.1,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,2023-06-19,21.5,20.9,22.1,20.9 - 22.1,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,2023-06-19,28.2,27.6,28.8,27.6 - 28.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,2023-06-19,32.8,32.1,33.5,32.1 - 33.5,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,2023-07-10,22,21.3,22.7,21.3 - 22.7,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,2023-07-10,27.3,26.6,28,26.6 - 28.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,2023-07-10,32.4,31.7,33.1,31.7 - 33.1,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,2023-08-07,21.9,21.2,22.5,21.2 - 22.5,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,2023-08-07,28.2,27.5,29,27.5 - 29.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,2023-08-07,32.7,31.9,33.5,31.9 - 33.5,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,2023-09-04,19,18.4,19.7,18.4 - 19.7,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,2023-09-04,24.2,23.5,24.9,23.5 - 24.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,2023-09-04,28.8,28.1,29.5,28.1 - 29.5,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,2023-10-02,22.5,21.8,23.2,21.8 - 23.2,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,2023-10-02,28.7,28,29.4,28.0 - 29.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,2023-10-02,33.5,32.8,34.3,32.8 - 34.3,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,2023-10-30,22.8,22.2,23.3,22.2 - 23.3,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,2023-10-30,29.5,29,30.1,29.0 - 30.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,2023-10-30,34.2,33.7,34.8,33.7 - 34.8,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,2024-01-08,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,2024-02-05,13.4,12.9,13.9,12.9 - 13.9,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,2024-01-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,2024-02-05,17,16.3,17.6,16.3 - 17.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,2024-01-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,2024-02-05,20.7,20.1,21.4,20.1 - 21.4,NA
+Symptoms of Depressive Disorder,National Estimate,United States,United States,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,2024-03-04,13.7,13.2,14.2,13.2 - 14.2,NA
+Symptoms of Anxiety Disorder,National Estimate,United States,United States,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,2024-03-04,17.7,17.1,18.2,17.1 - 18.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,National Estimate,United States,United States,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,2024-03-04,21.2,20.6,21.8,20.6 - 21.8,NA

@@ -15,6 +15,9 @@ raw_data_path <- "inputs/data/Indicators_of_Anxiety_or_Depression_Based_on_Repor
 # Load the raw data file
 raw_data <- read_csv(raw_data_path)
 
+# Convert 'Time Period End Date' from string to date format in the raw_data dataframe
+raw_data$`Time Period End Date` <- as.Date(raw_data$`Time Period End Date`, format="%m/%d/%Y")
+
 #### Overall_trends #### 
 
 # Filter the dataset for 'National Estimate' group

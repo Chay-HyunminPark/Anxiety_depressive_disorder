@@ -16,5 +16,5 @@
 # Step 6) Click Export button on the top right to export dataset. Before downloading the data, make sure it's set to download file and export format is in CSV.
 # Step 7) Search "Lack of Social Connection" 
 # Step 8) Click the dataset and check the data is provided by NCHS/DHIS and the publisher is National Center for Health Statistics
-# Step 8) Download the dataset by exporting it in CSV format
+# Step 9) Download the dataset by exporting it in CSV format
          

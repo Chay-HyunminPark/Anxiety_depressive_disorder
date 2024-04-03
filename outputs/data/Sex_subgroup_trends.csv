@@ -1,451 +1,451 @@
 Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,05/05/2020,20.8,19.6,22,19.6 - 22.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,05/05/2020,26.1,25.2,27.1,25.2 - 27.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,05/05/2020,26.1,24.7,27.5,24.7 - 27.5,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,05/05/2020,35.4,34.5,36.3,34.5 - 36.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,05/05/2020,31,29.6,32.3,29.6 - 32.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,05/05/2020,40.7,39.7,41.6,39.7 - 41.6,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,2,"May 7 - May 12, 2020",05/07/2020,05/12/2020,22.3,20.6,24,20.6 - 24.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,2,"May 7 - May 12, 2020",05/07/2020,05/12/2020,25.8,24.7,27,24.7 - 27.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,2,"May 7 - May 12, 2020",05/07/2020,05/12/2020,26.7,24.9,28.5,24.9 - 28.5,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,2,"May 7 - May 12, 2020",05/07/2020,05/12/2020,33.1,32,34.2,32.0 - 34.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,2,"May 7 - May 12, 2020",05/07/2020,05/12/2020,31.4,29.5,33.3,29.5 - 33.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,2,"May 7 - May 12, 2020",05/07/2020,05/12/2020,37.2,36.2,38.3,36.2 - 38.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,3,"May 14 - May 19, 2020",05/14/2020,05/19/2020,22.1,21,23.3,21.0 - 23.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,3,"May 14 - May 19, 2020",05/14/2020,05/19/2020,26.7,25.8,27.6,25.8 - 27.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,3,"May 14 - May 19, 2020",05/14/2020,05/19/2020,24.2,23.2,25.2,23.2 - 25.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,3,"May 14 - May 19, 2020",05/14/2020,05/19/2020,32.1,31,33.1,31.0 - 33.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,3,"May 14 - May 19, 2020",05/14/2020,05/19/2020,29.9,28.7,31.1,28.7 - 31.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,3,"May 14 - May 19, 2020",05/14/2020,05/19/2020,37.6,36.5,38.7,36.5 - 38.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,4,"May 21 - May 26, 2020",05/21/2020,05/26/2020,22.7,21.5,24,21.5 - 24.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,4,"May 21 - May 26, 2020",05/21/2020,05/26/2020,26.9,25.8,28,25.8 - 28.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,4,"May 21 - May 26, 2020",05/21/2020,05/26/2020,25.4,24.4,26.3,24.4 - 26.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,4,"May 21 - May 26, 2020",05/21/2020,05/26/2020,33.2,32.3,34.2,32.3 - 34.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,4,"May 21 - May 26, 2020",05/21/2020,05/26/2020,30.3,29.1,31.5,29.1 - 31.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,4,"May 21 - May 26, 2020",05/21/2020,05/26/2020,38.1,37,39.2,37.0 - 39.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,5,"May 28 - June 2, 2020",05/28/2020,06/02/2020,23,22,23.9,22.0 - 23.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,5,"May 28 - June 2, 2020",05/28/2020,06/02/2020,27.4,26.6,28.2,26.6 - 28.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,5,"May 28 - June 2, 2020",05/28/2020,06/02/2020,26,25.1,26.8,25.1 - 26.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,5,"May 28 - June 2, 2020",05/28/2020,06/02/2020,35,34.3,35.8,34.3 - 35.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,5,"May 28 - June 2, 2020",05/28/2020,06/02/2020,31.1,30.2,32.1,30.2 - 32.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,5,"May 28 - June 2, 2020",05/28/2020,06/02/2020,39.6,38.9,40.3,38.9 - 40.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,6,"June 4 - June 9, 2020",06/04/2020,06/09/2020,23.7,22.3,25.1,22.3 - 25.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,6,"June 4 - June 9, 2020",06/04/2020,06/09/2020,27.8,26.8,28.8,26.8 - 28.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,6,"June 4 - June 9, 2020",06/04/2020,06/09/2020,26.8,25.4,28.4,25.4 - 28.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,6,"June 4 - June 9, 2020",06/04/2020,06/09/2020,35.1,34.1,36.1,34.1 - 36.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,6,"June 4 - June 9, 2020",06/04/2020,06/09/2020,31.9,30.4,33.5,30.4 - 33.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,6,"June 4 - June 9, 2020",06/04/2020,06/09/2020,40,39,41,39.0 - 41.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,7,"June 11 - June 16, 2020",06/11/2020,06/16/2020,23.3,22.2,24.5,22.2 - 24.5,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,7,"June 11 - June 16, 2020",06/11/2020,06/16/2020,26.7,25.8,27.7,25.8 - 27.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,7,"June 11 - June 16, 2020",06/11/2020,06/16/2020,28.1,27,29.3,27.0 - 29.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,7,"June 11 - June 16, 2020",06/11/2020,06/16/2020,35,34.1,36,34.1 - 36.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,7,"June 11 - June 16, 2020",06/11/2020,06/16/2020,32.7,31.4,34,31.4 - 34.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,7,"June 11 - June 16, 2020",06/11/2020,06/16/2020,39.1,38.1,40.1,38.1 - 40.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,8,"June 18 - June 23, 2020",06/18/2020,06/23/2020,23.8,22.8,24.8,22.8 - 24.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,8,"June 18 - June 23, 2020",06/18/2020,06/23/2020,27.3,26.4,28.3,26.4 - 28.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,8,"June 18 - June 23, 2020",06/18/2020,06/23/2020,27.4,26.5,28.4,26.5 - 28.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,8,"June 18 - June 23, 2020",06/18/2020,06/23/2020,34.8,33.9,35.8,33.9 - 35.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,8,"June 18 - June 23, 2020",06/18/2020,06/23/2020,32.4,31.3,33.5,31.3 - 33.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,8,"June 18 - June 23, 2020",06/18/2020,06/23/2020,39.6,38.6,40.7,38.6 - 40.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,9,"June 25 - June 30, 2020",06/25/2020,06/30/2020,25,23.8,26.1,23.8 - 26.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,9,"June 25 - June 30, 2020",06/25/2020,06/30/2020,28.8,27.7,29.8,27.7 - 29.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,9,"June 25 - June 30, 2020",06/25/2020,06/30/2020,29,27.9,30.1,27.9 - 30.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,9,"June 25 - June 30, 2020",06/25/2020,06/30/2020,36.7,35.9,37.6,35.9 - 37.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,9,"June 25 - June 30, 2020",06/25/2020,06/30/2020,33.8,32.5,35.1,32.5 - 35.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,9,"June 25 - June 30, 2020",06/25/2020,06/30/2020,41.5,40.7,42.4,40.7 - 42.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,10,"July 2 - July 7, 2020",07/02/2020,07/07/2020,26.6,25.5,27.6,25.5 - 27.6,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,10,"July 2 - July 7, 2020",07/02/2020,07/07/2020,28.6,27.8,29.3,27.8 - 29.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,10,"July 2 - July 7, 2020",07/02/2020,07/07/2020,30.7,29.6,31.9,29.6 - 31.9,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,10,"July 2 - July 7, 2020",07/02/2020,07/07/2020,37,36.1,37.8,36.1 - 37.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,10,"July 2 - July 7, 2020",07/02/2020,07/07/2020,36.5,35.5,37.5,35.5 - 37.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,10,"July 2 - July 7, 2020",07/02/2020,07/07/2020,41.3,40.4,42.2,40.4 - 42.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,11,"July 9 - July 14, 2020",07/09/2020,07/14/2020,26,24.6,27.4,24.6 - 27.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,11,"July 9 - July 14, 2020",07/09/2020,07/14/2020,30,29,31.1,29.0 - 31.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,11,"July 9 - July 14, 2020",07/09/2020,07/14/2020,31.5,30.2,32.9,30.2 - 32.9,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,11,"July 9 - July 14, 2020",07/09/2020,07/14/2020,39.4,38.3,40.6,38.3 - 40.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,11,"July 9 - July 14, 2020",07/09/2020,07/14/2020,36.1,34.7,37.4,34.7 - 37.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,11,"July 9 - July 14, 2020",07/09/2020,07/14/2020,44.2,43,45.5,43.0 - 45.5,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,12,"July 16 - July 21, 2020",07/16/2020,07/21/2020,27.8,26.6,29,26.6 - 29.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,12,"July 16 - July 21, 2020",07/16/2020,07/21/2020,31.3,30.2,32.4,30.2 - 32.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,12,"July 16 - July 21, 2020",07/16/2020,07/21/2020,32.1,30.8,33.5,30.8 - 33.5,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,12,"July 16 - July 21, 2020",07/16/2020,07/21/2020,39.8,38.8,40.7,38.8 - 40.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,12,"July 16 - July 21, 2020",07/16/2020,07/21/2020,37,35.7,38.4,35.7 - 38.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,12,"July 16 - July 21, 2020",07/16/2020,07/21/2020,44.6,43.5,45.7,43.5 - 45.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"July 22 - Aug 18, 2020",07/22/2020,08/18/2020,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"July 22 - Aug 18, 2020",07/22/2020,08/18/2020,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,08/31/2020,22.5,21.6,23.3,21.6 - 23.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,08/31/2020,26.4,25.6,27.2,25.6 - 27.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"July 22 - Aug 18, 2020",07/22/2020,08/18/2020,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"July 22 - Aug 18, 2020",07/22/2020,08/18/2020,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,08/31/2020,26.4,25.5,27.3,25.5 - 27.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,08/31/2020,36.1,35.3,36.9,35.3 - 36.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"July 22 - Aug 18, 2020",07/22/2020,08/18/2020,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"July 22 - Aug 18, 2020",07/22/2020,08/18/2020,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,08/31/2020,31.8,30.8,32.8,30.8 - 32.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,08/31/2020,40.7,39.9,41.5,39.9 - 41.5,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,09/14/2020,22.8,21.8,23.8,21.8 - 23.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,09/14/2020,26,25.1,26.8,25.1 - 26.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,09/14/2020,27.2,26.5,28,26.5 - 28.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,09/14/2020,35.5,34.7,36.4,34.7 - 36.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,09/14/2020,32.1,31.2,33,31.2 - 33.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,09/14/2020,39.9,39,40.9,39.0 - 40.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,09/28/2020,22.7,21.8,23.6,21.8 - 23.6,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,09/28/2020,27.2,26.3,28.1,26.3 - 28.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,09/28/2020,27.7,27,28.5,27.0 - 28.5,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,09/28/2020,37.1,36.2,38,36.2 - 38.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,09/28/2020,32.7,31.8,33.6,31.8 - 33.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,09/28/2020,41.4,40.5,42.4,40.5 - 42.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,10/12/2020,23.5,22.5,24.4,22.5 - 24.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,10/12/2020,27.2,26.5,28,26.5 - 28.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,10/12/2020,28.1,27,29.2,27.0 - 29.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,10/12/2020,36.4,35.6,37.2,35.6 - 37.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,10/12/2020,33.1,32.1,34.1,32.1 - 34.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,10/12/2020,41.6,40.8,42.4,40.8 - 42.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,10/26/2020,23.7,22.6,24.8,22.6 - 24.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,10/26/2020,28.1,27.3,28.9,27.3 - 28.9,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,10/26/2020,27.6,26.6,28.7,26.6 - 28.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,10/26/2020,37.6,36.9,38.4,36.9 - 38.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,10/26/2020,32.9,31.8,34,31.8 - 34.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,10/26/2020,42.4,41.6,43.2,41.6 - 43.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,11/09/2020,25.4,24,26.9,24.0 - 26.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,11/09/2020,29.7,28.6,30.9,28.6 - 30.9,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,11/09/2020,30.3,29.1,31.7,29.1 - 31.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,11/09/2020,41.8,40.6,43,40.6 - 43.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,11/09/2020,36.1,34.6,37.5,34.6 - 37.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,11/09/2020,46.2,44.9,47.5,44.9 - 47.5,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,11/23/2020,25.7,24.7,26.7,24.7 - 26.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,11/23/2020,31.3,30.3,32.3,30.3 - 32.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,11/23/2020,31.1,29.8,32.4,29.8 - 32.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,11/23/2020,42.9,41.9,43.9,41.9 - 43.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,11/23/2020,37.2,36,38.5,36.0 - 38.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,11/23/2020,47.6,46.5,48.6,46.5 - 48.6,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,12/07/2020,26.7,25.5,27.9,25.5 - 27.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,12/07/2020,30.9,30.1,31.8,30.1 - 31.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,12/07/2020,31.4,30.3,32.6,30.3 - 32.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,12/07/2020,40.5,39.7,41.3,39.7 - 41.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,12/07/2020,36.8,35.7,38,35.7 - 38.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,12/07/2020,45.7,44.8,46.5,44.8 - 46.5,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,12/21/2020,27.9,26.8,29.2,26.8 - 29.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,12/21/2020,32.3,31.4,33.3,31.4 - 33.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,12/21/2020,32.2,31.1,33.3,31.1 - 33.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,12/21/2020,41.1,40,42.2,40.0 - 42.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,12/21/2020,37.9,36.7,39.1,36.7 - 39.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,12/21/2020,46.5,45.4,47.6,45.4 - 47.6,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,01/05/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,01/05/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,01/18/2021,25.9,24.7,27.1,24.7 - 27.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,01/18/2021,30.6,29.7,31.5,29.7 - 31.5,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,01/05/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,01/05/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,01/18/2021,30.7,29.4,32,29.4 - 32.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,01/18/2021,40.5,39.7,41.4,39.7 - 41.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,01/05/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,01/05/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,01/18/2021,36.4,35.1,37.7,35.1 - 37.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,01/18/2021,45.4,44.5,46.3,44.5 - 46.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,02/01/2021,26.3,25.3,27.3,25.3 - 27.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,02/01/2021,30.4,29.5,31.2,29.5 - 31.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,02/01/2021,32.4,31.2,33.6,31.2 - 33.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,02/01/2021,39.5,38.5,40.5,38.5 - 40.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,02/01/2021,38,36.9,39.1,36.9 - 39.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,02/01/2021,44.8,43.8,45.8,43.8 - 45.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,02/15/2021,26.1,25,27.3,25.0 - 27.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,02/15/2021,29.9,29.1,30.8,29.1 - 30.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,02/15/2021,29.6,28.6,30.7,28.6 - 30.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,02/15/2021,37.6,36.8,38.5,36.8 - 38.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,02/15/2021,35.5,34.4,36.6,34.4 - 36.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,02/15/2021,43,42.1,43.9,42.1 - 43.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,03/01/2021,26.7,25.6,28,25.6 - 28.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,03/01/2021,28.7,27.8,29.7,27.8 - 29.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,03/01/2021,29.6,28.4,30.8,28.4 - 30.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,03/01/2021,36.8,35.7,37.8,35.7 - 37.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,03/01/2021,35.5,34.2,36.7,34.2 - 36.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,03/01/2021,42,40.9,43.2,40.9 - 43.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,03/15/2021,24.2,23.2,25.3,23.2 - 25.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,03/15/2021,28.4,27.6,29.2,27.6 - 29.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,03/15/2021,27.5,26.4,28.6,26.4 - 28.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,03/15/2021,35.1,34.1,36.1,34.1 - 36.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,03/15/2021,33.1,32,34.3,32.0 - 34.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,03/15/2021,40.5,39.6,41.4,39.6 - 41.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,03/29/2021,23.2,22,24.4,22.0 - 24.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,03/29/2021,26,25.1,27,25.1 - 27.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,03/29/2021,26.3,25,27.8,25.0 - 27.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,03/29/2021,33.5,32.6,34.5,32.6 - 34.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,03/29/2021,31.7,30.4,33,30.4 - 33.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,03/29/2021,38.2,37.3,39.1,37.3 - 39.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,04/13/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,04/13/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,04/26/2021,20.5,19.4,21.7,19.4 - 21.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,04/26/2021,25.2,24,26.4,24.0 - 26.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,04/13/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,04/13/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,04/26/2021,23,21.9,24.2,21.9 - 24.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,04/26/2021,31.3,30.2,32.4,30.2 - 32.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,04/13/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,04/13/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,04/26/2021,27.9,26.7,29,26.7 - 29.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,04/26/2021,36.3,35.1,37.5,35.1 - 37.5,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,05/10/2021,20.1,19.1,21.1,19.1 - 21.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,05/10/2021,23.6,22.8,24.4,22.8 - 24.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,05/10/2021,22.5,21.5,23.6,21.5 - 23.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,05/10/2021,30.2,29.4,31,29.4 - 31.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,05/10/2021,26.9,25.9,28,25.9 - 28.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,05/10/2021,34.3,33.5,35.1,33.5 - 35.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,30,"May 12 - May 24, 2021",05/12/2021,05/24/2021,19.7,18.7,20.7,18.7 - 20.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,30,"May 12 - May 24, 2021",05/12/2021,05/24/2021,23.3,22.5,24.1,22.5 - 24.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,30,"May 12 - May 24, 2021",05/12/2021,05/24/2021,22,21.1,23,21.1 - 23.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,30,"May 12 - May 24, 2021",05/12/2021,05/24/2021,29.2,28.3,30.1,28.3 - 30.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,30,"May 12 - May 24, 2021",05/12/2021,05/24/2021,26.6,25.5,27.8,25.5 - 27.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,30,"May 12 - May 24, 2021",05/12/2021,05/24/2021,33.4,32.5,34.3,32.5 - 34.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,06/07/2021,19.3,18.3,20.3,18.3 - 20.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,06/07/2021,22.4,21.5,23.3,21.5 - 23.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,06/07/2021,22.1,21.1,23.2,21.1 - 23.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,06/07/2021,28.5,27.6,29.4,27.6 - 29.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,06/07/2021,26.6,25.6,27.7,25.6 - 27.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,06/07/2021,32.4,31.4,33.4,31.4 - 33.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,06/21/2021,20.1,18.9,21.3,18.9 - 21.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,06/21/2021,23,21.8,24.1,21.8 - 24.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,06/21/2021,23.2,21.9,24.5,21.9 - 24.5,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,06/21/2021,28.8,27.8,29.8,27.8 - 29.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,06/21/2021,27.6,26.3,29,26.3 - 29.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,06/21/2021,33,31.8,34.2,31.8 - 34.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,07/05/2021,18.4,17.3,19.5,17.3 - 19.5,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,07/05/2021,23.1,22.2,24,22.2 - 24.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,07/05/2021,20.2,19.1,21.3,19.1 - 21.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,07/05/2021,28.5,27.4,29.5,27.4 - 29.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,07/05/2021,24.4,23.3,25.7,23.3 - 25.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,07/05/2021,33.1,32,34.3,32.0 - 34.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,07/20/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,07/20/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,08/02/2021,21.1,19.9,22.4,19.9 - 22.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,08/02/2021,23.1,22.3,24,22.3 - 24.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,07/20/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,07/20/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,08/02/2021,23.6,22.2,25.1,22.2 - 25.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,08/02/2021,30.1,29.2,31.1,29.2 - 31.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,07/20/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,07/20/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,08/02/2021,28.3,26.8,29.9,26.8 - 29.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,08/02/2021,34.1,33.2,35,33.2 - 35.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,08/16/2021,19.6,18.4,20.7,18.4 - 20.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,08/16/2021,23,22.1,23.9,22.1 - 23.9,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,08/16/2021,22.4,21.3,23.6,21.3 - 23.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,08/16/2021,30.5,29.4,31.5,29.4 - 31.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,08/16/2021,27.3,26,28.6,26.0 - 28.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,08/16/2021,34.2,33.2,35.3,33.2 - 35.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,08/30/2021,20.7,19.5,21.8,19.5 - 21.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,08/30/2021,24.4,23.6,25.3,23.6 - 25.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,08/30/2021,23.4,22.3,24.5,22.3 - 24.5,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,08/30/2021,32,31.1,32.9,31.1 - 32.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,08/30/2021,28,26.8,29.2,26.8 - 29.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,08/30/2021,36,35.1,37,35.1 - 37.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,09/13/2021,21.2,20,22.4,20.0 - 22.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,09/13/2021,23.6,22.7,24.6,22.7 - 24.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,09/13/2021,24.5,23.4,25.6,23.4 - 25.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,09/13/2021,31.5,30.6,32.3,30.6 - 32.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,09/13/2021,28.8,27.5,30.1,27.5 - 30.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,09/13/2021,35.3,34.3,36.2,34.3 - 36.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,09/27/2021,21.2,20,22.3,20.0 - 22.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,09/27/2021,23.4,22.4,24.4,22.4 - 24.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,09/27/2021,24,22.9,25.1,22.9 - 25.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,09/27/2021,31.4,30.4,32.5,30.4 - 32.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,09/27/2021,28.8,27.8,29.9,27.8 - 29.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,09/27/2021,35.3,34.2,36.4,34.2 - 36.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,10/11/2021,19.7,18.6,20.8,18.6 - 20.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,10/11/2021,23.8,22.9,24.7,22.9 - 24.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,10/11/2021,22.9,21.8,24,21.8 - 24.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,10/11/2021,31.3,30.3,32.3,30.3 - 32.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,10/11/2021,27.5,26.4,28.6,26.4 - 28.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,10/11/2021,35.3,34.4,36.3,34.4 - 36.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,11/30/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,11/30/2021,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,12/13/2021,20,19,21,19.0 - 21.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,12/13/2021,22.8,21.9,23.7,21.9 - 23.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,11/30/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,11/30/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,12/13/2021,22.9,22,23.8,22.0 - 23.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,12/13/2021,29.9,28.9,30.8,28.9 - 30.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,11/30/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,11/30/2021,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,12/13/2021,27.5,26.4,28.5,26.4 - 28.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,12/13/2021,33.8,32.8,34.8,32.8 - 34.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,01/10/2022,20.7,19.6,21.9,19.6 - 21.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,01/10/2022,24.8,24,25.6,24.0 - 25.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,01/10/2022,23.8,22.7,24.8,22.7 - 24.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,01/10/2022,31.7,30.8,32.7,30.8 - 32.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,01/10/2022,28,26.8,29.3,26.8 - 29.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,01/10/2022,35.8,34.9,36.8,34.9 - 36.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,02/07/2022,20.2,19.3,21.1,19.3 - 21.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,02/07/2022,24,23.2,24.9,23.2 - 24.9,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,02/07/2022,22.9,22,23.9,22.0 - 23.9,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,02/07/2022,31.2,30.4,32,30.4 - 32.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,02/07/2022,27.8,26.7,28.9,26.7 - 28.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,02/07/2022,35.1,34.2,35.9,34.2 - 35.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,03/01/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,03/01/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,03/14/2022,20.4,19.5,21.3,19.5 - 21.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,03/14/2022,22.9,22,23.8,22.0 - 23.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,03/01/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,03/01/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,03/14/2022,23.5,22.7,24.4,22.7 - 24.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,03/14/2022,30.8,30,31.6,30.0 - 31.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,03/01/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,03/01/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,03/14/2022,28.4,27.4,29.3,27.4 - 29.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,03/14/2022,34.4,33.5,35.3,33.5 - 35.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,04/11/2022,19.9,18.8,21,18.8 - 21.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,04/11/2022,23.4,22.4,24.3,22.4 - 24.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,04/11/2022,22.9,21.7,24.1,21.7 - 24.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,04/11/2022,30.7,29.6,31.7,29.6 - 31.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,04/11/2022,27.3,26,28.6,26.0 - 28.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,04/11/2022,34.3,33.3,35.4,33.3 - 35.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,05/09/2022,20.5,19.3,21.7,19.3 - 21.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,05/09/2022,23.4,22.2,24.7,22.2 - 24.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,05/09/2022,22.8,21.4,24.1,21.4 - 24.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,05/09/2022,30.4,29.3,31.6,29.3 - 31.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,05/09/2022,27.1,25.7,28.6,25.7 - 28.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,05/09/2022,34.3,33.1,35.5,33.1 - 35.5,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"May 25 - May 31, 2022",05/25/2022,05/31/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"May 25 - May 31, 2022",05/25/2022,05/31/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,06/13/2022,20.9,19.8,22.1,19.8 - 22.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,06/13/2022,23.9,22.9,24.8,22.9 - 24.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"May 25 - May 31, 2022",05/25/2022,05/31/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"May 25 - May 31, 2022",05/25/2022,05/31/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,06/13/2022,25,23.8,26.2,23.8 - 26.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,06/13/2022,32.6,31.6,33.5,31.6 - 33.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"May 25 - May 31, 2022",05/25/2022,05/31/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"May 25 - May 31, 2022",05/25/2022,05/31/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,06/13/2022,29.7,28.4,30.9,28.4 - 30.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,06/13/2022,35.8,34.8,36.8,34.8 - 36.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,07/11/2022,21.2,20.3,22.2,20.3 - 22.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,07/11/2022,25.1,24,26.1,24.0 - 26.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,07/11/2022,24.5,23.3,25.7,23.3 - 25.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,07/11/2022,32.8,31.8,33.9,31.8 - 33.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,07/11/2022,29.6,28.5,30.7,28.5 - 30.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,07/11/2022,36.7,35.7,37.7,35.7 - 37.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,08/08/2022,20.6,19.6,21.6,19.6 - 21.6,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,08/08/2022,23.3,22.2,24.4,22.2 - 24.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,08/08/2022,24.7,23.6,25.8,23.6 - 25.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,08/08/2022,31.7,30.5,32.9,30.5 - 32.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,08/08/2022,28.8,27.7,30,27.7 - 30.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,08/08/2022,35.5,34.2,36.8,34.2 - 36.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,09/13/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,09/13/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,09/26/2022,23.5,22.5,24.5,22.5 - 24.5,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,09/26/2022,24.9,23.8,26,23.8 - 26.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,09/13/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,09/13/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,09/26/2022,28.4,27.2,29.6,27.2 - 29.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,09/26/2022,34.8,33.7,35.9,33.7 - 35.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,09/13/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,09/13/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,09/26/2022,33.3,32.1,34.5,32.1 - 34.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,09/26/2022,38.5,37.4,39.6,37.4 - 39.6,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,10/17/2022,24.3,23,25.7,23.0 - 25.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,10/17/2022,25.7,24.3,27,24.3 - 27.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,10/17/2022,27.9,26.5,29.4,26.5 - 29.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,10/17/2022,34.2,33.1,35.3,33.1 - 35.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,10/17/2022,33.4,31.8,34.9,31.8 - 34.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,10/17/2022,38.5,37.3,39.7,37.3 - 39.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,11/14/2022,23.1,22,24.2,22.0 - 24.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,11/14/2022,24.5,23.7,25.4,23.7 - 25.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,11/14/2022,27.3,26.1,28.5,26.1 - 28.5,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,11/14/2022,34.8,33.7,35.8,33.7 - 35.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,11/14/2022,32.6,31.4,33.9,31.4 - 33.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,11/14/2022,38.5,37.5,39.4,37.5 - 39.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,12/08/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,12/08/2022,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,12/19/2022,22.1,21,23.3,21.0 - 23.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,12/19/2022,24.9,24,25.8,24.0 - 25.8,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,12/08/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,12/08/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,12/19/2022,24.9,23.9,26,23.9 - 26.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,12/19/2022,32.9,31.9,33.9,31.9 - 33.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,12/08/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,12/08/2022,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,12/19/2022,29.9,28.8,31.1,28.8 - 31.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,12/19/2022,37,36,38,36.0 - 38.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,01/16/2023,21.8,20.7,22.9,20.7 - 22.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,01/16/2023,22.5,21.8,23.2,21.8 - 23.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,01/16/2023,24.3,23.1,25.4,23.1 - 25.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,01/16/2023,31,30.2,31.8,30.2 - 31.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,01/16/2023,29.8,28.6,31,28.6 - 31.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,01/16/2023,34.8,34,35.6,34.0 - 35.6,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,02/13/2023,19.6,18.6,20.6,18.6 - 20.6,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,02/13/2023,23.6,22.9,24.3,22.9 - 24.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,02/13/2023,23.7,22.8,24.7,22.8 - 24.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,02/13/2023,32.4,31.6,33.3,31.6 - 33.3,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,02/13/2023,28.3,27.2,29.4,27.2 - 29.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,02/13/2023,36,35.2,36.8,35.2 - 36.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,03/13/2023,20.2,19.2,21.2,19.2 - 21.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,03/13/2023,23.4,22.4,24.4,22.4 - 24.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,03/13/2023,24,22.9,25.1,22.9 - 25.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,03/13/2023,32.5,31.5,33.5,31.5 - 33.5,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,03/13/2023,28.8,27.8,29.8,27.8 - 29.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,03/13/2023,36.7,35.6,37.7,35.6 - 37.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,04/10/2023,19.9,18.9,20.9,18.9 - 20.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,04/10/2023,22,21.2,22.9,21.2 - 22.9,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,04/10/2023,24.1,23,25.2,23.0 - 25.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,04/10/2023,31.9,31.1,32.8,31.1 - 32.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,04/10/2023,28.9,27.8,30.1,27.8 - 30.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,04/10/2023,36,35,37,35.0 - 37.0,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,05/08/2023,21,19.9,22.2,19.9 - 22.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,05/08/2023,22.5,21.7,23.4,21.7 - 23.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,05/08/2023,24.5,23.4,25.6,23.4 - 25.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,05/08/2023,30.7,29.7,31.8,29.7 - 31.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,05/08/2023,29.5,28.4,30.7,28.4 - 30.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,05/08/2023,34.9,33.9,35.9,33.9 - 35.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,06/19/2023,21.2,20.3,22.1,20.3 - 22.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,06/19/2023,21.8,20.9,22.7,20.9 - 22.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,06/19/2023,24.7,23.8,25.7,23.8 - 25.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,06/19/2023,31.5,30.6,32.4,30.6 - 32.4,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,06/19/2023,30,28.9,31.1,28.9 - 31.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,06/19/2023,35.5,34.6,36.4,34.6 - 36.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,07/10/2023,21.1,20,22.2,20.0 - 22.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,07/10/2023,22.8,21.9,23.7,21.9 - 23.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,07/10/2023,23.6,22.5,24.7,22.5 - 24.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,07/10/2023,30.8,29.9,31.6,29.9 - 31.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,07/10/2023,29.1,28.1,30.2,28.1 - 30.2,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,07/10/2023,35.5,34.6,36.4,34.6 - 36.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,08/07/2023,21.3,20.3,22.3,20.3 - 22.3,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,08/07/2023,22.4,21.5,23.3,21.5 - 23.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,08/07/2023,24.7,23.7,25.7,23.7 - 25.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,08/07/2023,31.6,30.6,32.6,30.6 - 32.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,08/07/2023,29.6,28.5,30.7,28.5 - 30.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,08/07/2023,35.7,34.7,36.7,34.7 - 36.7,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,09/04/2023,18.2,17.3,19.1,17.3 - 19.1,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,09/04/2023,19.8,18.9,20.7,18.9 - 20.7,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,09/04/2023,21.1,20.1,22,20.1 - 22.0,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,09/04/2023,27.2,26.3,28.1,26.3 - 28.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,09/04/2023,26.1,25.1,27.1,25.1 - 27.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,09/04/2023,31.4,30.4,32.4,30.4 - 32.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,10/02/2023,21.6,20.5,22.8,20.5 - 22.8,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,10/02/2023,23.3,22.4,24.2,22.4 - 24.2,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,10/02/2023,24.4,23.4,25.4,23.4 - 25.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,10/02/2023,32.7,31.8,33.7,31.8 - 33.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,10/02/2023,30.5,29.4,31.6,29.4 - 31.6,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,10/02/2023,36.4,35.4,37.4,35.4 - 37.4,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,10/30/2023,22.2,21.5,22.9,21.5 - 22.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,10/30/2023,23.3,22.4,24.1,22.4 - 24.1,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,10/30/2023,26.9,26,27.9,26.0 - 27.9,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,10/30/2023,32,31.1,32.8,31.1 - 32.8,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,10/30/2023,32.1,31.2,32.9,31.2 - 32.9,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,10/30/2023,36.2,35.3,37.2,35.3 - 37.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,01/08/2024,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,01/08/2024,NA,NA,NA,NA,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,02/05/2024,13,12.1,13.9,12.1 - 13.9,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,02/05/2024,13.7,13.1,14.4,13.1 - 14.4,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,01/08/2024,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,01/08/2024,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,02/05/2024,14.6,13.6,15.6,13.6 - 15.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,02/05/2024,19.2,18.4,20,18.4 - 20.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,01/08/2024,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,01/08/2024,NA,NA,NA,NA,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,02/05/2024,18.9,17.9,20,17.9 - 20.0,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,02/05/2024,22.4,21.5,23.2,21.5 - 23.2,NA
-Symptoms of Depressive Disorder,By Sex,United States,Male,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,03/04/2024,12.8,12,13.5,12.0 - 13.5,NA
-Symptoms of Depressive Disorder,By Sex,United States,Female,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,03/04/2024,14.6,13.9,15.3,13.9 - 15.3,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Male,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,03/04/2024,14.7,13.8,15.6,13.8 - 15.6,NA
-Symptoms of Anxiety Disorder,By Sex,United States,Female,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,03/04/2024,20.4,19.8,21.1,19.8 - 21.1,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,03/04/2024,18.7,17.8,19.7,17.8 - 19.7,NA
-Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,03/04/2024,23.6,22.9,24.3,22.9 - 24.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,20.8,19.6,22,19.6 - 22.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,26.1,25.2,27.1,25.2 - 27.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,26.1,24.7,27.5,24.7 - 27.5,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,35.4,34.5,36.3,34.5 - 36.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,31,29.6,32.3,29.6 - 32.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,1,"Apr 23 - May 5, 2020",04/23/2020,2020-05-05,40.7,39.7,41.6,39.7 - 41.6,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,2,"May 7 - May 12, 2020",05/07/2020,2020-05-12,22.3,20.6,24,20.6 - 24.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,2,"May 7 - May 12, 2020",05/07/2020,2020-05-12,25.8,24.7,27,24.7 - 27.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,2,"May 7 - May 12, 2020",05/07/2020,2020-05-12,26.7,24.9,28.5,24.9 - 28.5,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,2,"May 7 - May 12, 2020",05/07/2020,2020-05-12,33.1,32,34.2,32.0 - 34.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,2,"May 7 - May 12, 2020",05/07/2020,2020-05-12,31.4,29.5,33.3,29.5 - 33.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,2,"May 7 - May 12, 2020",05/07/2020,2020-05-12,37.2,36.2,38.3,36.2 - 38.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,3,"May 14 - May 19, 2020",05/14/2020,2020-05-19,22.1,21,23.3,21.0 - 23.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,3,"May 14 - May 19, 2020",05/14/2020,2020-05-19,26.7,25.8,27.6,25.8 - 27.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,3,"May 14 - May 19, 2020",05/14/2020,2020-05-19,24.2,23.2,25.2,23.2 - 25.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,3,"May 14 - May 19, 2020",05/14/2020,2020-05-19,32.1,31,33.1,31.0 - 33.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,3,"May 14 - May 19, 2020",05/14/2020,2020-05-19,29.9,28.7,31.1,28.7 - 31.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,3,"May 14 - May 19, 2020",05/14/2020,2020-05-19,37.6,36.5,38.7,36.5 - 38.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,4,"May 21 - May 26, 2020",05/21/2020,2020-05-26,22.7,21.5,24,21.5 - 24.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,4,"May 21 - May 26, 2020",05/21/2020,2020-05-26,26.9,25.8,28,25.8 - 28.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,4,"May 21 - May 26, 2020",05/21/2020,2020-05-26,25.4,24.4,26.3,24.4 - 26.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,4,"May 21 - May 26, 2020",05/21/2020,2020-05-26,33.2,32.3,34.2,32.3 - 34.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,4,"May 21 - May 26, 2020",05/21/2020,2020-05-26,30.3,29.1,31.5,29.1 - 31.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,4,"May 21 - May 26, 2020",05/21/2020,2020-05-26,38.1,37,39.2,37.0 - 39.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,5,"May 28 - June 2, 2020",05/28/2020,2020-06-02,23,22,23.9,22.0 - 23.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,5,"May 28 - June 2, 2020",05/28/2020,2020-06-02,27.4,26.6,28.2,26.6 - 28.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,5,"May 28 - June 2, 2020",05/28/2020,2020-06-02,26,25.1,26.8,25.1 - 26.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,5,"May 28 - June 2, 2020",05/28/2020,2020-06-02,35,34.3,35.8,34.3 - 35.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,5,"May 28 - June 2, 2020",05/28/2020,2020-06-02,31.1,30.2,32.1,30.2 - 32.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,5,"May 28 - June 2, 2020",05/28/2020,2020-06-02,39.6,38.9,40.3,38.9 - 40.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,6,"June 4 - June 9, 2020",06/04/2020,2020-06-09,23.7,22.3,25.1,22.3 - 25.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,6,"June 4 - June 9, 2020",06/04/2020,2020-06-09,27.8,26.8,28.8,26.8 - 28.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,6,"June 4 - June 9, 2020",06/04/2020,2020-06-09,26.8,25.4,28.4,25.4 - 28.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,6,"June 4 - June 9, 2020",06/04/2020,2020-06-09,35.1,34.1,36.1,34.1 - 36.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,6,"June 4 - June 9, 2020",06/04/2020,2020-06-09,31.9,30.4,33.5,30.4 - 33.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,6,"June 4 - June 9, 2020",06/04/2020,2020-06-09,40,39,41,39.0 - 41.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,7,"June 11 - June 16, 2020",06/11/2020,2020-06-16,23.3,22.2,24.5,22.2 - 24.5,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,7,"June 11 - June 16, 2020",06/11/2020,2020-06-16,26.7,25.8,27.7,25.8 - 27.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,7,"June 11 - June 16, 2020",06/11/2020,2020-06-16,28.1,27,29.3,27.0 - 29.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,7,"June 11 - June 16, 2020",06/11/2020,2020-06-16,35,34.1,36,34.1 - 36.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,7,"June 11 - June 16, 2020",06/11/2020,2020-06-16,32.7,31.4,34,31.4 - 34.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,7,"June 11 - June 16, 2020",06/11/2020,2020-06-16,39.1,38.1,40.1,38.1 - 40.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,8,"June 18 - June 23, 2020",06/18/2020,2020-06-23,23.8,22.8,24.8,22.8 - 24.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,8,"June 18 - June 23, 2020",06/18/2020,2020-06-23,27.3,26.4,28.3,26.4 - 28.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,8,"June 18 - June 23, 2020",06/18/2020,2020-06-23,27.4,26.5,28.4,26.5 - 28.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,8,"June 18 - June 23, 2020",06/18/2020,2020-06-23,34.8,33.9,35.8,33.9 - 35.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,8,"June 18 - June 23, 2020",06/18/2020,2020-06-23,32.4,31.3,33.5,31.3 - 33.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,8,"June 18 - June 23, 2020",06/18/2020,2020-06-23,39.6,38.6,40.7,38.6 - 40.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,9,"June 25 - June 30, 2020",06/25/2020,2020-06-30,25,23.8,26.1,23.8 - 26.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,9,"June 25 - June 30, 2020",06/25/2020,2020-06-30,28.8,27.7,29.8,27.7 - 29.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,9,"June 25 - June 30, 2020",06/25/2020,2020-06-30,29,27.9,30.1,27.9 - 30.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,9,"June 25 - June 30, 2020",06/25/2020,2020-06-30,36.7,35.9,37.6,35.9 - 37.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,9,"June 25 - June 30, 2020",06/25/2020,2020-06-30,33.8,32.5,35.1,32.5 - 35.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,9,"June 25 - June 30, 2020",06/25/2020,2020-06-30,41.5,40.7,42.4,40.7 - 42.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,10,"July 2 - July 7, 2020",07/02/2020,2020-07-07,26.6,25.5,27.6,25.5 - 27.6,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,10,"July 2 - July 7, 2020",07/02/2020,2020-07-07,28.6,27.8,29.3,27.8 - 29.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,10,"July 2 - July 7, 2020",07/02/2020,2020-07-07,30.7,29.6,31.9,29.6 - 31.9,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,10,"July 2 - July 7, 2020",07/02/2020,2020-07-07,37,36.1,37.8,36.1 - 37.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,10,"July 2 - July 7, 2020",07/02/2020,2020-07-07,36.5,35.5,37.5,35.5 - 37.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,10,"July 2 - July 7, 2020",07/02/2020,2020-07-07,41.3,40.4,42.2,40.4 - 42.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,11,"July 9 - July 14, 2020",07/09/2020,2020-07-14,26,24.6,27.4,24.6 - 27.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,11,"July 9 - July 14, 2020",07/09/2020,2020-07-14,30,29,31.1,29.0 - 31.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,11,"July 9 - July 14, 2020",07/09/2020,2020-07-14,31.5,30.2,32.9,30.2 - 32.9,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,11,"July 9 - July 14, 2020",07/09/2020,2020-07-14,39.4,38.3,40.6,38.3 - 40.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,11,"July 9 - July 14, 2020",07/09/2020,2020-07-14,36.1,34.7,37.4,34.7 - 37.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,11,"July 9 - July 14, 2020",07/09/2020,2020-07-14,44.2,43,45.5,43.0 - 45.5,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,1.0,12,"July 16 - July 21, 2020",07/16/2020,2020-07-21,27.8,26.6,29,26.6 - 29.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,1.0,12,"July 16 - July 21, 2020",07/16/2020,2020-07-21,31.3,30.2,32.4,30.2 - 32.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,1.0,12,"July 16 - July 21, 2020",07/16/2020,2020-07-21,32.1,30.8,33.5,30.8 - 33.5,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,1.0,12,"July 16 - July 21, 2020",07/16/2020,2020-07-21,39.8,38.8,40.7,38.8 - 40.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,1.0,12,"July 16 - July 21, 2020",07/16/2020,2020-07-21,37,35.7,38.4,35.7 - 38.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,1.0,12,"July 16 - July 21, 2020",07/16/2020,2020-07-21,44.6,43.5,45.7,43.5 - 45.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"July 22 - Aug 18, 2020",07/22/2020,2020-08-18,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"July 22 - Aug 18, 2020",07/22/2020,2020-08-18,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,2020-08-31,22.5,21.6,23.3,21.6 - 23.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,2020-08-31,26.4,25.6,27.2,25.6 - 27.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"July 22 - Aug 18, 2020",07/22/2020,2020-08-18,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"July 22 - Aug 18, 2020",07/22/2020,2020-08-18,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,2020-08-31,26.4,25.5,27.3,25.5 - 27.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,2020-08-31,36.1,35.3,36.9,35.3 - 36.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"July 22 - Aug 18, 2020",07/22/2020,2020-08-18,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"July 22 - Aug 18, 2020",07/22/2020,2020-08-18,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,2020-08-31,31.8,30.8,32.8,30.8 - 32.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,2.0,13,"Aug 19 - Aug 31, 2020",08/19/2020,2020-08-31,40.7,39.9,41.5,39.9 - 41.5,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,2020-09-14,22.8,21.8,23.8,21.8 - 23.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,2020-09-14,26,25.1,26.8,25.1 - 26.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,2020-09-14,27.2,26.5,28,26.5 - 28.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,2020-09-14,35.5,34.7,36.4,34.7 - 36.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,2020-09-14,32.1,31.2,33,31.2 - 33.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,2.0,14,"Sep 2 - Sep 14, 2020",09/02/2020,2020-09-14,39.9,39,40.9,39.0 - 40.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,2020-09-28,22.7,21.8,23.6,21.8 - 23.6,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,2020-09-28,27.2,26.3,28.1,26.3 - 28.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,2020-09-28,27.7,27,28.5,27.0 - 28.5,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,2020-09-28,37.1,36.2,38,36.2 - 38.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,2020-09-28,32.7,31.8,33.6,31.8 - 33.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,2.0,15,"Sep 16 - Sep 28, 2020",09/16/2020,2020-09-28,41.4,40.5,42.4,40.5 - 42.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,2020-10-12,23.5,22.5,24.4,22.5 - 24.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,2020-10-12,27.2,26.5,28,26.5 - 28.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,2020-10-12,28.1,27,29.2,27.0 - 29.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,2020-10-12,36.4,35.6,37.2,35.6 - 37.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,2020-10-12,33.1,32.1,34.1,32.1 - 34.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,2.0,16,"Sep 30 - Oct 12, 2020",09/30/2020,2020-10-12,41.6,40.8,42.4,40.8 - 42.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,2020-10-26,23.7,22.6,24.8,22.6 - 24.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,2020-10-26,28.1,27.3,28.9,27.3 - 28.9,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,2020-10-26,27.6,26.6,28.7,26.6 - 28.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,2020-10-26,37.6,36.9,38.4,36.9 - 38.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,2020-10-26,32.9,31.8,34,31.8 - 34.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,2.0,17,"Oct 14 - Oct 26, 2020",10/14/2020,2020-10-26,42.4,41.6,43.2,41.6 - 43.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,2020-11-09,25.4,24,26.9,24.0 - 26.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,2020-11-09,29.7,28.6,30.9,28.6 - 30.9,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,2020-11-09,30.3,29.1,31.7,29.1 - 31.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,2020-11-09,41.8,40.6,43,40.6 - 43.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,2020-11-09,36.1,34.6,37.5,34.6 - 37.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),18,"Oct 28 - Nov 9, 2020",10/28/2020,2020-11-09,46.2,44.9,47.5,44.9 - 47.5,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,2020-11-23,25.7,24.7,26.7,24.7 - 26.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,2020-11-23,31.3,30.3,32.3,30.3 - 32.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,2020-11-23,31.1,29.8,32.4,29.8 - 32.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,2020-11-23,42.9,41.9,43.9,41.9 - 43.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,2020-11-23,37.2,36,38.5,36.0 - 38.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),19,"Nov 11 - Nov 23, 2020",11/11/2020,2020-11-23,47.6,46.5,48.6,46.5 - 48.6,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,2020-12-07,26.7,25.5,27.9,25.5 - 27.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,2020-12-07,30.9,30.1,31.8,30.1 - 31.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,2020-12-07,31.4,30.3,32.6,30.3 - 32.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,2020-12-07,40.5,39.7,41.3,39.7 - 41.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,2020-12-07,36.8,35.7,38,35.7 - 38.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),20,"Nov 25 - Dec 7, 2020",11/25/2020,2020-12-07,45.7,44.8,46.5,44.8 - 46.5,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,2020-12-21,27.9,26.8,29.2,26.8 - 29.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,2020-12-21,32.3,31.4,33.3,31.4 - 33.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,2020-12-21,32.2,31.1,33.3,31.1 - 33.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,2020-12-21,41.1,40,42.2,40.0 - 42.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,2020-12-21,37.9,36.7,39.1,36.7 - 39.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Oct 28 - Dec 21),21,"Dec 9 - Dec 21, 2020",12/09/2020,2020-12-21,46.5,45.4,47.6,45.4 - 47.6,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,2021-01-05,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,2021-01-05,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,2021-01-18,25.9,24.7,27.1,24.7 - 27.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,2021-01-18,30.6,29.7,31.5,29.7 - 31.5,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,2021-01-05,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,2021-01-05,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,2021-01-18,30.7,29.4,32,29.4 - 32.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,2021-01-18,40.5,39.7,41.4,39.7 - 41.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,2021-01-05,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Dec 22, 2020 - Jan 5, 2021",12/22/2020,2021-01-05,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,2021-01-18,36.4,35.1,37.7,35.1 - 37.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),22,"Jan 6 - Jan 18, 2021",01/06/2021,2021-01-18,45.4,44.5,46.3,44.5 - 46.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,2021-02-01,26.3,25.3,27.3,25.3 - 27.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,2021-02-01,30.4,29.5,31.2,29.5 - 31.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,2021-02-01,32.4,31.2,33.6,31.2 - 33.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,2021-02-01,39.5,38.5,40.5,38.5 - 40.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,2021-02-01,38,36.9,39.1,36.9 - 39.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),23,"Jan 20 - Feb 1, 2021",01/20/2021,2021-02-01,44.8,43.8,45.8,43.8 - 45.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,2021-02-15,26.1,25,27.3,25.0 - 27.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,2021-02-15,29.9,29.1,30.8,29.1 - 30.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,2021-02-15,29.6,28.6,30.7,28.6 - 30.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,2021-02-15,37.6,36.8,38.5,36.8 - 38.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,2021-02-15,35.5,34.4,36.6,34.4 - 36.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),24,"Feb 3 - Feb 15, 2021",02/03/2021,2021-02-15,43,42.1,43.9,42.1 - 43.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,2021-03-01,26.7,25.6,28,25.6 - 28.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,2021-03-01,28.7,27.8,29.7,27.8 - 29.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,2021-03-01,29.6,28.4,30.8,28.4 - 30.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,2021-03-01,36.8,35.7,37.8,35.7 - 37.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,2021-03-01,35.5,34.2,36.7,34.2 - 36.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),25,"Feb 17 - Mar 1, 2021",02/17/2021,2021-03-01,42,40.9,43.2,40.9 - 43.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,2021-03-15,24.2,23.2,25.3,23.2 - 25.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,2021-03-15,28.4,27.6,29.2,27.6 - 29.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,2021-03-15,27.5,26.4,28.6,26.4 - 28.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,2021-03-15,35.1,34.1,36.1,34.1 - 36.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,2021-03-15,33.1,32,34.3,32.0 - 34.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),26,"Mar 3 - Mar 15, 2021",03/03/2021,2021-03-15,40.5,39.6,41.4,39.6 - 41.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,2021-03-29,23.2,22,24.4,22.0 - 24.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,2021-03-29,26,25.1,27,25.1 - 27.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,2021-03-29,26.3,25,27.8,25.0 - 27.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,2021-03-29,33.5,32.6,34.5,32.6 - 34.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,2021-03-29,31.7,30.4,33,30.4 - 33.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3 (Jan 6 - Mar 29),27,"Mar 17 - Mar 29, 2021",03/17/2021,2021-03-29,38.2,37.3,39.1,37.3 - 39.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,2021-04-13,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,2021-04-13,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,2021-04-26,20.5,19.4,21.7,19.4 - 21.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,2021-04-26,25.2,24,26.4,24.0 - 26.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,2021-04-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,2021-04-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,2021-04-26,23,21.9,24.2,21.9 - 24.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,2021-04-26,31.3,30.2,32.4,30.2 - 32.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,2021-04-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Mar 30 - Apr 13, 2021",03/30/2021,2021-04-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,2021-04-26,27.9,26.7,29,26.7 - 29.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,28,"Apr 14 - Apr 26, 2021",04/14/2021,2021-04-26,36.3,35.1,37.5,35.1 - 37.5,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,2021-05-10,20.1,19.1,21.1,19.1 - 21.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,2021-05-10,23.6,22.8,24.4,22.8 - 24.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,2021-05-10,22.5,21.5,23.6,21.5 - 23.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,2021-05-10,30.2,29.4,31,29.4 - 31.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,2021-05-10,26.9,25.9,28,25.9 - 28.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,29,"Apr 28 - May 10, 2021",04/28/2021,2021-05-10,34.3,33.5,35.1,33.5 - 35.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,30,"May 12 - May 24, 2021",05/12/2021,2021-05-24,19.7,18.7,20.7,18.7 - 20.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,30,"May 12 - May 24, 2021",05/12/2021,2021-05-24,23.3,22.5,24.1,22.5 - 24.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,30,"May 12 - May 24, 2021",05/12/2021,2021-05-24,22,21.1,23,21.1 - 23.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,30,"May 12 - May 24, 2021",05/12/2021,2021-05-24,29.2,28.3,30.1,28.3 - 30.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,30,"May 12 - May 24, 2021",05/12/2021,2021-05-24,26.6,25.5,27.8,25.5 - 27.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,30,"May 12 - May 24, 2021",05/12/2021,2021-05-24,33.4,32.5,34.3,32.5 - 34.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,2021-06-07,19.3,18.3,20.3,18.3 - 20.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,2021-06-07,22.4,21.5,23.3,21.5 - 23.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,2021-06-07,22.1,21.1,23.2,21.1 - 23.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,2021-06-07,28.5,27.6,29.4,27.6 - 29.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,2021-06-07,26.6,25.6,27.7,25.6 - 27.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,31,"May 26 - Jun 7, 2021",05/26/2021,2021-06-07,32.4,31.4,33.4,31.4 - 33.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,2021-06-21,20.1,18.9,21.3,18.9 - 21.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,2021-06-21,23,21.8,24.1,21.8 - 24.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,2021-06-21,23.2,21.9,24.5,21.9 - 24.5,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,2021-06-21,28.8,27.8,29.8,27.8 - 29.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,2021-06-21,27.6,26.3,29,26.3 - 29.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,32,"Jun 9 - Jun 21, 2021",06/09/2021,2021-06-21,33,31.8,34.2,31.8 - 34.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,2021-07-05,18.4,17.3,19.5,17.3 - 19.5,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,2021-07-05,23.1,22.2,24,22.2 - 24.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,2021-07-05,20.2,19.1,21.3,19.1 - 21.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,2021-07-05,28.5,27.4,29.5,27.4 - 29.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,2021-07-05,24.4,23.3,25.7,23.3 - 25.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.1,33,"Jun 23 - Jul 5, 2021",06/23/2021,2021-07-05,33.1,32,34.3,32.0 - 34.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,2021-07-20,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,2021-07-20,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,2021-08-02,21.1,19.9,22.4,19.9 - 22.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,2021-08-02,23.1,22.3,24,22.3 - 24.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,2021-07-20,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,2021-07-20,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,2021-08-02,23.6,22.2,25.1,22.2 - 25.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,2021-08-02,30.1,29.2,31.1,29.2 - 31.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,2021-07-20,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Jul 6 - Jul 20, 2021",07/06/2021,2021-07-20,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,2021-08-02,28.3,26.8,29.9,26.8 - 29.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,34,"Jul 21 - Aug 2, 2021",07/21/2021,2021-08-02,34.1,33.2,35,33.2 - 35.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,2021-08-16,19.6,18.4,20.7,18.4 - 20.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,2021-08-16,23,22.1,23.9,22.1 - 23.9,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,2021-08-16,22.4,21.3,23.6,21.3 - 23.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,2021-08-16,30.5,29.4,31.5,29.4 - 31.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,2021-08-16,27.3,26,28.6,26.0 - 28.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,35,"Aug 4 - Aug 16, 2021",08/04/2021,2021-08-16,34.2,33.2,35.3,33.2 - 35.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,2021-08-30,20.7,19.5,21.8,19.5 - 21.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,2021-08-30,24.4,23.6,25.3,23.6 - 25.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,2021-08-30,23.4,22.3,24.5,22.3 - 24.5,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,2021-08-30,32,31.1,32.9,31.1 - 32.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,2021-08-30,28,26.8,29.2,26.8 - 29.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,36,"Aug 18 - Aug 30, 2021",08/18/2021,2021-08-30,36,35.1,37,35.1 - 37.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,2021-09-13,21.2,20,22.4,20.0 - 22.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,2021-09-13,23.6,22.7,24.6,22.7 - 24.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,2021-09-13,24.5,23.4,25.6,23.4 - 25.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,2021-09-13,31.5,30.6,32.3,30.6 - 32.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,2021-09-13,28.8,27.5,30.1,27.5 - 30.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,37,"Sep 1 - Sep 13, 2021",09/01/2021,2021-09-13,35.3,34.3,36.2,34.3 - 36.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,2021-09-27,21.2,20,22.3,20.0 - 22.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,2021-09-27,23.4,22.4,24.4,22.4 - 24.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,2021-09-27,24,22.9,25.1,22.9 - 25.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,2021-09-27,31.4,30.4,32.5,30.4 - 32.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,2021-09-27,28.8,27.8,29.9,27.8 - 29.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,38,"Sep 15 - Sep 27, 2021",09/15/2021,2021-09-27,35.3,34.2,36.4,34.2 - 36.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,2021-10-11,19.7,18.6,20.8,18.6 - 20.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,2021-10-11,23.8,22.9,24.7,22.9 - 24.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,2021-10-11,22.9,21.8,24,21.8 - 24.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,2021-10-11,31.3,30.3,32.3,30.3 - 32.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,2021-10-11,27.5,26.4,28.6,26.4 - 28.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.2,39,"Sep 29 - Oct 11, 2021",09/29/2021,2021-10-11,35.3,34.4,36.3,34.4 - 36.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,2021-11-30,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,2021-11-30,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,2021-12-13,20,19,21,19.0 - 21.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,2021-12-13,22.8,21.9,23.7,21.9 - 23.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,2021-11-30,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,2021-11-30,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,2021-12-13,22.9,22,23.8,22.0 - 23.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,2021-12-13,29.9,28.9,30.8,28.9 - 30.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,2021-11-30,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Oct 12 - Nov 30, 2021",10/12/2021,2021-11-30,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,2021-12-13,27.5,26.4,28.5,26.4 - 28.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.3,40,"Dec 1 - Dec 13, 2021",12/01/2021,2021-12-13,33.8,32.8,34.8,32.8 - 34.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,2022-01-10,20.7,19.6,21.9,19.6 - 21.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,2022-01-10,24.8,24,25.6,24.0 - 25.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,2022-01-10,23.8,22.7,24.8,22.7 - 24.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,2022-01-10,31.7,30.8,32.7,30.8 - 32.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,2022-01-10,28,26.8,29.3,26.8 - 29.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.3,41,"Dec 29, 2021 - Jan 10, 2022",12/29/2021,2022-01-10,35.8,34.9,36.8,34.9 - 36.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,2022-02-07,20.2,19.3,21.1,19.3 - 21.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,2022-02-07,24,23.2,24.9,23.2 - 24.9,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,2022-02-07,22.9,22,23.9,22.0 - 23.9,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,2022-02-07,31.2,30.4,32,30.4 - 32.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,2022-02-07,27.8,26.7,28.9,26.7 - 28.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.3,42,"Jan 26 - Feb 7, 2022",01/26/2022,2022-02-07,35.1,34.2,35.9,34.2 - 35.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,2022-03-01,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,2022-03-01,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,2022-03-14,20.4,19.5,21.3,19.5 - 21.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,2022-03-14,22.9,22,23.8,22.0 - 23.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,2022-03-01,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,2022-03-01,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,2022-03-14,23.5,22.7,24.4,22.7 - 24.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,2022-03-14,30.8,30,31.6,30.0 - 31.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,2022-03-01,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Feb 23 - Mar 1, 2022",02/23/2022,2022-03-01,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,2022-03-14,28.4,27.4,29.3,27.4 - 29.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.4,43,"Mar 2 - Mar 14, 2022",03/02/2022,2022-03-14,34.4,33.5,35.3,33.5 - 35.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,2022-04-11,19.9,18.8,21,18.8 - 21.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,2022-04-11,23.4,22.4,24.3,22.4 - 24.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,2022-04-11,22.9,21.7,24.1,21.7 - 24.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,2022-04-11,30.7,29.6,31.7,29.6 - 31.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,2022-04-11,27.3,26,28.6,26.0 - 28.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.4,44,"Mar 30 - Apr 11, 2022",03/30/2022,2022-04-11,34.3,33.3,35.4,33.3 - 35.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,2022-05-09,20.5,19.3,21.7,19.3 - 21.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,2022-05-09,23.4,22.2,24.7,22.2 - 24.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,2022-05-09,22.8,21.4,24.1,21.4 - 24.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,2022-05-09,30.4,29.3,31.6,29.3 - 31.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,2022-05-09,27.1,25.7,28.6,25.7 - 28.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.4,45,"Apr 27 - May 9, 2022",04/27/2022,2022-05-09,34.3,33.1,35.5,33.1 - 35.5,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"May 25 - May 31, 2022",05/25/2022,2022-05-31,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"May 25 - May 31, 2022",05/25/2022,2022-05-31,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,2022-06-13,20.9,19.8,22.1,19.8 - 22.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,2022-06-13,23.9,22.9,24.8,22.9 - 24.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"May 25 - May 31, 2022",05/25/2022,2022-05-31,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"May 25 - May 31, 2022",05/25/2022,2022-05-31,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,2022-06-13,25,23.8,26.2,23.8 - 26.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,2022-06-13,32.6,31.6,33.5,31.6 - 33.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"May 25 - May 31, 2022",05/25/2022,2022-05-31,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"May 25 - May 31, 2022",05/25/2022,2022-05-31,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,2022-06-13,29.7,28.4,30.9,28.4 - 30.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.5,46,"Jun 1 - Jun 13, 2022",06/01/2022,2022-06-13,35.8,34.8,36.8,34.8 - 36.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,2022-07-11,21.2,20.3,22.2,20.3 - 22.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,2022-07-11,25.1,24,26.1,24.0 - 26.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,2022-07-11,24.5,23.3,25.7,23.3 - 25.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,2022-07-11,32.8,31.8,33.9,31.8 - 33.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,2022-07-11,29.6,28.5,30.7,28.5 - 30.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.5,47,"Jun 29 - Jul 11, 2022",06/29/2022,2022-07-11,36.7,35.7,37.7,35.7 - 37.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,2022-08-08,20.6,19.6,21.6,19.6 - 21.6,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,2022-08-08,23.3,22.2,24.4,22.2 - 24.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,2022-08-08,24.7,23.6,25.8,23.6 - 25.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,2022-08-08,31.7,30.5,32.9,30.5 - 32.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,2022-08-08,28.8,27.7,30,27.7 - 30.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.5,48,"Jul 27 - Aug 8, 2022",07/27/2022,2022-08-08,35.5,34.2,36.8,34.2 - 36.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,2022-09-13,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,2022-09-13,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,2022-09-26,23.5,22.5,24.5,22.5 - 24.5,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,2022-09-26,24.9,23.8,26,23.8 - 26.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,2022-09-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,2022-09-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,2022-09-26,28.4,27.2,29.6,27.2 - 29.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,2022-09-26,34.8,33.7,35.9,33.7 - 35.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,2022-09-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Aug 24 - Sep 13, 2022",08/24/2022,2022-09-13,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,2022-09-26,33.3,32.1,34.5,32.1 - 34.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.6,49,"Sep 14 - Sep 26, 2022",09/14/2022,2022-09-26,38.5,37.4,39.6,37.4 - 39.6,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,2022-10-17,24.3,23,25.7,23.0 - 25.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,2022-10-17,25.7,24.3,27,24.3 - 27.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,2022-10-17,27.9,26.5,29.4,26.5 - 29.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,2022-10-17,34.2,33.1,35.3,33.1 - 35.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,2022-10-17,33.4,31.8,34.9,31.8 - 34.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.6,50,"Oct 5 - Oct 17, 2022",10/05/2022,2022-10-17,38.5,37.3,39.7,37.3 - 39.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,2022-11-14,23.1,22,24.2,22.0 - 24.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,2022-11-14,24.5,23.7,25.4,23.7 - 25.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,2022-11-14,27.3,26.1,28.5,26.1 - 28.5,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,2022-11-14,34.8,33.7,35.8,33.7 - 35.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,2022-11-14,32.6,31.4,33.9,31.4 - 33.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.6,51,"Nov 2 - Nov 14, 2022",11/02/2022,2022-11-14,38.5,37.5,39.4,37.5 - 39.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,2022-12-08,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,2022-12-08,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,2022-12-19,22.1,21,23.3,21.0 - 23.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,2022-12-19,24.9,24,25.8,24.0 - 25.8,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,2022-12-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,2022-12-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,2022-12-19,24.9,23.9,26,23.9 - 26.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,2022-12-19,32.9,31.9,33.9,31.9 - 33.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,2022-12-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Nov 30 - Dec 8, 2022",11/30/2022,2022-12-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,2022-12-19,29.9,28.8,31.1,28.8 - 31.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.7,52,"Dec 9 - Dec 19, 2022",12/09/2022,2022-12-19,37,36,38,36.0 - 38.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,2023-01-16,21.8,20.7,22.9,20.7 - 22.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,2023-01-16,22.5,21.8,23.2,21.8 - 23.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,2023-01-16,24.3,23.1,25.4,23.1 - 25.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,2023-01-16,31,30.2,31.8,30.2 - 31.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,2023-01-16,29.8,28.6,31,28.6 - 31.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.7,53,"Jan 4 - Jan 16, 2023",01/04/2023,2023-01-16,34.8,34,35.6,34.0 - 35.6,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,2023-02-13,19.6,18.6,20.6,18.6 - 20.6,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,2023-02-13,23.6,22.9,24.3,22.9 - 24.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,2023-02-13,23.7,22.8,24.7,22.8 - 24.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,2023-02-13,32.4,31.6,33.3,31.6 - 33.3,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,2023-02-13,28.3,27.2,29.4,27.2 - 29.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.7,54,"Feb 1 - Feb 13, 2023",02/01/2023,2023-02-13,36,35.2,36.8,35.2 - 36.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,2023-03-13,20.2,19.2,21.2,19.2 - 21.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,2023-03-13,23.4,22.4,24.4,22.4 - 24.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,2023-03-13,24,22.9,25.1,22.9 - 25.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,2023-03-13,32.5,31.5,33.5,31.5 - 33.5,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,2023-03-13,28.8,27.8,29.8,27.8 - 29.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.8,55,"Mar 1 - Mar 13, 2023",03/01/2023,2023-03-13,36.7,35.6,37.7,35.6 - 37.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,2023-04-10,19.9,18.9,20.9,18.9 - 20.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,2023-04-10,22,21.2,22.9,21.2 - 22.9,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,2023-04-10,24.1,23,25.2,23.0 - 25.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,2023-04-10,31.9,31.1,32.8,31.1 - 32.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,2023-04-10,28.9,27.8,30.1,27.8 - 30.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.8,56,"Mar 29 - Apr 10, 2023",03/29/2023,2023-04-10,36,35,37,35.0 - 37.0,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,2023-05-08,21,19.9,22.2,19.9 - 22.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,2023-05-08,22.5,21.7,23.4,21.7 - 23.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,2023-05-08,24.5,23.4,25.6,23.4 - 25.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,2023-05-08,30.7,29.7,31.8,29.7 - 31.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,2023-05-08,29.5,28.4,30.7,28.4 - 30.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.8,57,"Apr 26 - May 8, 2023",04/26/2023,2023-05-08,34.9,33.9,35.9,33.9 - 35.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,2023-06-19,21.2,20.3,22.1,20.3 - 22.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,2023-06-19,21.8,20.9,22.7,20.9 - 22.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,2023-06-19,24.7,23.8,25.7,23.8 - 25.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,2023-06-19,31.5,30.6,32.4,30.6 - 32.4,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,2023-06-19,30,28.9,31.1,28.9 - 31.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.9,58,"Jun 7 - Jun 19, 2023",06/07/2023,2023-06-19,35.5,34.6,36.4,34.6 - 36.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,2023-07-10,21.1,20,22.2,20.0 - 22.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,2023-07-10,22.8,21.9,23.7,21.9 - 23.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,2023-07-10,23.6,22.5,24.7,22.5 - 24.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,2023-07-10,30.8,29.9,31.6,29.9 - 31.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,2023-07-10,29.1,28.1,30.2,28.1 - 30.2,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.9,59,"Jun 28 - Jul 10, 2023",06/28/2023,2023-07-10,35.5,34.6,36.4,34.6 - 36.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,2023-08-07,21.3,20.3,22.3,20.3 - 22.3,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,2023-08-07,22.4,21.5,23.3,21.5 - 23.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,2023-08-07,24.7,23.7,25.7,23.7 - 25.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,2023-08-07,31.6,30.6,32.6,30.6 - 32.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,2023-08-07,29.6,28.5,30.7,28.5 - 30.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.9,60,"Jul 26 - Aug 7, 2023",07/26/2023,2023-08-07,35.7,34.7,36.7,34.7 - 36.7,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,2023-09-04,18.2,17.3,19.1,17.3 - 19.1,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,2023-09-04,19.8,18.9,20.7,18.9 - 20.7,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,2023-09-04,21.1,20.1,22,20.1 - 22.0,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,2023-09-04,27.2,26.3,28.1,26.3 - 28.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,2023-09-04,26.1,25.1,27.1,25.1 - 27.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.10,61,"Aug 23 - Sep 4, 2023",08/23/2023,2023-09-04,31.4,30.4,32.4,30.4 - 32.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,2023-10-02,21.6,20.5,22.8,20.5 - 22.8,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,2023-10-02,23.3,22.4,24.2,22.4 - 24.2,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,2023-10-02,24.4,23.4,25.4,23.4 - 25.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,2023-10-02,32.7,31.8,33.7,31.8 - 33.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,2023-10-02,30.5,29.4,31.6,29.4 - 31.6,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.10,62,"Sep 20 - Oct 2, 2023",09/20/2023,2023-10-02,36.4,35.4,37.4,35.4 - 37.4,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,2023-10-30,22.2,21.5,22.9,21.5 - 22.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,2023-10-30,23.3,22.4,24.1,22.4 - 24.1,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,2023-10-30,26.9,26,27.9,26.0 - 27.9,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,2023-10-30,32,31.1,32.8,31.1 - 32.8,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,2023-10-30,32.1,31.2,32.9,31.2 - 32.9,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,3.10,63,"Oct 18 - Oct 30, 2023",10/18/2023,2023-10-30,36.2,35.3,37.2,35.3 - 37.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,2024-01-08,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,2024-01-08,NA,NA,NA,NA,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,2024-02-05,13,12.1,13.9,12.1 - 13.9,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,2024-02-05,13.7,13.1,14.4,13.1 - 14.4,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,2024-01-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,2024-01-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,2024-02-05,14.6,13.6,15.6,13.6 - 15.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,2024-02-05,19.2,18.4,20,18.4 - 20.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,2024-01-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,-1,1,"Nov 27, 2023 - Jan 8, 2024",11/27/2023,2024-01-08,NA,NA,NA,NA,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,2024-02-05,18.9,17.9,20,17.9 - 20.0,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,4.0,64,"Jan 9 - Feb 5, 2024",01/09/2024,2024-02-05,22.4,21.5,23.2,21.5 - 23.2,NA
+Symptoms of Depressive Disorder,By Sex,United States,Male,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,2024-03-04,12.8,12,13.5,12.0 - 13.5,NA
+Symptoms of Depressive Disorder,By Sex,United States,Female,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,2024-03-04,14.6,13.9,15.3,13.9 - 15.3,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Male,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,2024-03-04,14.7,13.8,15.6,13.8 - 15.6,NA
+Symptoms of Anxiety Disorder,By Sex,United States,Female,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,2024-03-04,20.4,19.8,21.1,19.8 - 21.1,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Male,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,2024-03-04,18.7,17.8,19.7,17.8 - 19.7,NA
+Symptoms of Anxiety Disorder or Depressive Disorder,By Sex,United States,Female,4.0,65,"Feb 6 - Mar 4, 2024",02/06/2024,2024-03-04,23.6,22.9,24.3,22.9 - 24.3,NA
