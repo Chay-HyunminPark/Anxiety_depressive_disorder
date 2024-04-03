@@ -54,6 +54,32 @@ The study focuses on answering the following research questions:
 #| label: fig-andtrend-graph
 #| fig-cap: "Trend in US Anxiety and Depressive Disorder Rates"
 
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Overall_trends.csv"))
+
+# Convert 'Time Period End Date' to date format and then extract year and month
+data$`Time Period End Date` <- as.Date(data$`Time Period End Date`, format="%m/%d/%Y")
+data$YearMonth <- format(data$`Time Period End Date`, "%Y-%m")
+
+# Filter the dataset for the specified symptoms
+filtered_data <- data %>%
+  filter(Indicator %in% c('Symptoms of Depressive Disorder', 
+                          'Symptoms of Anxiety Disorder', 
+                          'Symptoms of Anxiety Disorder or Depressive Disorder'))
+
+# Plotting the line graph
+ggplot(filtered_data, aes(x = YearMonth, y = Value, group = Indicator, color = Indicator)) +
+  geom_line() +
+  labs(title = "Symptom Rates Over Time",
+       x = "Date (Year and Month)",
+       y = "Symptom Rates (%)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
 
 ```
 

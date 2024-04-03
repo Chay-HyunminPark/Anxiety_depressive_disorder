@@ -607,8 +607,47 @@ raw_data$`Time Period End Date` <- as.Date(raw_data$`Time Period End Date`, form
 In this corrected script, I replaced `data` with `raw_data` for the conversion step. This change ensures you are modifying the dataframe that contains your data. Ensure that the column names and dataframe variable you are using match those in your dataset.
 
 User 
+Write me a code in R script to plot a line graph. There will be three lines each denoting 'Symptoms of Depressive Disorder', 'Symptoms of Anxiety Disorder', 'Symptoms of Anxiety Disorder or Depressive Disorder'
+On the y-axis, we'll use column <Value> to display Symptom rates 
+On the x-axis, we'll use column <Time Period End Date> to present dates. We'll only use year and month. 
 
 ChatGPT
+To create a line graph in R with three lines representing different symptoms over time, you can use the `ggplot2` package from `tidyverse`. Here’s a script that plots the line graph based on the specifications you provided:
+
+```r
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+
+# Define the path to the data file
+data_path <- "path_to_your_data_file.csv"
+
+# Load the data
+data <- read_csv(data_path)
+
+# Convert 'Time Period End Date' to date format and then extract year and month
+data$`Time Period End Date` <- as.Date(data$`Time Period End Date`, format="%m/%d/%Y")
+data$YearMonth <- format(data$`Time Period End Date`, "%Y-%m")
+
+# Filter the dataset for the specified symptoms
+filtered_data <- data %>%
+  filter(Indicator %in% c('Symptoms of Depressive Disorder', 
+                          'Symptoms of Anxiety Disorder', 
+                          'Symptoms of Anxiety Disorder or Depressive Disorder'))
+
+# Plotting the line graph
+ggplot(filtered_data, aes(x = YearMonth, y = Value, group = Indicator, color = Indicator)) +
+  geom_line() +
+  labs(title = "Symptom Rates Over Time",
+       x = "Date (Year and Month)",
+       y = "Symptom Rates (%)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Note: Adjust 'path_to_your_data_file.csv' to the actual path of your CSV file.
+```
+
+Make sure to replace `"path_to_your_data_file.csv"` with the actual path to your CSV file. This script reads the data, filters it for the specified symptoms, converts the date to a year-month format for the x-axis, and plots the lines with different colors for each symptom type. The `geom_line()` function is used to draw the lines, and `theme_minimal()` creates a minimalistic graph design. Adjustments like `axis.text.x` are made to improve readability of the x-axis labels.
 
 User 
 
@@ -619,9 +658,6 @@ User
 ChatGPT
 
 User
-Write me a code in R script to plot a line graph. There will be three lines each denoting 'Symptoms of Depressive Disorder', 'Symptoms of Anxiety Disorder', 'Symptoms of Anxiety Disorder or Depressive Disorder'
-On the y-axis, column <value> will be presented as rates
-On the x-axis, column <>
 
 ChatGPT
 
