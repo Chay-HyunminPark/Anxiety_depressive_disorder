@@ -142,6 +142,7 @@ print(p)
 ```
 
 
+
 ### Population subgroup by sex
 
 ```{r}
@@ -277,6 +278,7 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 # Display the plot
 print(p)
 ```
+
 
 
 # Model

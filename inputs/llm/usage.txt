@@ -1460,13 +1460,233 @@ p + geom_text_repel(
 In this code, `geom_text_repel()` is used to place labels at the last data point of each line. You may need to adjust `nudge_x` and `nudge_y` parameters to correctly position the labels. This will label the lines directly and eliminate the need for a separate legend.
 
 User
+From this code, 
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right",  # Position the legend on the right side of the plot
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+
+adjust it so that I have labels on the lines not on a separate legend. 
 
 ChatGPT
+To add labels to the lines in your plot instead of using a separate legend, you can use the `geom_text` function from the `ggplot2` package to annotate the lines directly. You can add `geom_text` to your plot and use the `label` aesthetic to specify what text should appear on the lines. Typically, you'd place these labels near the end of each line to clearly indicate which line corresponds to which group.
+
+Here’s how you can adjust your code:
+
+```r
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph with labels
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup)) +
+  geom_line(aes(color = Subgroup)) +
+  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
+  geom_text(aes(label = Subgroup), 
+            position = position_nudge(y = 5),  # Adjust the position to avoid overlapping
+            hjust = "right", check_overlap = TRUE) +  # Avoid overlapping labels
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        plot.margin = unit(c(1, 1, 1, 1), "cm")) +
+  guides(color = FALSE)  # Remove the legend for color
+
+# Display the plot
+print(p)
+```
+
+In this adjusted code:
+
+- I’ve removed the `color` aesthetic from the `aes` function in `ggplot` and added it back in `geom_line` so that the color still applies to the lines but doesn't affect the text labels.
+- I added `geom_text` to create labels directly on the lines, using `position_nudge` to adjust their position to prevent overlapping with the lines.
+- I used `guides(color = FALSE)` to remove the legend since the labels directly on the lines will now provide the necessary information.
+- Adjust the `position_nudge` and `hjust` parameters in `geom_text` to best fit your data and ensure that the labels are clear and not overlapping with the lines.
 
 User
+From this code, 
+
+
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-educandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Education"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Educ_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right", 
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+
+I want to have labels for the lines on a graph and not having legend separately 
 
 ChatGPT
+To add labels directly to the lines on your graph and remove the separate legend, you can use `geom_text` to annotate the lines with their respective subgroup names. Here's how you can adjust your code:
+
+```r
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-educandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Education"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Educ_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Prepare the data for labeling by selecting the last point of each subgroup
+label_data <- data %>%
+  group_by(Subgroup) %>%
+  slice_max(Date) %>%
+  ungroup()
+
+# Plotting the line graph with labels at the end of each line
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup)) +
+  geom_line(aes(color = Subgroup)) +
+  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  geom_text(data = label_data, aes(label = Subgroup, x = Date, y = Value, color = Subgroup), 
+            nudge_y = 2, hjust = "right", check_overlap = TRUE) +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        plot.margin = unit(c(1, 1, 1, 1), "cm")) +
+  guides(color = FALSE)  # Remove the legend
+
+# Display the plot
+print(p)
+```
+
+In this code:
+
+- `label_data` is created to select the last available point for each subgroup to place the label. This helps in annotating each line distinctly.
+- `geom_text` is used with `nudge_y` to slightly lift the text above the line end, preventing overlap and ensuring readability. Adjust `nudge_y` as necessary for clarity.
+- `guides(color = FALSE)` removes the color legend since the labels on the lines now serve that purpose.
 
 User
+From this code,
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-educandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Education"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read.csv(file = here::here("outputs/data/Educ_subgroup_trends.csv"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right", 
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+```
+
+label "Less than a high school diploma" subgroup with "No high school degree", "Some college/Associate's degree" subgroup with "Some college", "High school diploma or GED" with "High school graduate" and "Bachelor's degree or higher" with "Bachelor's degree"
 
 ChatGPT
