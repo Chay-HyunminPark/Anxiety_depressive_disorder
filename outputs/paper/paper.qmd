@@ -99,16 +99,10 @@ Both Anxiety and Depressive Disorder showing the similar trends over the period.
 ## Trends in Depressive Disorder Rates by Population Subgroup
 
 ```{r}
-#| echo: false
-#| eval: true
-#| warning: false
-#| message: false
-#| label: fig-ageandtrend-graph
-#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Age"
-
 # Load necessary libraries
 library(tidyverse)
 library(lubridate)
+library(ggrepel)  # Ensure this package is installed for geom_text_repel
 
 # Read the data
 age_data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
@@ -129,13 +123,18 @@ label_data <- filtered_data %>%
   filter(Date == label_date) %>%
   ungroup()
 
-# Plotting the line graph
+# Plotting the line graph with labels
 graph_A <- ggplot(filtered_data, aes(x = Date, y = Value, color = Subgroup)) +
   geom_line(size = 0.4) +
   geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
-  geom_text(data = label_data,
-            aes(label = Subgroup, y = Value + 2), hjust = 1.1, size = 3) +
-  scale_y_continuous(name = "Syptom Rates (%)") +
+  geom_text_repel(
+    data = label_data,
+    aes(label = Subgroup),
+    nudge_y = 2,
+    direction = "y",
+    size = 3
+  ) +
+  scale_y_continuous(name = "Symptom Rates (%)") +
   scale_x_date(date_breaks = "4 months", date_labels = "%Y-%m-%d") +
   labs(title = "Trend of Depressive Disorder Symptoms by Age Group",
        x = NULL,
@@ -149,7 +148,6 @@ graph_A <- ggplot(filtered_data, aes(x = Date, y = Value, color = Subgroup)) +
 print(graph_A)
 
 ```
-
 
 
 ### Population subgroup by age
@@ -189,8 +187,6 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 print(p)
 
 ```
-
-
 
 ### Population subgroup by sex
 

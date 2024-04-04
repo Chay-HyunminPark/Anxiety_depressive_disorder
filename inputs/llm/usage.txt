@@ -1689,4 +1689,57 @@ print(p)
 
 label "Less than a high school diploma" subgroup with "No high school degree", "Some college/Associate's degree" subgroup with "Some college", "High school diploma or GED" with "High school graduate" and "Bachelor's degree or higher" with "Bachelor's degree"
 
+User
+From this code, modify it such that I see the labels for each line.
+
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-ageandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Age"
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+
+# Read the data
+age_data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+
+# Ensure 'Date' column is in Date format
+age_data$Date <- as.Date(age_data$Date, format = "%Y-%m-%d")
+
+# Filter data to include only the relevant age subgroups
+filtered_data <- age_data %>%
+  filter(Subgroup %in% c("18 - 29 years", "30 - 39 years", "40 - 49 years", "50 - 59 years", "60 - 69 years", "70 - 79 years", "80 years and above"))
+
+# Specific date for labeling
+label_date <- as.Date("2022-03-02")
+
+# Prepare label data
+label_data <- filtered_data %>%
+  group_by(Subgroup) %>%
+  filter(Date == label_date) %>%
+  ungroup()
+
+# Plotting the line graph
+graph_A <- ggplot(filtered_data, aes(x = Date, y = Value, color = Subgroup)) +
+  geom_line(size = 0.4) +
+  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
+  geom_text(data = label_data,
+            aes(label = Subgroup, y = Value + 2), hjust = 1.1, size = 3) +
+  scale_y_continuous(name = "Syptom Rates (%)") +
+  scale_x_date(date_breaks = "4 months", date_labels = "%Y-%m-%d") +
+  labs(title = "Trend of Depressive Disorder Symptoms by Age Group",
+       x = NULL,
+       y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = -45, hjust = 1),
+        plot.title = element_text(size = 10),
+        legend.position = "none")
+
+# Display the plot
+print(graph_A)
+
 ChatGPT
+
