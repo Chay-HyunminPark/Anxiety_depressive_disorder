@@ -11,6 +11,21 @@ number-sections: true
 bibliography: references.bib
 ---
 
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+# Load necessary libraries for the paper
+library(tidyverse)
+library(lubridate)
+library(arrow)
+library(here)
+library(ggrepel)  # For better label placement
+
+```
+
+
 # Introduction
 
 Depression and anxiety are not only prevalent but escalating issues in the modern world, affecting individuals across the globe regardless of demographic factors (World Health Organization, 2021). These mental health challenges have been further exacerbated by the COVID-19 pandemic, which led to widespread social and economic upheaval (Brooks et al., 2020). While various studies have explored the impact of the pandemic on mental health, there remains a significant gap in understanding the nuanced interactions between socio-cultural factors and the prevalence of anxiety and depressive disorders during this period (Pfefferbaum & North, 2020).
@@ -53,12 +68,8 @@ The study focuses on answering the following research questions:
 #| label: fig-andtrend-graph
 #| fig-cap: "Trend in US Anxiety and Depressive Disorder Rates"
 
-# Load necessary libraries
-library(tidyverse)
-library(lubridate)
-
 # Define the path to the data file and load it
-data <- read.csv(file = here::here("outputs/data/Overall_trends.csv"))
+data <- read_parquet(file = here::here("outputs/data/Overall_trends.parquet"))
 
 # Filter the dataset for the specified symptoms
 filtered_data <- data %>%
@@ -98,70 +109,18 @@ Both Anxiety and Depressive Disorder showing the similar trends over the period.
 
 ## Trends in Depressive Disorder Rates by Population Subgroup
 
-```{r}
-# Load necessary libraries
-library(tidyverse)
-library(lubridate)
-library(ggrepel)  # Ensure this package is installed for geom_text_repel
-
-# Read the data
-age_data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
-
-# Ensure 'Date' column is in Date format
-age_data$Date <- as.Date(age_data$Date, format = "%Y-%m-%d")
-
-# Filter data to include only the relevant age subgroups
-filtered_data <- age_data %>%
-  filter(Subgroup %in% c("18 - 29 years", "30 - 39 years", "40 - 49 years", "50 - 59 years", "60 - 69 years", "70 - 79 years", "80 years and above"))
-
-# Specific date for labeling
-label_date <- as.Date("2022-03-02")
-
-# Prepare label data
-label_data <- filtered_data %>%
-  group_by(Subgroup) %>%
-  filter(Date == label_date) %>%
-  ungroup()
-
-# Plotting the line graph with labels
-graph_A <- ggplot(filtered_data, aes(x = Date, y = Value, color = Subgroup)) +
-  geom_line(size = 0.4) +
-  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
-  geom_text_repel(
-    data = label_data,
-    aes(label = Subgroup),
-    nudge_y = 2,
-    direction = "y",
-    size = 3
-  ) +
-  scale_y_continuous(name = "Symptom Rates (%)") +
-  scale_x_date(date_breaks = "4 months", date_labels = "%Y-%m-%d") +
-  labs(title = "Trend of Depressive Disorder Symptoms by Age Group",
-       x = NULL,
-       y = "Symptom Rates (%)") +
-  theme_classic() +
-  theme(axis.text.x = element_text(angle = -45, hjust = 1),
-        plot.title = element_text(size = 10),
-        legend.position = "none")
-
-# Display the plot
-print(graph_A)
-
-```
-
-
 ### Population subgroup by age
 
 ```{r}
-
-
-# Load necessary libraries
-library(tidyverse)
-library(lubridate)
-library(here)
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-ageandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Age"
 
 # Define the path to the data file and load it
-data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+data <- read_parquet(file = here::here("outputs/data/Age_subgroup_trends.parquet"))
 
 # Convert 'Date' column to Date format if it's not already
 data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
@@ -198,14 +157,8 @@ print(p)
 #| label: fig-sexandtrend-graph
 #| fig-cap: "Depressive Disorder Trend by Population Subgroup by Sex"
 
-# Load necessary libraries
-library(tidyverse)
-library(lubridate)
-library(here)
-library(ggrepel)  # For better label placement
-
 # Define the path to the data file and load it
-data <- read.csv(file = here::here("outputs/data/Sex_subgroup_trends.csv"))
+data <- read_parquet(file = here::here("outputs/data/Sex_subgroup_trends.parquet"))
 
 # Convert 'Date' column to Date format if it's not already
 data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
@@ -257,7 +210,7 @@ library(lubridate)
 library(here)
 
 # Define the path to the data file and load it
-data <- read.csv(file = here::here("outputs/data/Race_subgroup_trends.csv"))
+data <- read_parquet(file = here::here("outputs/data/Race_subgroup_trends.parquet"))
 
 # Convert 'Date' column to Date format if it's not already
 data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
@@ -292,13 +245,8 @@ print(p)
 #| label: fig-educandtrend-graph
 #| fig-cap: "Depressive Disorder Trend by Population Subgroup by Education"
 
-# Load necessary libraries
-library(tidyverse)
-library(lubridate)
-library(here)
-
 # Define the path to the data file and load it
-data <- read.csv(file = here::here("outputs/data/Educ_subgroup_trends.csv"))
+data <- read_parquet(file = here::here("outputs/data/Educ_subgroup_trends.parquet"))
 
 # Convert 'Date' column to Date format if it's not already
 data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
@@ -323,7 +271,6 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 # Display the plot
 print(p)
 ```
-
 
 
 # Model
