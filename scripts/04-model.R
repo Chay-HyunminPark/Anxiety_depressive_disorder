@@ -17,10 +17,15 @@ set.seed(853)
 #### Read data ####
 age_data <- read_parquet(file = here::here("outputs/data/Age_subgroup_trends.parquet"))
 
+# Convert categorical variables to factors
+age_data$Subgroup <- as.factor(age_data$Subgroup)
+age_data$`Time Period` <- as.factor(age_data$`Time Period`)
+
 ### Model data ####
+# Assuming 'Value' is the dependent variable, and you want to model it based on 'Time Period' and 'Subgroup'
 age_model <-
   stan_glm(
-    formula = Value_time ~ length + width,
+    formula = Value ~ `Time Period` + Subgroup,
     data = age_data,
     family = gaussian(),
     prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
@@ -28,7 +33,6 @@ age_model <-
     prior_aux = exponential(rate = 1, autoscale = TRUE),
     seed = 853
   )
-
 
 #### Save model ####
 saveRDS(
