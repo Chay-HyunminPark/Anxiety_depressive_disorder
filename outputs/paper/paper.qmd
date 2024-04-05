@@ -103,10 +103,10 @@ p <- ggplot(filtered_data, aes(x = Date, y = Value, group = Indicator, color = I
   labs(x = "Date",
        y = "Symptom Rates (%)") +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
-        axis.text.y = element_text(family = "Times New Roman"),
-        axis.title.x = element_text(family = "Times New Roman"),
-        axis.title.y = element_text(family = "Times New Roman"),
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times"),
+        axis.text.y = element_text(family = "Times"),
+        axis.title.x = element_text(family = "Times"),
+        axis.title.y = element_text(family = "Times"),
         legend.position = "bottom",
         legend.box = "vertical",
         legend.direction = "vertical",
@@ -162,7 +162,7 @@ label_data <- data %>%
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
   geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
-                  family = "Times New Roman", color = "black",
+                  family = "Times", color = "black",
                   size = 3,  # Smaller text size
                   arrow = arrow(type = "closed", length = unit(0.02, "inches"), angle = 15),
                   box.padding = unit(0.5, "lines"),
@@ -171,10 +171,10 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = "Date", y = "Symptom Rates (%)") +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
-        axis.text.y = element_text(family = "Times New Roman"),
-        axis.title.x = element_text(family = "Times New Roman"),
-        axis.title.y = element_text(family = "Times New Roman"),
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times"),
+        axis.text.y = element_text(family = "Times"),
+        axis.title.x = element_text(family = "Times"),
+        axis.title.y = element_text(family = "Times"),
         legend.position = "none",
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
@@ -218,10 +218,10 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = "Date", y = "Symptom Rates (%)") +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
-        axis.text.y = element_text(family = "Times New Roman"),
-        axis.title.x = element_text(family = "Times New Roman"),
-        axis.title.y = element_text(family = "Times New Roman"),
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times"),
+        axis.text.y = element_text(family = "Times"),
+        axis.title.x = element_text(family = "Times"),
+        axis.title.y = element_text(family = "Times"),
         legend.position = "none",  # Remove the separate legend
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
@@ -232,7 +232,7 @@ p + geom_text_repel(
   nudge_y = 0,
   direction = "y",
   color = "black",
-  family = "Times New Roman"
+  family = "Times"
 )
 
 ```
@@ -284,17 +284,17 @@ label_data <- data %>%
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
   geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
-                  nudge_x = 0, nudge_y = 0, family = "Times New Roman", color = "black",
+                  nudge_x = 0, nudge_y = 0, family = "Times", color = "black",
                   size = 3,  # Make label text smaller
                   arrow = arrow(type = "closed", length = unit(0.02, "inches"), ends = "last", angle = 30)) +
   geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = "Date", y = "Symptom Rates (%)") +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
-        axis.text.y = element_text(family = "Times New Roman"),
-        axis.title.x = element_text(family = "Times New Roman"),
-        axis.title.y = element_text(family = "Times New Roman"),
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times"),
+        axis.text.y = element_text(family = "Times"),
+        axis.title.x = element_text(family = "Times"),
+        axis.title.y = element_text(family = "Times"),
         legend.position = "none",
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
@@ -349,7 +349,7 @@ label_data <- data %>%
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
   geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
-                  family = "Times New Roman", 
+                  family = "Times", 
                   size = 3,  # Smaller text size
                   arrow = arrow(type = "closed", length = unit(0.02, "inches"), angle = 30),
                   box.padding = unit(0.5, "lines"),
@@ -358,10 +358,10 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = "Date", y = "Symptom Rates (%)") +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
-        axis.text.y = element_text(family = "Times New Roman"),
-        axis.title.x = element_text(family = "Times New Roman"),
-        axis.title.y = element_text(family = "Times New Roman"),
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times"),
+        axis.text.y = element_text(family = "Times"),
+        axis.title.x = element_text(family = "Times"),
+        axis.title.y = element_text(family = "Times"),
         legend.position = "none",
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
@@ -405,19 +405,19 @@ label_data <- data %>%
 graph_a <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
   geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
-                  family = "Times New Roman", color = "black",
+                  family = "Times", color = "black",
                   size = 3,  # Smaller text size
                   arrow = arrow(type = "closed", length = unit(0.02, "inches"), angle = 15),
                   box.padding = unit(0.5, "lines"),
                   point.padding = unit(0.5, "lines")) +
   geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
-  labs(x = "Date", y = "Symptom Rates (%)") +
+  labs(x = NULL, y = "Symptom Rates (%)", title = "A: Age Subgroup Trends") +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
-        axis.text.y = element_text(family = "Times New Roman"),
-        axis.title.x = element_text(family = "Times New Roman"),
-        axis.title.y = element_text(family = "Times New Roman"),
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times"),
+        axis.text.y = element_text(family = "Times"),
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(family = "Times"),
         legend.position = "none",
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
@@ -446,13 +446,13 @@ graph_b <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgr
   geom_line() +
   geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
-  labs(x = "Date", y = "Symptom Rates (%)") +
+  labs(x = NULL, y = "Symptom Rates (%)",title = "C: Sex Subgroup Trends") +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
-        axis.text.y = element_text(family = "Times New Roman"),
-        axis.title.x = element_text(family = "Times New Roman"),
-        axis.title.y = element_text(family = "Times New Roman"),
-        legend.position = "none",  # Remove the separate legend
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times"),
+        axis.text.y = element_text(family = "Times"),
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(family = "Times"),
+        legend.position = "none", 
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
 graph_b + geom_text_repel(
@@ -462,7 +462,7 @@ graph_b + geom_text_repel(
   nudge_y = 0,
   direction = "y",
   color = "black",
-  family = "Times New Roman"
+  family = "Times"
 )
 
 #### Graph C - Race ####
@@ -499,17 +499,17 @@ label_data <- data %>%
 graph_c <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
   geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
-                  nudge_x = 0, nudge_y = 0, family = "Times New Roman", color = "black",
+                  nudge_x = 0, nudge_y = 0, family = "Times", color = "black",
                   size = 3,  # Make label text smaller
                   arrow = arrow(type = "closed", length = unit(0.02, "inches"), ends = "last", angle = 15)) +
   geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = NULL, y = "Symptom Rates (%)", title = "C: Race Subgroups Trends") +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
-        axis.text.y = element_text(family = "Times New Roman"),
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times"),
+        axis.text.y = element_text(family = "Times"),
         axis.title.x = element_blank(),
-        axis.title.y = element_text(family = "Times New Roman"),
+        axis.title.y = element_text(family = "Times"),
         legend.position = "none",
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
@@ -548,7 +548,7 @@ label_data <- data %>%
 graph_d <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
   geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
-                  family = "Times New Roman", 
+                  family = "Times", 
                   size = 3,  # Smaller text size
                   arrow = arrow(type = "closed", length = unit(0.02, "inches"), angle = 15),
                   box.padding = unit(0.5, "lines"),
@@ -557,8 +557,8 @@ graph_d <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgr
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = NULL, y = NULL, title = "D: Level of education") +
   theme_classic() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
-        axis.text.y = element_text(family = "Times New Roman"),
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times"),
+        axis.text.y = element_text(family = "Times"),
         axis.title.x = element_blank(),
         axis.title.y = element_blank(),
         legend.position = "none",
