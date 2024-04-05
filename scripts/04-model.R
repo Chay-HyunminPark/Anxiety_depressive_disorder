@@ -1,5 +1,6 @@
 #### Preamble ####
-# Purpose: Models ....
+# Purpose: Models relationship between the Value and various demographic and temporal factors 
+#          in the Age_subgroup_trends dataset to understand trends over time and across different subgroups.
 # Author: Chay Park
 # Date: 4 April 2024
 # Contact: chay.park@mail.utoronto.ca
