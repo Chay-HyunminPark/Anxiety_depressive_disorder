@@ -4,7 +4,7 @@
 # Date: 2 April 2024
 # Contact: chay.park@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: Install package 'tidyverse', 'dplyr'
+# Pre-requisites: 00-install_packages, 01-download_data
 
 # Load the necessary library
 library(tidyverse)
