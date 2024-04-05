@@ -146,6 +146,66 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 print(p)
 
 ```
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-ageandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Age"
+
+# Load necessary libraries
+library(tidyverse)
+library(arrow)
+library(here)
+library(ggrepel)
+library(extrafont)
+
+# Load the fonts
+loadfonts(device = "win")
+
+# Define the path to the data file and load it
+data <- read_parquet(file = here::here("outputs/data/Age_subgroup_trends.parquet"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Filter the data to get the rows for the specific date to label
+label_date <- as.Date("2022-01-10")
+label_data <- data %>%
+  filter(Date == label_date)
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
+                  family = "Times New Roman", color = "black",
+                  size = 3,  # Smaller text size
+                  arrow = arrow(type = "closed", length = unit(0.02, "inches"), angle = 15),
+                  box.padding = unit(0.5, "lines"),
+                  point.padding = unit(0.5, "lines")) +
+  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
+        axis.text.y = element_text(family = "Times New Roman"),
+        axis.title.x = element_text(family = "Times New Roman"),
+        axis.title.y = element_text(family = "Times New Roman"),
+        legend.position = "none",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+
+```
+
 
 ### Population subgroup by sex
 
@@ -234,21 +294,19 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
                             "2022-05-09", "2022-09-13", "2023-01-16",
                             "2023-05-08", "2023-09-04", "2024-01-08"))
 
-# Prepare data for labels
+# Filter the data to get the rows for the specific date to label
+label_date <- as.Date("2022-01-10")
 label_data <- data %>%
-  group_by(Subgroup) %>%
-  summarize(Date = median(Date), Value = median(Value)) %>%
-  ungroup()
+  filter(Date == label_date)
 
 # Plotting the line graph
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
-  geom_label_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
-                   nudge_x = 10, nudge_y = 0, family = "Times New Roman", color = "black",
-                   box.padding = 0.35, point.padding = 0.5, 
-                   arrow = arrow(length = unit(0.02, "npc")),
-                   size = 3) +
-  geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey", lty = 2) +
+  geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
+                  nudge_x = 0, nudge_y = 0, family = "Times New Roman", color = "black",
+                  size = 3,  # Make label text smaller
+                  arrow = arrow(type = "closed", length = unit(0.02, "inches"), ends = "last", angle = 30)) +
+  geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = "Date", y = "Symptom Rates (%)") +
   theme_classic() +
@@ -301,11 +359,10 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
                             "2022-05-09", "2022-09-13", "2023-01-16",
                             "2023-05-08", "2023-09-04", "2024-01-08"))
 
-# Prepare data for labels
+# Filter the data to get the rows for the specific date to label
+label_date <- as.Date("2022-01-10")
 label_data <- data %>%
-  group_by(Subgroup) %>%
-  summarize(Date = median(Date), Value = median(Value)) %>%
-  ungroup()
+  filter(Date == label_date)
 
 # Plotting the line graph with adjusted label positions
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
@@ -327,6 +384,138 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 print(p)
 
 ```
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-educandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Education"
+
+library(tidyverse)
+library(arrow)
+library(here)
+library(ggrepel)
+library(extrafont)
+
+# Load the fonts
+loadfonts(device = "win")
+
+# Define the path to the data file and load it
+data <- read_parquet(file = here::here("outputs/data/Educ_subgroup_trends.parquet"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Rename the subgroup values
+data$Subgroup <- recode(data$Subgroup,
+                        "Bachelor's degree or higher" = "College graduate",
+                        "High school diploma or GED" = "High school graduate",
+                        "Some college/Associate's degree" = "Some college",
+                        "Less than a high school diploma" = "No high school degree")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Prepare data for labels
+label_data <- data %>%
+  group_by(Subgroup) %>%
+  summarize(Date = median(Date), Value = median(Value)) %>%
+  ungroup()
+
+# Plotting the line graph with adjusted label positions
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
+                  family = "Times New Roman", color = "black",
+                  size = 3,  # Smaller text size
+                  arrow = arrow(type = "closed", length = unit(0.02, "inches"), angle = 30),
+                  box.padding = unit(0.5, "lines"),
+                  point.padding = unit(0.5, "lines")) +
+  geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
+        axis.text.y = element_text(family = "Times New Roman"),
+        axis.title.x = element_text(family = "Times New Roman"),
+        axis.title.y = element_text(family = "Times New Roman"),
+        legend.position = "none",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+print(p)
+
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-educandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Education"
+
+library(tidyverse)
+library(arrow)
+library(here)
+library(ggrepel)
+library(extrafont)
+
+# Load the fonts
+loadfonts(device = "win")
+
+# Define the path to the data file and load it
+data <- read_parquet(file = here::here("outputs/data/Educ_subgroup_trends.parquet"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Rename the subgroup values
+data$Subgroup <- recode(data$Subgroup,
+                        "Bachelor's degree or higher" = "College graduate",
+                        "High school diploma or GED" = "High school graduate",
+                        "Some college/Associate's degree" = "Some college",
+                        "Less than a high school diploma" = "No high school degree")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Prepare data for labels
+label_data <- data %>%
+  group_by(Subgroup) %>%
+  summarize(Date = median(Date), Value = median(Value)) %>%
+  ungroup()
+
+# Plotting the line graph with adjusted label positions
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
+                  family = "Times New Roman", 
+                  size = 3,  # Smaller text size
+                  arrow = arrow(type = "closed", length = unit(0.02, "inches"), angle = 30),
+                  box.padding = unit(0.5, "lines"),
+                  point.padding = unit(0.5, "lines")) +
+  geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
+        axis.text.y = element_text(family = "Times New Roman"),
+        axis.title.x = element_text(family = "Times New Roman"),
+        axis.title.y = element_text(family = "Times New Roman"),
+        legend.position = "none",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+print(p)
+
+```
+
 
 # Model
 
