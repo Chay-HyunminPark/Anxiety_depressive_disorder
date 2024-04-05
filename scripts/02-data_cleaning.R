@@ -35,8 +35,9 @@ national_estimate_data <- cleaned_data %>%
                             "Symptoms of Depressive Disorder", 
                             "Symptoms of Anxiety Disorder"))
 
-# Save the 'National Estimate' data to a new CSV file in the specified directory
-write_csv(national_estimate_data, "outputs/data/Overall_trends.csv")
+# Save the 'National Estimate' data to a new parquet file in the specified directory
+write_parquet(national_estimate_data, "outputs/data/Overall_trends.parquet")
+
 
 #### Subgroup trends - by age group cleaned dataset ####
 
@@ -47,8 +48,8 @@ dep_data <- filter(cleaned_data, Indicator == "Symptoms of Depressive Disorder")
 by_age_data <- dep_data %>%
   filter(Group == "By Age")
 
-# Save the 'By Age' data to a new CSV file in the specified directory
-write_csv(by_age_data, "outputs/data/Age_subgroup_trends.csv")
+# Save the 'By Age' data to a new parquet file in the specified directory
+write_parquet(by_age_data, "outputs/data/Age_subgroup_trends.parquet")
 
 #### Subgroup trends - by sex group cleaned dataset ####
 
@@ -56,8 +57,8 @@ write_csv(by_age_data, "outputs/data/Age_subgroup_trends.csv")
 by_sex_data <- dep_data %>%
   filter(Group == "By Sex")
 
-# Save the 'By Age' data to a new CSV file in the specified directory
-write_csv(by_sex_data, "outputs/data/Sex_subgroup_trends.csv")
+# Save the 'By Age' data to a new parquet file in the specified directory
+write_parquet(by_sex_data, "outputs/data/Sex_subgroup_trends.parquet")
 
 
 #### Subgroup trends - by race/hispanic ethnicity group cleaned dataset ####
@@ -66,8 +67,8 @@ write_csv(by_sex_data, "outputs/data/Sex_subgroup_trends.csv")
 by_race_data <- dep_data %>%
   filter(Group == "By Race/Hispanic ethnicity")
 
-# Save the 'By Age' data to a new CSV file in the specified directory
-write_csv(by_race_data, "outputs/data/Race_subgroup_trends.csv")
+# Save the 'By Age' data to a new parquet file in the specified directory
+write_parquet(by_race_data, "outputs/data/Race_subgroup_trends.parquet")
 
 #### Subgroup trends - by education group cleaned dataset ####
 
@@ -75,5 +76,5 @@ write_csv(by_race_data, "outputs/data/Race_subgroup_trends.csv")
 by_educ_data <- dep_data %>%
   filter(Group == "By Education")
 
-# Save the 'By Age' data to a new CSV file in the specified directory
-write_csv(by_educ_data, "outputs/data/Educ_subgroup_trends.csv")
+# Save the 'By Age' data to a new parquet file in the specified directory
+write_parquet(by_educ_data, "outputs/data/Educ_subgroup_trends.parquet")
