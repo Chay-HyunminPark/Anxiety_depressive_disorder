@@ -177,6 +177,7 @@ label_data <- data %>%
 # Plotting the line graph
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
+  geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = "Date", y = "Symptom Rates (%)") +
   theme_classic() +
@@ -224,12 +225,14 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
 # Plotting the line graph
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
-  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = "Date", y = "Symptom Rates (%)") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        legend.position = "right", 
+        legend.position = "bottom", 
+        legend.box = "vertical",
+        legend.direction = "vertical",
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
 # Display the plot
@@ -260,18 +263,19 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
 # Plotting the line graph
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
-  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
   labs(x = "Date", y = "Symptom Rates (%)") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        legend.position = "right", 
+        legend.position = "bottom", 
+        legend.box = "vertical",
+        legend.direction = "vertical",
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
 # Display the plot
 print(p)
 ```
-
 
 # Model
 

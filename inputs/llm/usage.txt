@@ -1741,5 +1741,301 @@ graph_A <- ggplot(filtered_data, aes(x = Date, y = Value, color = Subgroup)) +
 # Display the plot
 print(graph_A)
 
+User
+I want to merge all the codes so that I can have four line graphs at one pane.
+
+First line graph code, 
+
+# Define the path to the data file and load it
+data <- read_parquet(file = here::here("outputs/data/Age_subgroup_trends.parquet"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right",  # Position the legend on the right side of the plot
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+
+Second line of code,
+
+# Define the path to the data file and load it
+data <- read_parquet(file = here::here("outputs/data/Sex_subgroup_trends.parquet"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Filter the data to get the rows for the specific date to label
+label_date <- as.Date("2022-01-10")
+label_data <- data %>%
+  filter(Date == label_date)
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none",  # Remove the separate legend
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+p + geom_text_repel(
+  data = label_data,
+  aes(label = Subgroup),
+  nudge_x = 0,  # Adjust nudge_x and nudge_y to correctly position the labels
+  nudge_y = 0,
+  direction = "y",
+  color = "black"
+)
+
+Third code,
+
+# Load necessary libraries
+library(tidyverse)
+library(lubridate)
+library(here)
+
+# Define the path to the data file and load it
+data <- read_parquet(file = here::here("outputs/data/Race_subgroup_trends.parquet"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right", 
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+
+
+Fourth code, 
+
+# Define the path to the data file and load it
+data <- read_parquet(file = here::here("outputs/data/Educ_subgroup_trends.parquet"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right", 
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+
+I want to have the graphs 2*2 positions. Two graphs on the top and two graphs on the bottom.
+
 ChatGPT
+To combine the four line graphs into a single pane with a 2x2 grid, you can use the `gridExtra` or `patchwork` package in R. I'll use `patchwork` here because it offers a straightforward way to arrange plots. You'll need to create each plot separately and then combine them. Here’s how you can modify and combine the codes:
+
+1. Create each plot separately and store them in variables.
+2. Use `patchwork` to arrange the plots in a 2x2 grid.
+
+```r
+# Load necessary libraries
+library(tidyverse)
+library(rstanarm)
+library(arrow)
+library(here)
+library(patchwork)
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# First graph
+data_age <- read_parquet(file = here::here("outputs/data/Age_subgroup_trends.parquet"))
+data_age$Date <- as.Date(data_age$Date, format = "%Y-%m-%d")
+p1 <- ggplot(data_age, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right")
+
+# Second graph
+data_sex <- read_parquet(file = here::here("outputs/data/Sex_subgroup_trends.parquet"))
+data_sex$Date <- as.Date(data_sex$Date, format = "%Y-%m-%d")
+p2 <- ggplot(data_sex, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none")
+
+# Third graph
+data_race <- read_parquet(file = here::here("outputs/data/Race_subgroup_trends.parquet"))
+data_race$Date <- as.Date(data_race$Date, format = "%Y-%m-%d")
+p3 <- ggplot(data_race, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right")
+
+# Fourth graph
+data_educ <- read_parquet(file = here::here("outputs/data/Educ_subgroup_trends.parquet"))
+data_educ$Date <- as.Date(data_educ$Date, format = "%Y-%m-%d")
+p4 <- ggplot(data_educ, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(5, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "right")
+
+# Combine the plots into a 2x2 grid
+combined_plot <- (p1 + p2) / (p3 + p4)
+print(combined_plot)
+```
+
+In this script, `p1`, `p2`, `p3`, and `p4` are the four line graphs, and `combined_plot` is the 2x2 grid of these
+
+ graphs. Adjust the `theme` and `labs` functions as necessary for each plot to refine the appearance and labeling.
+ 
+User
+instead of having separate legends, please let them mark on its lines. 
+
+So for by sex graph, "Female" is marked for the female line graph and "Male" is marked for the male line graph. 
+And by education subgroup, "No high school degree" for "Less than a high school diploma" , etc 
+
+ChatGPT
+To place labels directly on the lines in the plots, we can use the `geom_text` or `geom_text_repel` function from the `ggrepel` package to avoid overlapping labels. Here's how you can adjust the script:
+
+1. Remove the legends.
+2. Add labels directly on the lines using `geom_text` or `geom_text_repel`.
+
+Here's the updated code:
+
+```r
+# Load necessary libraries
+library(tidyverse)
+library(rstanarm)
+library(arrow)
+library(here)
+library(patchwork)
+library(ggrepel)
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Load the first dataset
+data_sex <- read_parquet(file = here::here("outputs/data/Sex_subgroup_trends.parquet"))
+data_sex$Date <- as.Date(data_sex$Date, format = "%Y-%m-%d")
+
+# Calculate the position for the label
+label_data_sex <- data_sex %>%
+  group_by(Subgroup) %>%
+  summarize(Date = max(Date), Value = max(Value))
+
+# Plotting the line graph for sex
+p_sex <- ggplot(data_sex, aes(x = Date, y = Value, group = Subgroup)) +
+  geom_line(aes(color = Subgroup)) +
+  geom_text_repel(data = label_data_sex, aes(label = Subgroup, x = Date, y = Value),
+                  nudge_x = 30, nudge_y = 0, direction = "y") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none")
+
+# Load the second dataset
+data_educ <- read_parquet(file = here::here("outputs/data/Educ_subgroup_trends.parquet"))
+data_educ$Date <- as.Date(data_educ$Date, format = "%Y-%m-%d")
+
+# Mapping simplified labels for education levels
+simplified_labels <- c("Less than a high school diploma" = "No high school degree",
+                       "High school diploma" = "High school degree",
+                       "Some college" = "Some college",
+                       "Bachelor's degree or higher" = "Bachelor’s+")
+
+# Calculate the position for the label
+label_data_educ <- data_educ %>%
+  group_by(Subgroup) %>%
+  summarize(Date = max(Date), Value = max(Value)) %>%
+  mutate(Subgroup = simplified_labels[Subgroup])
+
+# Plotting the line graph for education
+p_educ <- ggplot(data_educ, aes(x = Date, y = Value, group = Subgroup)) +
+  geom_line(aes(color = Subgroup)) +
+  geom_text_repel(data = label_data_educ, aes(label = Subgroup, x = Date, y = Value),
+                  nudge_x = 30, nudge_y = 0, direction = "y") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none")
+
+# Assuming p1 and p3 are defined elsewhere and don't need direct line labeling
+# Combine the plots into a 2x2 grid
+combined_plot <- (p1 + p_sex) / (p_educ + p3)
+print(combined_plot)
+```
+
+In this script, `p_sex` and `p_educ` are the modified plots for the "Sex" and "Education" subgroups, respectively, with labels on the lines. Adjust the `nudge_x` and `nudge_y` values in `geom_text_repel` to position the labels correctly on your graph.
+
+User
+
+ChatGPT
+
 
