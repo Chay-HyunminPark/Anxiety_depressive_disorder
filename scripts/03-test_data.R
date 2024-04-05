@@ -1,18 +1,19 @@
 #### Preamble ####
 # Purpose: Tests the codes on the cleaned dataset 
 # Author: Chay Park
-# Date: 2 April 2024
+# Date: 4 April 2024
 # Contact: chay.park@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: Install necessary packages, readdr and testthat
+# Pre-requisites: 00-install_packages, 01-download_data
 
 #### Test data ####
 # Load the necessary library
 library(testthat)
 library(readr)
+library(arrow)
 
-# Load the dataset from the CSV file
-data <- read.csv(file = here::here("inputs/data/Overall_trends.csv"))
+# Load the dataset from the parquet file
+data <- read_parquet(file = here::here("inputs/data/Overall_trends.parquet"))
 
 # Convert Date to Date type and other necessary type conversions
 data$Date <- as.Date(data$Date, format="%Y-%m-%d")

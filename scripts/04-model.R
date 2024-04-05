@@ -4,7 +4,7 @@
 # Date: 4 April 2024
 # Contact: chay.park@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
+# Pre-requisites: 00-install_packages
 
 #### Workspace setup ####
 library(tidyverse)
@@ -15,15 +15,13 @@ library(arrow)
 set.seed(853)
 
 #### Read data ####
-analysis_data <- read_parquet("outputs/data/analysis_data.csv")
-
-age_data <- read.csv(file = here::here("outputs/data/Age_subgroup_trends.csv"))
+age_data <- read_parquet(file = here::here("outputs/data/Age_subgroup_trends.parquet"))
 
 ### Model data ####
-first_model <-
+age_model <-
   stan_glm(
-    formula = flying_time ~ length + width,
-    data = analysis_data,
+    formula = Value_time ~ length + width,
+    data = age_data,
     family = gaussian(),
     prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
     prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
@@ -34,8 +32,8 @@ first_model <-
 
 #### Save model ####
 saveRDS(
-  first_model,
-  file = "outputs/models/first_model.rds"
+  age_model,
+  file = "outputs/models/age_model.rds"
 )
 
 
