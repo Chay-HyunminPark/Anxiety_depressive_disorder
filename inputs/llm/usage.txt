@@ -2035,6 +2035,128 @@ print(combined_plot)
 In this script, `p_sex` and `p_educ` are the modified plots for the "Sex" and "Education" subgroups, respectively, with labels on the lines. Adjust the `nudge_x` and `nudge_y` values in `geom_text_repel` to position the labels correctly on your graph.
 
 User
+From this code,
+
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-educandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Education"
+
+# Define the path to the data file and load it
+data <- read_parquet(file = here::here("outputs/data/Educ_subgroup_trends.parquet"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom", 
+        legend.box = "vertical",
+        legend.direction = "vertical",
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+
+First, I'd like to rename the subgroup values.
+For "Bachelor's degree or higher", rename it to "College graduate"
+For "High school diploma or GED", rename it to "High school graduate"
+For "Some college/Associate's degree", rename it to "Some college"
+For "Less than a high school diploma", rename it to "No high school degree"
+
+Next, I'd like to label the graphs respectively. Such that instead of having separate legends, I want to label a subgroup line graph for <Bachelor's degree or higher> with a label "College graduate"
+
+Meanwhile, I want to have the fonts in <Times New Roman> for all titles in the figure, that is including x-axis, y-axis, and labels
+
+ChatGPT
+To rename the subgroup values, place labels directly on the line graphs, and change the font to Times New Roman, you can modify the R code as follows:
+
+```r
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-educandtrend-graph
+#| fig-cap: "Depressive Disorder Trend by Population Subgroup by Education"
+
+library(tidyverse)
+library(arrow)
+library(here)
+library(ggrepel)
+library(extrafont)
+
+# Load the fonts
+loadfonts(device = "win")
+
+# Define the path to the data file and load it
+data <- read_parquet(file = here::here("outputs/data/Educ_subgroup_trends.parquet"))
+
+# Convert 'Date' column to Date format if it's not already
+data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
+
+# Rename the subgroup values
+data$Subgroup <- recode(data$Subgroup,
+                        "Bachelor's degree or higher" = "College graduate",
+                        "High school diploma or GED" = "High school graduate",
+                        "Some college/Associate's degree" = "Some college",
+                        "Less than a high school diploma" = "No high school degree")
+
+# Define the specific dates for the x-axis scale
+specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05", 
+                            "2021-05-10", "2021-09-13", "2022-01-10", 
+                            "2022-05-09", "2022-09-13", "2023-01-16",
+                            "2023-05-08", "2023-09-04", "2024-01-08"))
+
+# Prepare data for labels
+label_data <- data %>%
+  group_by(Subgroup) %>%
+  filter(Date == max(Date)) %>%
+  ungroup()
+
+# Plotting the line graph
+p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
+  geom_line() +
+  geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), nudge_x = 10, nudge_y = 0) +
+  geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
+  scale_x_date(breaks = specific_dates, date_labels = "%Y-%m-%d") +
+  labs(x = "Date", y = "Symptom Rates (%)") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, family = "Times New Roman"),
+        axis.text.y = element_text(family = "Times New Roman"),
+        axis.title.x = element_text(family = "Times New Roman"),
+        axis.title.y = element_text(family = "Times New Roman"),
+        legend.position = "none", 
+        plot.margin = unit(c(1, 1, 1, 1), "cm"))
+
+# Display the plot
+print(p)
+```
+
+In this script:
+
+- The `recode` function is used to rename the subgroup values in your dataset.
+- `geom_text_repel` from the `ggrepel` package is used to place labels directly on the line graphs.
+- The `theme` function is used to set the font to Times New Roman for the axis text and titles.
+- The `legend.position = "none"` removes the separate legend as the lines are now labeled directly.
+- `loadfonts()` from the `extrafont` package is used to ensure Times New Roman is loaded as a font. Make sure you have run `font_import()` at least once before in your R session to import and register the fonts.
+
+Adjust the `nudge_x` and `nudge_y` parameters in `geom_text_repel` to position the labels appropriately on the lines.
+
+User
 
 ChatGPT
 

@@ -16,6 +16,7 @@ install.packages("usethis")
 install.packages("arrow") # To allow Parquet files to be create
 install.packages("testthat") # To test
 install.packages("patchwork")
+install.packages("extrafont")
 
 # For models
 install.packages("beepr")
