@@ -328,8 +328,6 @@ print(p)
 
 # Model
 
-
-
 ## Model set-up
 
 
@@ -337,6 +335,12 @@ print(p)
 
 
 # Discussion
+
+What is done in this paper? 
+What is something that we learn about the world? 
+What is another thing that we learn about the world? 
+What are some weaknesses of what was done? 
+What is left to learn or how should we proceed in the future?
 
 ## Findings
 
