@@ -1,7 +1,7 @@
 #### Preamble ####
-# Purpose: Cleans the raw plane data recorded by National Center for Health Statistics
+# Purpose: Cleans the raw plane datas recorded by National Center for Health Statistics
 # Author: Chay Park
-# Date: 2 April 2024
+# Date: 4 April 2024
 # Contact: chay.park@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 00-install_packages, 01-download_data
