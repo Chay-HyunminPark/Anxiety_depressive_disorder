@@ -380,7 +380,7 @@ social_age_data <- social_data %>%
   filter(Indicator == "Adults who usually or always feel lonely", Group == "By Age")
 
 # Plot the stacked bar chart
-ggplot(social_age_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+graph_age <- ggplot(social_age_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
   geom_bar(stat = "identity", position = "stack") +
   labs(title = "Adults who usually or always feel lonely - By Age",
        x = NULL,
@@ -393,7 +393,7 @@ social_sex_data <- social_data %>%
   filter(Indicator == "Adults who usually or always feel lonely", Group == "By Sex")
 
 # Plot the stacked bar chart
-ggplot(social_sex_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+graph_sex <- ggplot(social_sex_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
   geom_bar(stat = "identity", position = "stack") +
   labs(title = "Adults who usually or always feel lonely - By Sex",
        x = NULL,
@@ -405,7 +405,7 @@ social_race_data <- social_data %>%
   filter(Indicator == "Adults who usually or always feel lonely", Group == "By Race/Hispanic ethnicity")
 
 # Plot the stacked bar chart
-ggplot(social_race_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+graph_race <- ggplot(social_race_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
   geom_bar(stat = "identity", position = "stack") +
   labs(title = "Adults who usually or always feel lonely - By Race",
        x = NULL,
@@ -417,12 +417,16 @@ social_educ_data <- social_data %>%
   filter(Indicator == "Adults who usually or always feel lonely", Group == "By Education")
 
 # Plot the stacked bar chart
-ggplot(social_educ_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+graph_educ <- ggplot(social_educ_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
   geom_bar(stat = "identity", position = "stack") +
   labs(title = "Adults who usually or always feel lonely - By Education",
        x = NULL,
        y = "Value") +
   theme_minimal()
+
+# Arrange graphs in single pane
+grid.arrange(graph_age, graph_sex, graph_race, graph_educ, nrow = 2, ncol = 2)
+
 ```
 
 
