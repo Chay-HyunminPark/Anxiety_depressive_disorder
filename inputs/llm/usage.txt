@@ -1,5 +1,5 @@
 LLM: ChatGPT-4.
-Date: 2 April 2024
+Date: 10 April 2024
 
 
 User
@@ -2384,15 +2384,95 @@ print(p)
 In this example, `nudge_y = 2` is used to move the labels vertically away from the lines, and `direction = "y"` ensures that the labels only move vertically. `box.padding` controls the space around the label text. You might need to adjust these values based on your specific data and desired visual output.
 
 User
-
-
-ChatGPT
-
-User
+Write me a R script to plot the stacked bar chart on "Adults who usually or always feel lonely" under the <Indicator> column. y-axis will be evaluated based on "Value" and x-axis will be "Time Period". Each stacked bar chart will have subgroup, "By Age" under the column <Group>.  
 
 ChatGPT
+To create a stacked bar chart in R for the specified data, follow these steps in the script:
+
+1. Load the necessary libraries.
+2. Read the data from the CSV file.
+3. Filter the data based on the "Indicator" column for "Adults who usually or always feel lonely" and the "Group" column for "By Age".
+4. Plot the stacked bar chart using `ggplot2`, with "Time Period" on the x-axis, "Value" on the y-axis, and the stacks differentiated by the subgroups within "By Age".
+
+Here is the R script that accomplishes this:
+
+```r
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+
+# Read the dataset
+data <- read.csv("/mnt/data/Lack_of_Social_Connection_20240401.csv")
+
+# Filter data for the indicator "Adults who usually or always feel lonely" and "By Age" subgroup
+filtered_data <- data %>%
+  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Age")
+
+# Plot the stacked bar chart
+ggplot(filtered_data, aes(x = `Time Period`, y = Value, fill = Subgroup)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Adults who usually or always feel lonely - By Age",
+       x = "Time Period",
+       y = "Value") +
+  theme_minimal()
+```
+
+Make sure the file path to `read.csv` is correctly set to where your CSV file is located. This script will produce a stacked bar chart showing the proportion of adults who usually or always feel lonely, broken down by age group, across different time periods.
 
 User
+I want to put these stacked bar charts into one single pane. I'm working on a R studio and writing script in R. Each graph has figure title. And I want to label them directly on the graphs not having it as a separate legend. 
+
+# Define the path to the data file and load it
+social_data <- read_parquet(file = here::here("outputs/data/Social_Connection.parquet"))
+
+# Filter data for the indicator "Adults who usually or always feel lonely" and "By Age" subgroup
+social_age_data <- social_data %>%
+  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Age")
+
+# Plot the stacked bar chart
+ggplot(social_age_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Adults who usually or always feel lonely - By Age",
+       x = NULL,
+       y = "Value") +
+  theme_minimal()
+
+
+# Filter data for the indicator "Adults who usually or always feel lonely" and "By Sex" subgroup
+social_sex_data <- social_data %>%
+  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Sex")
+
+# Plot the stacked bar chart
+ggplot(social_sex_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Adults who usually or always feel lonely - By Sex",
+       x = NULL,
+       y = "Value") +
+  theme_minimal()
+
+# Filter data for the indicator "Adults who usually or always feel lonely" and "By Race/Hispanic ethnicity" subgroup
+social_race_data <- social_data %>%
+  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Race/Hispanic ethnicity")
+
+# Plot the stacked bar chart
+ggplot(social_race_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Adults who usually or always feel lonely - By Race",
+       x = NULL,
+       y = "Value") +
+  theme_minimal()
+
+# Filter data for the indicator "Adults who usually or always feel lonely" and "By Education" subgroup
+social_educ_data <- social_data %>%
+  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Education")
+
+# Plot the stacked bar chart
+ggplot(social_educ_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Adults who usually or always feel lonely - By Education",
+       x = NULL,
+       y = "Value") +
+  theme_minimal()
 
 ChatGPT
 
