@@ -376,19 +376,54 @@ print(p)
 social_data <- read_parquet(file = here::here("outputs/data/Social_Connection.parquet"))
 
 # Filter data for the indicator "Adults who usually or always feel lonely" and "By Age" subgroup
-filtered_data <- social_data %>%
+social_age_data <- social_data %>%
   filter(Indicator == "Adults who usually or always feel lonely", Group == "By Age")
 
 # Plot the stacked bar chart
-ggplot(filtered_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+ggplot(social_age_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
   geom_bar(stat = "identity", position = "stack") +
   labs(title = "Adults who usually or always feel lonely - By Age",
-       x = "Time Period",
+       x = NULL,
        y = "Value") +
   theme_minimal()
 
-```
 
+# Filter data for the indicator "Adults who usually or always feel lonely" and "By Sex" subgroup
+social_sex_data <- social_data %>%
+  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Sex")
+
+# Plot the stacked bar chart
+ggplot(social_sex_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Adults who usually or always feel lonely - By Sex",
+       x = NULL,
+       y = "Value") +
+  theme_minimal()
+
+# Filter data for the indicator "Adults who usually or always feel lonely" and "By Race/Hispanic ethnicity" subgroup
+social_race_data <- social_data %>%
+  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Race/Hispanic ethnicity")
+
+# Plot the stacked bar chart
+ggplot(social_race_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Adults who usually or always feel lonely - By Race",
+       x = NULL,
+       y = "Value") +
+  theme_minimal()
+
+# Filter data for the indicator "Adults who usually or always feel lonely" and "By Education" subgroup
+social_educ_data <- social_data %>%
+  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Education")
+
+# Plot the stacked bar chart
+ggplot(social_educ_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Adults who usually or always feel lonely - By Education",
+       x = NULL,
+       y = "Value") +
+  theme_minimal()
+```
 
 
 # Model
