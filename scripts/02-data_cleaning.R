@@ -158,3 +158,23 @@ by_educ_data <- dep_data %>%
 # Save the 'By Age' data to a new parquet file in the specified directory
 write_parquet(by_educ_data, "outputs/data/Educ_subgroup_trends.parquet")
 
+
+#### Second data ####
+
+# Path to your raw CSV file
+social_csv_file_path <- "inputs/data/Lack_of_Social_Connection.csv"
+
+# Read the CSV file into a dataframe
+data <- read.csv(social_csv_file_path)
+
+# Specify the path for the output Parquet file
+parquet_file_path <- "outputs/data/Social_Connection.parquet"
+
+# Write the dataframe to a Parquet file
+write_parquet(data, parquet_file_path)
+
+# Save it in CSV format to view the files
+
+# Specify the path for the output CSV file
+csv_file_path <- "outputs/data/Social_Connection.csv"
+write_csv(data, csv_file_path)
