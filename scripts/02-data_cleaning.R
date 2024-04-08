@@ -157,3 +157,4 @@ by_educ_data <- dep_data %>%
 
 # Save the 'By Age' data to a new parquet file in the specified directory
 write_parquet(by_educ_data, "outputs/data/Educ_subgroup_trends.parquet")
+
