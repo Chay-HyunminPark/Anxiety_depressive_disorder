@@ -370,6 +370,24 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 print(p)
 
 ```
+```{r}
+
+# Define the path to the data file and load it
+social_data <- read_parquet(file = here::here("outputs/data/Social_Connection.parquet"))
+
+# Filter data for the indicator "Adults who usually or always feel lonely" and "By Age" subgroup
+filtered_data <- social_data %>%
+  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Age")
+
+# Plot the stacked bar chart
+ggplot(filtered_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Adults who usually or always feel lonely - By Age",
+       x = "Time Period",
+       y = "Value") +
+  theme_minimal()
+
+```
 
 
 
