@@ -59,7 +59,15 @@ The study focuses on answering the following research questions:
 
 ## Methodology
 
+The data on the trend in US anxiety and depressive disorder rates, measured as ~ from 2020 to 2024, was sourced from the Centers for Disease Control and Prevention (CDC). Alongside with National Estimate in which covers the whole population, trends in anxiety and depressive disorder rates by population subgroup, specifically categorized by age, race and ethnicity, sex, education groups were gathered from the National Center for Health Statistics (NCHS). The data is freely available at https://data.cdc.gov/NCHS/Indicators-of-Anxiety-or-Depression-Based-on-Repor/8pt5-q6wp/about_data, with raw files located in the inputs/data on the GitHub repository. 
+
 ## Features
+
+In this paper, data validation is conducted using an R script file named '03-test_data' to ensure the accuracy of the dataset obtained directly from the source. The paper utilizes both 'Indicators_of_Anxiety_or_Depression_Based_on_Reported_Frequency_of_Symptoms_During_Last_7_Days_20240401' and 'Lack_of_Social_Connection' CSV files. Then by the characteristics of the group, the data sets are separately saved as 'Age_subgroup_trends' where it only saves the rows with 'By Age' under the 'Group' column. Similarly, 'Educ_subgroup_trends' are the dataset only with the rows 'By Education' under the 'Group' column to identify the patterns of each population subgroup with classification of highest educational attainment. All CSV files are saved as parquet file as Parquet's columnar storage format. As opposed to row-based formats like CSV or Excel, Parquet allows it to efficiently handle analytical queries by accessing only the necessary columns of data, which reduces storage reads, improves query performance, and lowers storage costs.
+
+The column 'Value' is used to denote the symptom rate on the y-axis. 
+Column 'Time Period End Date' is used to denote the range of the period, a date for the x-axis.
+
 
 # Results
 
