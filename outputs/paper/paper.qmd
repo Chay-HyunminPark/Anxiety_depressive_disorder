@@ -5,7 +5,7 @@ author: Chay Park
 thanks: "Code and data are available at: https://github.com/Chay-HyunminPark/Anxiety_depressive_disorder."
 date: today
 date-format: long
-abstract: "This study explores how socio-cultural factors like age, sex, race/ethnicity, and education level influenced depressive disorder in the U.S. during and after the COVID-19 pandemic, analyzing data from 2020 to 2024. Using advanced statistical methods in R, it uncovered significant variations in mental health impacts across different demographic groups. The research reveals a complex relationship between socio-cultural factors and mental health, highlighting the increased vulnerability of certain populations during global crises. These insights are crucial for developing targeted public health strategies to mitigate mental health issues during and after pandemics, enhancing our understanding of how socio-cultural dynamics shape mental wellness in times of crisis."
+abstract: "This study explores how socio-cultural factors like age, sex, race/ethnicity, and education level influenced depressive disorder in the U.S. during and after the COVID-19 pandemic, analyzing data from 2020 to 2024. Using advanced statistical methods in R, it uncovered significant variations in mental health impacts across different demographic groups. The research reveals a complex relationship between socio-cultural factors and mental health, highlighting the increased vulnerability of certain populations during global crises. The findings contribute to the development of targeted public health measures to alleviate mental health issues amid and following pandemics, enhancing our understanding of the impact of socio-cultural factors on mental well-being in times of crisis."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -31,7 +31,7 @@ library(gridExtra)
 
 # Introduction
 
-Depression and anxiety are not only prevalent but escalating issues in the modern world, affecting individuals across the globe regardless of demographic factors (World Health Organization, 2021). These mental health challenges have been further exacerbated by the COVID-19 pandemic, which led to widespread social and economic upheaval (Brooks et al., 2020). While various studies have explored the impact of the pandemic on mental health, there remains a significant gap in understanding the nuanced interactions between socio-cultural factors and the prevalence of anxiety and depressive disorders during this period (Pfefferbaum & North, 2020).
+Depression and anxiety are not only prevalent but escalating issues in the modern world, affecting individuals across the globe regardless of demographic factors (World Health Organization, 2021). These mental health challenges have been further exacerbated by the COVID-19 pandemic, which led to widespread social and economic upheaval (Brooks et al., 2020). While various studies have explored the impact of the pandemic on mental health, there remains a significant gap in understanding the interactions between socio-cultural factors and the prevalence of anxiety and depressive disorders during this period (Pfefferbaum & North, 2020).
 
 This paper addresses this gap by analyzing data from the U.S. Census Bureau's Household Pulse Survey, initiated in response to the pandemic to assess its effects on American households, including mental wellness (U.S. Census Bureau, 2020). Our analysis focuses on the correlation between the prevalence of anxiety or depressive disorders and socio-cultural factors such as age, sex, race/ethnicity, and education level during the pandemic and post pandemic years of 2020 to 2024. Specifically, the estimand of this study is the difference in the rates of symptoms of anxiety or depressive disorders across individuals, correlated with socio-cultural factors including age, sex, race/ethnicity, and education level.
 
@@ -39,7 +39,7 @@ Employing a quantitative methodology, this paper utilizes R (R Core Team 2020) f
 
 The importance of this research lies in its potential to inform public health policies and interventions, aiming to mitigate the adverse effects of such global crises on mental health (Xiong et al., 2020). By understanding the specific socio-cultural factors that contribute to increased vulnerability to anxiety and depressive disorders, targeted strategies can be developed to support affected populations more effectively.
 
-The paper is structured to first present the trend analysis of anxiety and depressive disorder rates in the U.S. from 2020 to 2024, followed by an examination of how these rates vary across different demographic groups. Subsequent sections delve into the statistical methods and results for each research question, culminating in a discussion that synthesizes the findings and explores their broader implications for mental health research and policy. The conclusion summarizes the key insights, acknowledges the limitations of the study, and suggests avenues for future research.
+The paper is structured to first present the trend analysis of anxiety and depressive disorder rates in the U.S. from 2020 to 2024, followed by an examination of how these rates vary across different demographic groups. Subsequent sections discuss the statistical methods and results for each research question. It opens up the findings and let the world explores their broader implications for mental health research and policy. The conclusion summarizes the key insights, acknowledges the limitations of the study, and suggests avenues for future research.
 
 The study focuses on answering the following research questions:
 
@@ -56,10 +56,18 @@ The study focuses on answering the following research questions:
 * Is there codependency of social connection on one's depression level?  
 
 # Data {#sec-data}
-
+---- A thorough discussion of measurement, relating to the dataset, is provided in the data section. ----
 ## Methodology
 
+The U.S. Census Bureau, in collaboration with five federal agencies, launched the Household Pulse Survey to produce data on the social and economic impacts of Covid-19 on American households. The Household Pulse Survey was designed to gauge the impact of the pandemic on employment status, consumer spending, food security, housing, education disruptions, and dimensions of physical and mental wellness (National Center for Health Statistics, 2024). The data on the trend in US anxiety and depressive disorder rates, measured as ~ from 2020 to 2024, was sourced from the Centers for Disease Control and Prevention (CDC). Alongside with National Estimate in which covers the whole population, trends in anxiety and depressive disorder rates by population subgroup, specifically categorized by age, race and ethnicity, sex, education groups were gathered from the National Center for Health Statistics (NCHS). The data is freely available at https://data.cdc.gov/NCHS/Indicators-of-Anxiety-or-Depression-Based-on-Repor/8pt5-q6wp/about_data, with raw files located in the inputs/data on the GitHub repository. 
+
 ## Features
+
+In this paper, data validation is conducted using an R script file named '03-test_data' to ensure the accuracy of the dataset obtained directly from the source. The paper utilizes both 'Indicators_of_Anxiety_or_Depression_Based_on_Reported_Frequency_of_Symptoms_During_Last_7_Days_20240401' and 'Lack_of_Social_Connection' CSV files. Then by the characteristics of the group, the data sets are separately saved as 'Age_subgroup_trends' where it only saves the rows with 'By Age' under the 'Group' column. Similarly, 'Educ_subgroup_trends' are the dataset only with the rows 'By Education' under the 'Group' column to identify the patterns of each population subgroup with classification of highest educational attainment. All CSV files are saved as parquet file as Parquet's columnar storage format. As opposed to row-based formats like CSV or Excel, Parquet allows it to efficiently handle analytical queries by accessing only the necessary columns of data, which reduces storage reads, improves query performance, and lowers storage costs.
+
+The column 'Value' is used to denote the symptom rate on the y-axis. 
+Column 'Time Period End Date' is used to denote the range of the period, a date for the x-axis.
+
 
 # Results
 
@@ -443,8 +451,6 @@ grid.arrange(graph_age, graph_sex, graph_race, graph_educ, nrow = 2, ncol = 2)
 What is done in this paper? 
 What is something that we learn about the world? 
 What is another thing that we learn about the world? 
-What are some weaknesses of what was done? 
-What is left to learn or how should we proceed in the future?
 
 ## Findings
 
@@ -452,12 +458,14 @@ If my paper were 10 pages, then should be be at least 2.5 pages. The discussion 
 
 ## Ethical Implication
 
-## Limitation
+## Limitation 
 
-The survey was designed to meet the goal of accurate and timely weekly estimates. Hence, it was conducted by an internet questionnaire, with invitations to participate sent by email and text message. 
+-- What are some weaknesses of what was done? -- 
+The survey was designed to meet the goal of accurate and timely weekly estimates. Hence, it was conducted by an internet questionnaire, with invitations to participate sent by email and text message (National Center for Health Statistics, 2024). Internet questionnaires face several significant challenges. One of the primary concerns is self-selection bias, where the survey tends to attract respondents who are particularly interested in the topic, which can skew the results and limit their generalizability. Additionally, these surveys may not reach a diverse demographic due to varying levels of internet access across different population segments, thus excluding certain groups, such as older adults or lower-income individuals, and potentially leading to a lack of representativeness. Respondents might also misunderstand or misinterpret questions without the opportunity for real-time clarification, compromising the accuracy of the data collected. Privacy and security concerns are prevalent too, as individuals may be hesitant to share personal or sensitive information online for fear of data breaches or doubts about the survey platform's security measures. Lastly, the validity and honesty of responses are at risk; while the anonymity of online surveys can encourage candidness, it might also lead to less thoughtful or dishonest answers, affecting the reliability of the survey outcomes (Dillman, Smyth, & Christian, 2014; Morling, 2018).
 
 ## Future Research
-
+-- What is left to learn or how should we proceed in the future? --
+For future research, survey can further ask what are the factors that affect their mood. 
 
 \newpage
 
