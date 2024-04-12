@@ -74,7 +74,30 @@ Column 'Time Period End Date' is used to denote the range of the period, a date 
 
 ## Trend in US Anxiety and Depressive Disorder Rates
 
-The @fig-andtrend-graph overall trend in US anxiety and depressive disorder rates fluctuate over time, with the highest rates recorded in the end of 2020 and the beginning of 2021 at an average rate above 40% symptom rates for both anxiety disorder or depressive disorder. Subsequently, symptoms of anxiety disorder followed by the second showing similar trends as the first. Lastly, symptoms of depressive disorder show the relatively lower rates. + add more. 
+The @fig-andtrend-graph overall trend in US anxiety and depressive disorder rates fluctuate over time, with the highest rates recorded in the end of 2020 and the beginning of 2021 at an average rate above 40% symptom rates for both anxiety disorder or depressive disorder. Subsequently, symptoms of anxiety disorder followed by the second showing similar trends as the first. Lastly, symptoms of depressive disorder show the relativelys lower rates. + add more. 
+
+## Trend in US Anxiety and Depressive Disorder Rates
+
+The overall trend in US anxiety and depressive disorder rates shows significant fluctuations, with several notable peaks indicating heightened rates of reported symptoms. For instance, one of the highest peaks occurs in early 2021, where the rate of symptoms for combined anxiety and depressive disorders reaches approximately 45%. This peak reflects a substantial increase compared to earlier periods. Another significant peak, observed in mid-2022, sees rates approaching closer to 36-37%, illustrating another period of notable increase in symptoms among the population.
+
+These peaks are interspersed with valleys, such as in late 2020, where rates temporarily dip to around 25%, showing the episodic nature of these conditions. The plot also highlights a general trend of increasing rates from the onset of the data in 2020 through to peaks in 2021, followed by some fluctuation but maintaining relatively high levels overall.
+
+The data indicates that the combined symptom rates of both anxiety and depressive disorders generally present higher values, consistently staying above 30% after the initial 2020 data points. This trend underscores the overlapping nature of these mental health issues and their persistent impact on the US population.
+
+The graph, depicted as @fig-andtrend-graph, provides a line graph visualization of these rates over time. This visual representation allows for clear observation of trends and seasonal variations, with specific dates marked on the x-axis to aid in pinpointing changes. For example, a significant increase is noted as we move from late 2020 into early 2021, correlating with various global and national events that may have influenced mental health. 
+
+## Trends in Depressive Disorder Rates by Population Subgroup by Age
+
+This analysis highlights the variations in depressive disorder rates across different age subgroups in the US, utilizing data up to early 2024. The visualization provided in the graph titled @fig-ageandtrend-graph reveals distinct temporal trends across various age demographics, effectively illustrating how depressive symptoms fluctuate over time among these groups.
+
+### Data Handling and Visualization Techniques
+The data is sourced from a Parquet file, ensuring robust and efficient handling of large datasets. For accuracy in temporal analyses, the 'Date' column is meticulously converted to a date format. The script focuses on depressive symptoms by age subgroup, filtering the data to showcase how these rates vary across different age demographics. A line graph, enhanced with different colors for each age group, facilitates easy tracking of each subgroup's symptom rates over time.
+
+### Annotation and Aesthetic Customization
+On January 10, 2022, the graph incorporates annotations for each age group, pinpointing the rates of depressive symptoms at this specific date. These annotations are strategically placed using `geom_text_repel` to prevent overlap, ensuring clarity and readability. The graph is further refined with horizontal lines at regular 10% intervals from 0 to 50%, providing a scale to assess the symptom rates. Custom dates along the x-axis highlight key moments in the timeline, aiding in the analysis of changes over time.
+
+### Thematic and Stylistic Elements
+The plot employs a classic theme with tailored font settings, which not only enhances the visual appeal but also ensures the readability of textual elements. The absence of a legend, dictated by the plot's customization, focuses attention on the lines themselves, each representing a different age group’s trend.
 
 ```{r}
 #| echo: false
