@@ -74,16 +74,6 @@ Column 'Time Period End Date' is used to denote the range of the period, a date 
 
 ## Trend in US Anxiety and Depressive Disorder Rates
 
-The @fig-andtrend-graph overall trend in US anxiety and depressive disorder rates fluctuate over time, with the highest rates recorded in the end of 2020 and the beginning of 2021 at an average rate above 40% symptom rates for both anxiety disorder or depressive disorder. Subsequently, symptoms of anxiety disorder showing similar trends with about 10% gap in-between. Lastly, the symptoms of depressive disorder followed by the anxiety disorder records the lowest out of three indicators, with an average of 23% symptom rates over the period. 
-
-The overall trend in US anxiety and depressive disorder rates shows significant fluctuations, with several notable peaks indicating heightened rates of reported symptoms. For instance, one of the highest peaks occurs in early 2021, where the rate of symptoms for combined anxiety and depressive disorders reaches approximately 45%. This peak reflects a substantial increase compared to earlier periods. Another significant peak, observed in mid-2022, sees rates approaching closer to 36-37%, illustrating another period of notable increase in symptoms among the population.
-
-These peaks are interspersed with valleys, such as in late 2020, where rates temporarily dip to around 25%, showing the episodic nature of these conditions. The plot also highlights a general trend of increasing rates from the onset of the data in 2020 through to peaks in 2021, followed by some fluctuation but maintaining relatively high levels overall.
-
-The data indicates that the combined symptom rates of both anxiety and depressive disorders generally present higher values, consistently staying above 30% after the initial 2020 data points. This trend underscores the overlapping nature of these mental health issues and their persistent impact on the US population.
-
-The graph, depicted as @fig-andtrend-graph, provides a line graph visualization of these rates over time. This visual representation allows for clear observation of trends and seasonal variations, with specific dates marked on the x-axis to aid in pinpointing changes. For example, a significant increase is noted as we move from late 2020 into early 2021, correlating with various global and national events that may have influenced mental health. 
-
 ```{r}
 #| echo: false
 #| eval: true
@@ -138,20 +128,19 @@ print(p)
 
 ```
 
+The @fig-andtrend-graph overall trend in US anxiety and depressive disorder rates fluctuate over time, with the highest rates recorded in the end of 2020 and the beginning of 2021 at an average rate above 40% symptom rates for both anxiety disorder or depressive disorder. Subsequently, symptoms of anxiety disorder showing similar trends with about 10% gap in-between. Lastly, the symptoms of depressive disorder followed by the anxiety disorder records the lowest out of three indicators, with an average of 23% symptom rates over the period. 
+
+The overall trend in US anxiety and depressive disorder rates shows significant fluctuations, with several notable peaks indicating heightened rates of reported symptoms. For instance, one of the highest peaks occurs in early 2021, where the rate of symptoms for combined anxiety and depressive disorders reaches approximately 45%. This peak reflects a substantial increase compared to earlier periods. Another significant peak, observed in mid-2022, sees rates approaching closer to 36-37%, illustrating another period of notable increase in symptoms among the population.
+
+These peaks are interspersed with valleys, such as in late 2020, where rates temporarily dip to around 25%, showing the episodic nature of these conditions. The plot also highlights a general trend of increasing rates from the onset of the data in 2020 through to peaks in 2021, followed by some fluctuation but maintaining relatively high levels overall.
+
+The data indicates that the combined symptom rates of both anxiety and depressive disorders generally present higher values, consistently staying above 30% after the initial 2020 data points. This trend underscores the overlapping nature of these mental health issues and their persistent impact on the US population.
+
+The graph, depicted as @fig-andtrend-graph, provides a line graph visualization of these rates over time. This visual representation allows for clear observation of trends and seasonal variations, with specific dates marked on the x-axis to aid in pinpointing changes. For example, a significant increase is noted as we move from late 2020 into early 2021, correlating with various global and national events that may have influenced mental health. 
+
 ## Trends in Depressive Disorder Rates by Population Subgroup
 
 ### Population subgroup by age
-
-@fig-ageandtrend-graph illustrates the trends in depressive disorder rates by population subgroup segmented by age, covering the period from May 2020 to March 2024. This graph reveals several key insights about how depressive symptoms have fluctuated across different age groups during and potentially influenced by the ongoing global and societal changes.
-
-### Analysis of Trends by Age Group
-The line graph distinguishes each age group with a separate line, showing the trend of depressive disorder rates for each demographic:
-
-1. **Young Adults (18-29 years):** This group shows relatively higher rates of depressive symptoms throughout the period, with peaks that suggest increased vulnerability during certain times. Notable spikes might correlate with specific events or seasons, indicating external impacts on mental health.
-
-2. **Middle-aged Groups (30-49 years):** These lines show moderate fluctuation but generally less variance compared to younger adults. This could indicate a more stable life situation or better coping mechanisms but still reflects noticeable impacts from external factors.
-
-3. **Older Adults (50 years and above):** Initially, older adults show lower rates of depressive symptoms. However, there is a trend of increasing rates as the period progresses.
 
 ```{r}
 #| echo: false
@@ -212,14 +201,18 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 print(p)
 
 ```
+@fig-ageandtrend-graph illustrates the trends in depressive disorder rates by population subgroup segmented by age, covering the period from May 2020 to March 2024. This graph reveals several key insights about how depressive symptoms have fluctuated across different age groups during and potentially influenced by the ongoing global and societal changes.
+
+### Analysis of Trends by Age Group
+The line graph distinguishes each age group with a separate line, showing the trend of depressive disorder rates for each demographic:
+
+1. **Young Adults (18-29 years):** This group shows relatively higher rates of depressive symptoms throughout the period, with peaks that suggest increased vulnerability during certain times. Notable spikes might correlate with specific events or seasons, indicating external impacts on mental health.
+
+2. **Middle-aged Groups (30-49 years):** These lines show moderate fluctuation but generally less variance compared to younger adults. This could indicate a more stable life situation or better coping mechanisms but still reflects noticeable impacts from external factors.
+
+3. **Older Adults (50 years and above):** Initially, older adults show lower rates of depressive symptoms. However, there is a trend of increasing rates as the period progresses.
 
 ## Trends in Depressive Disorder Rates by Population Subgroup by Sex
-
-@fig-sexandtrend-graph differentiates between the two sex subgroups, highlighting the trends in depressive disorder rates for each:
-
-Female Subgroup: This line consistently shows higher rates of depressive symptoms compared to the male subgroup. The trend line for females exhibits several pronounced peaks which suggest periods of increased stress or exacerbation of symptoms. The higher overall symptom rates in this subgroup might reflect the broader social, economic, and perhaps biological factors that influence mental health disparities between sexes.
-
-Male Subgroup: Although the rates for the male subgroup are generally lower than those for females, the trend line still shows significant fluctuation with similar peaks and troughs, indicating that males are also significantly affected by the same factors that increase depressive symptoms.
 
 ### Population subgroup by sex
 
@@ -273,18 +266,13 @@ p + geom_text_repel(
 )
 
 ```
+@fig-sexandtrend-graph differentiates between the two sex subgroups, highlighting the trends in depressive disorder rates for each:
+
+1. **Female Subgroup:** This line consistently shows higher rates of depressive symptoms compared to the male subgroup. The trend line for females exhibits several pronounced peaks which suggest periods of increased stress or exacerbation of symptoms. The higher overall symptom rates in this subgroup might reflect the broader social, economic, and perhaps biological factors that influence mental health disparities between sexes.
+
+2. **Male Subgroup:** Although the rates for the male subgroup are generally lower than those for females, the trend line still shows significant fluctuation with similar peaks and troughs, indicating that males are also significantly affected by the same factors that increase depressive symptoms.
 
 ## Trends in Depressive Disorder Rates by Population Subgroup by Race and Ethnicity
-
-The line graph in @fig-raceandtrend-graph shows the depressive disorder rates for several race and ethnicity subgroups, including Hispanic, Caucasian, African American, Asian, and Other (Non-Hispanic, other races and multiple races). Each line represents the trend within a specific subgroup, providing a visual representation of how symptom rates have evolved over the specified period.
-
-Hispanic and African American Subgroups: These lines indicate relatively higher rates of depressive symptoms compared to other groups. 
-
-Caucasian Subgroup: This group generally shows lower symptom rates than the Hispanic and African American subgroups but follows a similar trend of fluctuations. 
-
-Asian Subgroup: Typically, this line shows the lowest symptom rates among the subgroups. 
-
-Other (Non-Hispanic, Other Races and Multiple Races): This category shows a unique trend with variability. 
 
 ```{r}
 #| echo: false
@@ -351,22 +339,17 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 print(p)
 
 ```
+The line graph in @fig-raceandtrend-graph shows the depressive disorder rates for several race and ethnicity subgroups, including Hispanic, Caucasian, African American, Asian, and Other (Non-Hispanic, other races and multiple races). Each line represents the trend within a specific subgroup, providing a visual representation of how symptom rates have evolved over the specified period.
+
+1. **Hispanic and African American Subgroups:** These lines indicate relatively higher rates of depressive symptoms compared to other groups. 
+
+2. **Caucasian Subgroup:** This group generally shows lower symptom rates than the Hispanic and African American subgroups but follows a similar trend of fluctuations. 
+
+3. **Asian Subgroup:** Typically, this line shows the lowest symptom rates among the subgroups. 
+
+4. **Other (Non-Hispanic, Other Races and Multiple Races):** This category shows a unique trend with variability. 
 
 ## Trends in Depressive Disorder Rates by Population Subgroup by Education
-
-This analysis highlights the variations in depressive disorder rates across different educational subgroups in the US, utilizing data from mid 2020 up to early 2024. The visualization provided in the @fig-educationandtrend-graph reveals distinct temporal trends across various education demographics, illustrating how depressive symptoms fluctuate over time among these groups.
-
-Detailed Analysis of Trends by Education Level
-@fig-educandtrend-graph presents the depressive disorder rates for several educational subgroups, including those with a college degree or higher, some college or an associate's degree, a high school diploma or GED, and less than a high school diploma. Each line represents the trend within a specific educational subgroup, offering a visual representation of how mental health issues vary based on educational attainment.
-
-College Graduate or Higher: This subgroup typically shows the lowest rates of depressive symptoms, which might indicate better access to resources, stronger economic stability, or higher awareness and utilization of mental health services.
-
-Some College/Associate's Degree: Individuals in this group exhibit slightly higher rates than those with higher education but still lower than the less educated groups. This might reflect a mid-level access to resources and varying levels of stress related to educational and career expectations.
-
-High School Diploma or GED: This subgroup shows higher rates of depressive symptoms compared to those with more education. The increased rates could be linked to economic challenges, job market limitations, or the stress associated with lower social mobility.
-
-Less Than a High School Diploma: This group consistently shows the highest rates of depressive symptoms, indicating significant vulnerabilities. Factors such as lower economic stability, limited access to healthcare, and higher life stressors likely contribute to these higher rates.
-
 
 ```{r}
 #| echo: false
@@ -433,7 +416,27 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 print(p)
 
 ```
+
+This analysis highlights the variations in depressive disorder rates across different educational subgroups in the US, utilizing data from mid 2020 up to early 2024. The visualization provided in the @fig-educationandtrend-graph reveals distinct temporal trends across various education demographics, illustrating how depressive symptoms fluctuate over time among these groups.
+
+Detailed Analysis of Trends by Education Level
+@fig-educandtrend-graph presents the depressive disorder rates for several educational subgroups, including those with a college degree or higher, some college or an associate's degree, a high school diploma or GED, and less than a high school diploma. Each line represents the trend within a specific educational subgroup, offering a visual representation of how mental health issues vary based on educational attainment.
+
+1. **College Graduate or Higher:** This subgroup typically shows the lowest rates of depressive symptoms, which might indicate better access to resources, stronger economic stability, or higher awareness and utilization of mental health services.
+
+2. **Some College/Associate's Degree:** Individuals in this group exhibit slightly higher rates than those with higher education but still lower than the less educated groups. This might reflect a mid-level access to resources and varying levels of stress related to educational and career expectations.
+
+3. **High School Diploma or GED:** This subgroup shows higher rates of depressive symptoms compared to those with more education. The increased rates could be linked to economic challenges, job market limitations, or the stress associated with lower social mobility.
+
+4. **Less Than a High School Diploma:** This group consistently shows the highest rates of depressive symptoms, indicating significant vulnerabilities. Factors such as lower economic stability, limited access to healthcare, and higher life stressors likely contribute to these higher rates.
+
 ```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-alonetrend-graph
+#| fig-cap: "Adults who usually or always feel lonely"
 
 # Define the path to the data file and load it
 social_data <- read_parquet(file = here::here("outputs/data/Social_Connection.parquet"))
