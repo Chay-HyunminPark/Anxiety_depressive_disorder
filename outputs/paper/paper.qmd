@@ -192,12 +192,7 @@ print(p)
 
 ```
 
-<<<<<<< HEAD
-=======
-Overall, the younger the age group is, the higher the symptom rates are. 
-
->>>>>>> 604a956a60e0351c50d894e088224c25f2f923b5
-@fig-ageandtrend-graph illustrates the trends in depressive disorder rates by population subgroup segmented by age, covering the period from May 2020 to March 2024. This graph reveals several key insights about how depressive symptoms have fluctuated across different age groups during and potentially influenced by the ongoing global and societal changes. The line graph distinguishes each age group with a separate line, showing the trend of depressive disorder rates for each demographic:
+Overall, the younger the age group is, the higher the symptom rates are. @fig-ageandtrend-graph illustrates the trends in depressive disorder rates by population subgroup segmented by age, covering the period from May 2020 to March 2024. This graph reveals several key insights about how depressive symptoms have fluctuated across different age groups during and potentially influenced by the ongoing global and societal changes. The line graph distinguishes each age group with a separate line, showing the trend of depressive disorder rates for each demographic:
 
 1. **Young Adults (18-29 years):** This group shows relatively higher rates of depressive symptoms throughout the period, with peaks that suggest increased vulnerability during certain times. Notable spikes might correlate with specific events or seasons, indicating external impacts on mental health. During the period, the symptom rates of this group are generally 10% higher than the second highest age group. Moreover, it is observed that there is 20% difference gap with the lowest symptom rates age group, 80 years and above. 
 
