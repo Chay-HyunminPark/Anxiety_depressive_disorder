@@ -202,11 +202,12 @@ print(p)
 ```
 @fig-ageandtrend-graph illustrates the trends in depressive disorder rates by population subgroup segmented by age, covering the period from May 2020 to March 2024. This graph reveals several key insights about how depressive symptoms have fluctuated across different age groups during and potentially influenced by the ongoing global and societal changes. The line graph distinguishes each age group with a separate line, showing the trend of depressive disorder rates for each demographic:
 
-1. **Young Adults (18-29 years):** This group shows relatively higher rates of depressive symptoms throughout the period, with peaks that suggest increased vulnerability during certain times. Notable spikes might correlate with specific events or seasons, indicating external impacts on mental health.
+1. **Young Adults (18-29 years):** This group shows relatively higher rates of depressive symptoms throughout the period, with peaks that suggest increased vulnerability during certain times. Notable spikes might correlate with specific events or seasons, indicating external impacts on mental health. During the period, the symptom rates of this group are generally 10% higher than the second highest age group. Moreover, it is observed that there is 20% difference gap with the lowest symptom rates age group, 80 years and above. 
 
-2. **Middle-aged Groups (30-49 years):** These lines show moderate fluctuation but generally less variance compared to younger adults. This could indicate a more stable life situation or better coping mechanisms but still reflects noticeable impacts from external factors.
+2. **Middle-aged Groups (40-59 years):**This line show moderate fluctuation but generally less variance compared to younger adults or older adults. Middle-aged groups generally locate in between 30 -39 years young adult group and 60 - 69 years old adults group. However, on 2023 May, middle-aged group 40 - 49 years exceeds 30 - 39 years young adults group by a few percentage of symptom rates. Overall, both 40 - 49 years age group and 50 - 59 years age group demonstrate similar trends with some points where symptom rates of 50 - 59 years age group surpassed 40 - 49 years age group. For instance, 2021 March and 2022 September. 
 
-3. **Older Adults (50 years and above):** Initially, older adults show lower rates of depressive symptoms. However, there is a trend of increasing rates as the period progresses.
+3. **Old Adults (80 years and above):** Most fluctuating age groups, with a peak in 2021 January and multiple lowest peaks including 2021 July, 2022 March, and 2022 August. This group still score below than majority of the age groups but 
+
 
 ### Population subgroup by sex
 
