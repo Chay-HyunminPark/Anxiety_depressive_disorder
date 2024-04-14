@@ -326,9 +326,9 @@ print(p)
 
 ```
 
-The line graph in @fig-raceandtrend-graph shows the depressive disorder rates for several race and ethnicity subgroups, including Hispanic, Caucasian, African American, Asian, and Other (Non-Hispanic, other races and multiple races). Each line represents the trend within a specific subgroup, providing a visual representation of how symptom rates have evolved over the specified period.
+The analysis of depressive disorder rates among various racial and ethnic groups @fig-raceandtrend-graph reveals distinct patterns of mental health disparities from 2020 to 2024. The data, visualized through a line graph, indicates varying symptom rates across five subgroups: Hispanic, Caucasian, African American, Asian, and Other. 
 
-1. **Hispanic and African American Subgroups:** These lines indicate relatively higher rates of depressive symptoms compared to other groups. 
+1. **Hispanic and African American Subgroups:** Both subgroups exhibit relatively higer rates od depressive symptoms throughout the observed period compared to other groups. This may suggest a greater impact of socio-economic and possibly systemic factors affecting these communities disproportionately. The maximum rates observed for Hispanis and African Americans were 41.10% and 41.43%, respectively, with Hispanics showing a minimum rate significantly lower at 18.77%, suggesting more substantial fluctuatinos. 
 
 2. **Caucasian Subgroup:** This group generally shows lower symptom rates than the Hispanic and African American subgroups but follows a similar trend of fluctuations. 
 
@@ -404,7 +404,7 @@ print(p)
 
 ```
 
-This analysis highlights the variations in depressive disorder rates across different educational subgroups in the US, utilizing data from mid 2020 up to early 2024. The visualization provided in the @fig-educationandtrend-graph reveals distinct temporal trends across various education demographics, illustrating how depressive symptoms fluctuate over time among these groups.
+This analysis highlights the variations in depressive disorder rates across different educational subgroups in the US, utilizing data from mid 2020 up to early 2024. The visualization provided in the @fig-educandtrend-graph reveals distinct temporal trends across various education demographics, illustrating how depressive symptoms fluctuate over time among these groups.
 
 Detailed Analysis of Trends by Education Level
 @fig-educandtrend-graph presents the depressive disorder rates for several educational subgroups, including those with a college degree or higher, some college or an associate's degree, a high school diploma or GED, and less than a high school diploma. Each line represents the trend within a specific educational subgroup, offering a visual representation of how mental health issues vary based on educational attainment.
