@@ -153,7 +153,6 @@ The @fig-andtrend-graph provides a line graph visualization of these rates over 
 library(tidyverse)
 library(arrow)
 library(here)
-library(ggrepel)
 library(extrafont)
 
 # Load the fonts
@@ -171,20 +170,9 @@ specific_dates <- as.Date(c("2020-05-05", "2020-09-14", "2021-01-05",
                             "2022-05-09", "2022-09-13", "2023-01-16",
                             "2023-05-08", "2023-09-04", "2024-01-08"))
 
-# Filter the data to get the rows for the specific date to label
-label_date <- as.Date("2022-01-10")
-label_data <- data %>%
-  filter(Date == label_date)
-
 # Plotting the line graph
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
-  geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
-                  family = "Times", color = "black",
-                  size = 3,  # Smaller text size
-                  arrow = arrow(type = "closed", length = unit(0.02, "inches"), angle = 15),
-                  box.padding = unit(0.5, "lines"),
-                  point.padding = unit(0.5, "lines")) +
   geom_hline(yintercept = seq(0, 50, by = 10), color = "lightgrey") +
   scale_x_date(breaks = specific_dates, date_labels = "%Y-%m") +
   labs(x = NULL, y = "Symptom Rates (%)") +
@@ -193,13 +181,16 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
         axis.text.y = element_text(family = "Times"),
         axis.title.x = element_text(family = "Times"),
         axis.title.y = element_text(family = "Times"),
-        legend.position = "none",
+        legend.position = "bottom",  # Display legend at the bottom of the plot
+        legend.title = element_blank(),  # Remove the legend title if desired
+        legend.box = "horizontal",  # Arrange legend items horizontally
         plot.margin = unit(c(1, 1, 1, 1), "cm"))
 
 # Display the plot
 print(p)
 
 ```
+
 @fig-ageandtrend-graph illustrates the trends in depressive disorder rates by population subgroup segmented by age, covering the period from May 2020 to March 2024. This graph reveals several key insights about how depressive symptoms have fluctuated across different age groups during and potentially influenced by the ongoing global and societal changes. The line graph distinguishes each age group with a separate line, showing the trend of depressive disorder rates for each demographic:
 
 1. **Young Adults (18-29 years):** This group shows relatively higher rates of depressive symptoms throughout the period, with peaks that suggest increased vulnerability during certain times. Notable spikes might correlate with specific events or seasons, indicating external impacts on mental health. During the period, the symptom rates of this group are generally 10% higher than the second highest age group. Moreover, it is observed that there is 20% difference gap with the lowest symptom rates age group, 80 years and above. 
@@ -316,7 +307,7 @@ label_data <- data %>%
 p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) +
   geom_line() +
   geom_text_repel(data = label_data, aes(label = Subgroup, x = Date, y = Value), 
-                  nudge_x = 0, nudge_y = 0, family = "Times", color = "black",
+                  nudge_x = 0, nudge_y = 0, family = "Times",
                   size = 3,  # Make label text smaller
                   arrow = arrow(type = "closed", length = unit(0.02, "inches"), ends = "last", angle = 30)) +
   geom_hline(yintercept = seq(0, 40, by = 5), color = "lightgrey") +
@@ -334,6 +325,7 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 print(p)
 
 ```
+
 The line graph in @fig-raceandtrend-graph shows the depressive disorder rates for several race and ethnicity subgroups, including Hispanic, Caucasian, African American, Asian, and Other (Non-Hispanic, other races and multiple races). Each line represents the trend within a specific subgroup, providing a visual representation of how symptom rates have evolved over the specified period.
 
 1. **Hispanic and African American Subgroups:** These lines indicate relatively higher rates of depressive symptoms compared to other groups. 
