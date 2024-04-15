@@ -129,7 +129,6 @@ print(p)
 
 ```
 
-
 The overall trend in US anxiety and depressive disorder rates @fig-andtrend-graph shows significant fluctuations over the observed period, with several notable peaks indicating heightened rates of reported symptoms. For instance, one of the highest peaks occurs in early 2021, where the rate of symptoms for combined anxiety and depressive disorders reaches approximately 45%. This peak reflects a substantial increase compared to earlier peeriods. Another significant peak, observed in mid-2022, sees rates approaching closer to 36-37%, illustrating another period of notable increases in symptoms among the population. 
 
 These peaks are interspersed with valleys, such as in late 2020, where rates temporarily din to around 25%, demonstrating the episodic nature of these conditions. The plot also highlights a general trend of increasing rates from the onset of the data in 2020 through to peaks in 2021, followed by some fluctutation but maintaining relatively high levels overall. 
@@ -417,67 +416,64 @@ This analysis highlights the variations in depressive disorder rates across diff
 4. **College Graduate or Higher:** This subgroup typically shows the lowest rates of depressive symptoms. The Bachelor's degree or higher subgroup exhibited the lowest rates across all metrics, with a peak rate of just over 31% generally averaging 15% during the period. 
 
 ```{r}
-#| echo: false
-#| eval: true
-#| warning: false
-#| message: false
-#| label: fig-alonetrend-graph
-#| fig-cap: "Adults who usually or always feel lonely"
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+library(gridExtra)
+library(readr)
 
-# Define the path to the data file and load it
-social_data <- read_parquet(file = here::here("outputs/data/Social_Connection.parquet"))
+# Load the data
+data <- read_parquet(file = here::here("outputs/data/Social_Connection.parquet"))
 
-# Filter data for the indicator "Adults who usually or always feel lonely" and "By Age" subgroup
-social_age_data <- social_data %>%
-  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Age")
+# Filter data for the specific indicator
+lonely_data <- data %>%
+  filter(Indicator == "Adults who usually or always feel lonely")
 
-# Plot the stacked bar chart
-graph_age <- ggplot(social_age_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
-  geom_bar(stat = "identity", position = "stack") +
-  labs(title = "Adults who usually or always feel lonely - By Age",
-       x = NULL,
-       y = "Value") +
-  theme_minimal()
+# Function to create a plot for a given group with specified y-axis limits
+create_plot <- function(data, group_name, ymax) {
+  data_group <- data %>%
+    filter(Group == group_name) %>%
+    group_by(Time.Period.Label, Subgroup) %>%
+    summarise(Value = sum(Value), .groups = "drop") %>%
+    arrange(Time.Period.Label, Subgroup)
 
+  # Add cumulative sum of Value for label positioning
+  data_group <- data_group %>%
+    group_by(Time.Period.Label) %>%
+    mutate(label_pos = cumsum(Value) - 0.5 * Value,
+           segment_size = Value)
 
-# Filter data for the indicator "Adults who usually or always feel lonely" and "By Sex" subgroup
-social_sex_data <- social_data %>%
-  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Sex")
+  # Create the plot
+  plot <- ggplot(data_group, aes(x = Time.Period.Label, y = Value, fill = Subgroup)) +
+    geom_bar(stat = "identity", position = "stack") +
+    geom_text(aes(y = label_pos, label = ifelse(segment_size > 5, Subgroup, "")), 
+              position = position_stack(vjust = 0.5), 
+              color = "white", family = "Times", check_overlap = TRUE, 
+              size = ifelse(data_group$segment_size > 5, 3, 0)) +
+    labs(title = paste(group_name),
+         y = "Symptom rates (%)",
+         x = NULL) +
+    ylim(0, ymax) +
+    theme_minimal() +
+    theme(text = element_text(family = "Times"),
+          axis.text.x = element_text(hjust = 1, size = 10),
+          plot.title = element_text(size = 7),
+          legend.position = "none")
 
-# Plot the stacked bar chart
-graph_sex <- ggplot(social_sex_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
-  geom_bar(stat = "identity", position = "stack") +
-  labs(title = "Adults who usually or always feel lonely - By Sex",
-       x = NULL,
-       y = "Value") +
-  theme_minimal()
+  return(plot)
+}
 
-# Filter data for the indicator "Adults who usually or always feel lonely" and "By Race/Hispanic ethnicity" subgroup
-social_race_data <- social_data %>%
-  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Race/Hispanic ethnicity")
+# Create plots for each group with specific y-axis limits
+plot_age <- create_plot(lonely_data, "By Age", 100)
+plot_sex <- create_plot(lonely_data, "By Sex", 30) 
+plot_education <- create_plot(lonely_data, "By Education", 70)
+plot_race <- create_plot(lonely_data, "By Race/Hispanic ethnicity", 70)
 
-# Plot the stacked bar chart
-graph_race <- ggplot(social_race_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
-  geom_bar(stat = "identity", position = "stack") +
-  labs(title = "Adults who usually or always feel lonely - By Race",
-       x = NULL,
-       y = "Value") +
-  theme_minimal()
+# Arrange plots in a 2 x 2 grid
+grid_plots <- grid.arrange(plot_age, plot_sex, plot_education, plot_race, ncol = 2, nrow = 2)
 
-# Filter data for the indicator "Adults who usually or always feel lonely" and "By Education" subgroup
-social_educ_data <- social_data %>%
-  filter(Indicator == "Adults who usually or always feel lonely", Group == "By Education")
-
-# Plot the stacked bar chart
-graph_educ <- ggplot(social_educ_data, aes(x = `Time.Period`, y = Value, fill = Subgroup)) +
-  geom_bar(stat = "identity", position = "stack") +
-  labs(title = "Adults who usually or always feel lonely - By Education",
-       x = NULL,
-       y = "Value") +
-  theme_minimal()
-
-# Arrange graphs in single pane
-grid.arrange(graph_age, graph_sex, graph_race, graph_educ, nrow = 2, ncol = 2)
+# Print the arranged plots
+print(grid_plots)
 
 ```
 
@@ -485,7 +481,9 @@ grid.arrange(graph_age, graph_sex, graph_race, graph_educ, nrow = 2, ncol = 2)
 # Model
 
 ## Model set-up
-
+\begin{align} 
+y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma)
+\end{align}
 
 ### Model justification
 
@@ -494,7 +492,6 @@ grid.arrange(graph_age, graph_sex, graph_race, graph_educ, nrow = 2, ncol = 2)
 
 ## Findings
 
-### Discussion of Results
 @fig-ageandtrend-graph indicates that while all age groups experienced fluctuations in depressive disorder rates, younger adults consistently reported higher rates. This could be due to a variety of factors including economic instability, career pressures, or social isolation, particularly accentuated by the pandemic. Trends of older adults, age 50 or more, might reflect accumulating stresses or health-related issues as they age, especially during challenging times like the pandemic. 
 The peaks and valleys in the @fig-ageandtrend-graph correlate with the unfolding of global events, particularly the COVID-19 pandemic, which has been a significant stressor impacting mental health across all demographics. The data shows how these impacts vary significantly with age, suggesting that age-specific interventions might be necessary to address the mental health needs of different populations effectively. 
 
@@ -517,14 +514,11 @@ The trends across educational subgroups underscore the strong correlation betwee
 
 ## Ethical Implication
 
-____
-### Implications
 The data underscores the need for targeted mental health services and interventions that cater specifically to the unique needs of different age groups. Understanding these trends helps in planning public health strategies and allocating resources more effectively to manage and mitigate depressive disorders among the population.
 
 In conclusion, the depressive disorder rates among different age groups provide crucial insights into the mental health landscape during and following significant global crises. These trends highlight the importance of continuous monitoring and responsive public health strategies to support mental wellness across the lifespan.
 
 The depressive disorder rates among different educational groups emphasize the need for policy interventions that consider the intersection of education, economic stability, and mental health. Tailoring mental health services to meet the needs of people across different educational backgrounds can lead to more effective prevention and treatment strategies, ultimately reducing the overall burden of depressive disorders in society.
-____
 
 ## Limitation 
 
