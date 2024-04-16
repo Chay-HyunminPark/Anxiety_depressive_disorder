@@ -416,64 +416,79 @@ This analysis highlights the variations in depressive disorder rates across diff
 4. **College Graduate or Higher:** This subgroup typically shows the lowest rates of depressive symptoms. The Bachelor's degree or higher subgroup exhibited the lowest rates across all metrics, with a peak rate of just over 31% generally averaging 15% during the period. 
 
 ```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-lonely-age-pie
+#| fig-cap: "Adults who usually or always feel lonely by Age"
+
 # Load necessary libraries
 library(ggplot2)
 library(dplyr)
-library(gridExtra)
 library(readr)
+library(here)
 
 # Load the data
 data <- read_parquet(file = here::here("outputs/data/Social_Connection.parquet"))
 
-# Filter data for the specific indicator
+# Filter data for the specific indicator and group
 lonely_data <- data %>%
-  filter(Indicator == "Adults who usually or always feel lonely")
+  filter(Indicator == "Adults who usually or always feel lonely") %>%
+  filter(Group == "By Age") %>%
+  group_by(Subgroup) %>%
+  summarise(Value = sum(Value), .groups = "drop")
 
-# Function to create a plot for a given group with specified y-axis limits
-create_plot <- function(data, group_name, ymax) {
-  data_group <- data %>%
-    filter(Group == group_name) %>%
-    group_by(Time.Period.Label, Subgroup) %>%
-    summarise(Value = sum(Value), .groups = "drop") %>%
-    arrange(Time.Period.Label, Subgroup)
+# Calculate percentages
+lonely_data$Percentage <- lonely_data$Value / sum(lonely_data$Value) * 100
 
-  # Add cumulative sum of Value for label positioning
-  data_group <- data_group %>%
-    group_by(Time.Period.Label) %>%
-    mutate(label_pos = cumsum(Value) - 0.5 * Value,
-           segment_size = Value)
+# Create the pie chart
+pie_chart <- ggplot(lonely_data, aes(x = "", y = Percentage, fill = Subgroup)) +
+  geom_bar(width = 1, stat = "identity") +
+  coord_polar(theta = "y") +
+  geom_text(aes(label = sprintf("%.1f%%", Percentage)), position = position_stack(vjust = 0.5),
+            family = "Times", size = 4) +  # Set text font to Times and adjust size
+  labs(title = "Adults who usually or always feel lonely by Age",
+       x = NULL, y = NULL, fill = "Age Group") +
+  theme_void() +
+  theme(legend.position = "right",
+        text = element_text(family = "Times"),  # Apply Times font to all text elements
+        plot.title = element_text(size = 14))  # Customize plot title
 
-  # Create the plot
-  plot <- ggplot(data_group, aes(x = Time.Period.Label, y = Value, fill = Subgroup)) +
-    geom_bar(stat = "identity", position = "stack") +
-    geom_text(aes(y = label_pos, label = ifelse(segment_size > 5, Subgroup, "")), 
-              position = position_stack(vjust = 0.5), 
-              color = "white", family = "Times", check_overlap = TRUE, 
-              size = ifelse(data_group$segment_size > 5, 3, 0)) +
-    labs(title = paste(group_name),
-         y = "Symptom rates (%)",
-         x = NULL) +
-    ylim(0, ymax) +
-    theme_minimal() +
-    theme(text = element_text(family = "Times"),
-          axis.text.x = element_text(hjust = 1, size = 10),
-          plot.title = element_text(size = 7),
-          legend.position = "none")
+# Print the pie chart
+print(pie_chart)
 
-  return(plot)
-}
+```
 
-# Create plots for each group with specific y-axis limits
-plot_age <- create_plot(lonely_data, "By Age", 100)
-plot_sex <- create_plot(lonely_data, "By Sex", 30) 
-plot_education <- create_plot(lonely_data, "By Education", 70)
-plot_race <- create_plot(lonely_data, "By Race/Hispanic ethnicity", 70)
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-lonely-education-pie
+#| fig-cap: "Adults who usually or always feel lonely by Education"
 
-# Arrange plots in a 2 x 2 grid
-grid_plots <- grid.arrange(plot_age, plot_sex, plot_education, plot_race, ncol = 2, nrow = 2)
+# Change filter to "By Education"
+lonely_data_education <- data %>%
+  filter(Indicator == "Adults who usually or always feel lonely") %>%
+  filter(Group == "By Education") %>%
+  group_by(Subgroup) %>%
+  summarise(Value = sum(Value), .groups = "drop")
 
-# Print the arranged plots
-print(grid_plots)
+lonely_data_education$Percentage <- lonely_data_education$Value / sum(lonely_data_education$Value) * 100
+
+pie_chart_education <- ggplot(lonely_data_education, aes(x = "", y = Percentage, fill = Subgroup)) +
+  geom_bar(width = 1, stat = "identity") +
+  coord_polar(theta = "y") +
+  geom_text(aes(label = sprintf("%.1f%%", Percentage)), position = position_stack(vjust = 0.5),
+            family = "Times", size = 4) +
+  labs(title = "Adults who usually or always feel lonely by Education",
+       x = NULL, y = NULL, fill = "Education Level") +
+  theme_void() +
+  theme(text = element_text(family = "Times"),
+        plot.title = element_text(size = 14))
+
+print(pie_chart_education)
 
 ```
 

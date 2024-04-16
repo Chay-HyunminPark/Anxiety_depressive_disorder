@@ -2914,6 +2914,121 @@ print(grid_plots)
 This approach tailors the visualization to the characteristics of each group's data, improving the clarity and effectiveness of the visual presentation.
 
 User
+instead of stacked bar chart, could you draw a pie chart with its percentage? 
+
+ChatGPT
+Sure, if you'd like to display the data in a pie chart format with percentages shown for each category, you can use the `ggplot2` library in R to create pie charts. Here's an example of how you could adjust the code to generate a pie chart for the data by age. The example will also calculate and display the percentage labels within each pie slice.
+
+### Pie Chart for "By Age" with Percentages
+
+```R
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-lonely-age-pie
+#| fig-cap: "Adults who usually or always feel lonely by Age"
+
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+library(readr)
+library(here)
+
+# Load the data
+data <- read_parquet(file = here::here("outputs/data/Social_Connection.parquet"))
+
+# Filter data for the specific indicator and group
+lonely_data <- data %>%
+  filter(Indicator == "Adults who usually or always feel lonely") %>%
+  filter(Group == "By Age") %>%
+  group_by(Subgroup) %>%
+  summarise(Value = sum(Value), .groups = "drop")
+
+# Calculate percentages
+lonely_data$Percentage <- lonely_data$Value / sum(lonely_data$Value) * 100
+
+# Create the pie chart
+pie_chart <- ggplot(lonely_data, aes(x = "", y = Percentage, fill = Subgroup)) +
+  geom_bar(width = 1, stat = "identity") +
+  coord_polar(theta = "y") +
+  geom_text(aes(label = sprintf("%.1f%%", Percentage)), position = position_stack(vjust = 0.5)) +
+  labs(title = "Adults who usually or always feel lonely by Age",
+       x = NULL, y = NULL, fill = "Age Group") +
+  theme_void() +
+  theme(legend.position = "right")
+
+# Print the pie chart
+print(pie_chart)
+```
+
+### Key Elements of the Pie Chart:
+- **Data Preparation**: The data is grouped by the age category (`Subgroup`), and the sum of values for each category is calculated. The percentages are then computed based on these sums.
+- **Pie Chart Construction**: The pie chart uses `geom_bar` with `coord_polar` to transform it into a circular pie chart. The `width = 1` parameter ensures the bar takes up the full space, creating a pie rather than a donut.
+- **Labels**: Percentages are added to the chart using `geom_text`, and `position_stack(vjust = 0.5)` centers the labels in each pie slice.
+- **Styling**: The chart uses `theme_void` to remove the background grid and axes, focusing solely on the pie chart. The legend is placed on the right side for clarity.
+
+This setup will generate a pie chart for the "By Age" group. You can replicate this setup for other groups by adjusting the `filter(Group == "By Age")` to target different groups as needed.
+
+User
+also have the fonts in Times family
+
+ChatGPT
+To use the Times font family for your pie chart in R, you will need to set the text elements within the theme settings of your `ggplot` plot. Here’s how you can modify the previous pie chart code to include the Times font family for all text elements:
+
+### Pie Chart for "By Age" with Percentages in Times Font
+
+```R
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| label: fig-lonely-age-pie
+#| fig-cap: "Adults who usually or always feel lonely by Age"
+
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+library(readr)
+library(here)
+
+# Load the data
+data <- read_parquet(file = here::here("outputs/data/Social_Connection.parquet"))
+
+# Filter data for the specific indicator and group
+lonely_data <- data %>%
+  filter(Indicator == "Adults who usually or always feel lonely") %>%
+  filter(Group == "By Age") %>%
+  group_by(Subgroup) %>%
+  summarise(Value = sum(Value), .groups = "drop")
+
+# Calculate percentages
+lonely_data$Percentage <- lonely_data$Value / sum(lonely_data$Value) * 100
+
+# Create the pie chart
+pie_chart <- ggplot(lonely_data, aes(x = "", y = Percentage, fill = Subgroup)) +
+  geom_bar(width = 1, stat = "identity") +
+  coord_polar(theta = "y") +
+  geom_text(aes(label = sprintf("%.1f%%", Percentage)), position = position_stack(vjust = 0.5),
+            family = "Times", size = 4) +  # Set text font to Times and adjust size
+  labs(title = "Adults who usually or always feel lonely by Age",
+       x = NULL, y = NULL, fill = "Age Group") +
+  theme_void() +
+  theme(legend.position = "right",
+        text = element_text(family = "Times"),  # Apply Times font to all text elements
+        plot.title = element_text(size = 14, face = "bold"))  # Customize plot title
+
+# Print the pie chart
+print(pie_chart)
+```
+
+### Adjustments for Times Font:
+- **`geom_text`**: Added `family = "Times"` directly in the `geom_text` function to ensure labels within the pie slices use the specified font.
+- **Theme Adjustments**: The `theme` function includes a global setting for `text` using `element_text(family = "Times")` which applies the Times font to all text elements in the plot, including the legend and plot title.
+
+This setup will provide a consistent appearance using the Times font for the entire pie chart. If the Times font is not available or does not apply correctly in your environment, make sure that the font is installed or accessible in your R environment, or adjust the font family to one that is available.
+
+User
 
 ChatGPT
 
