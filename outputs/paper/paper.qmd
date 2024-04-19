@@ -53,9 +53,7 @@ The study focuses on answering the following research questions:
 
 * How do depressive rates differ based on education level?
 
-* Is there codependency of social connection on one's depression level?  
-
-Through this analysis, we aim to better understand contributing factors of mental wellness of the US population. Furthermore, we display possible correlation between factors and the mentall wellness states. 
+Through this analysis, we aim to better understand contributing factors of mental wellness of the US population. Furthermore, we display possible correlation between factors and the mental wellness states. 
 
 # Data {#sec-data}
 
@@ -140,6 +138,8 @@ The @fig-andtrend-graph provides a line graph visualization of these rates over 
 
 ### Population subgroup by age
 
+Overall, the younger the age group is, the higher the symptom rates are. @fig-ageandtrend-graph illustrates the trends in depressive disorder rates by population subgroup segmented by age, covering the period from May 2020 to March 2024. This graph reveals several key insights about how depressive symptoms have fluctuated across different age groups during and potentially influenced by the ongoing global and societal changes. The line graph distinguishes each age group with a separate line, showing the trend of depressive disorder rates for each demographic:
+
 ```{r}
 #| echo: false
 #| eval: true
@@ -190,8 +190,6 @@ print(p)
 
 ```
 
-Overall, the younger the age group is, the higher the symptom rates are. @fig-ageandtrend-graph illustrates the trends in depressive disorder rates by population subgroup segmented by age, covering the period from May 2020 to March 2024. This graph reveals several key insights about how depressive symptoms have fluctuated across different age groups during and potentially influenced by the ongoing global and societal changes. The line graph distinguishes each age group with a separate line, showing the trend of depressive disorder rates for each demographic:
-
 1. **Young Adults (18-29 years):** This group shows relatively higher rates of depressive symptoms throughout the period, with peaks that suggest increased vulnerability during certain times. Notable spikes might correlate with specific events or seasons, indicating external impacts on mental health. During the period, the symptom rates of this group are generally 10% higher than the second highest age group. Moreover, it is observed that there is 20% difference gap with the lowest symptom rates age group, 80 years and above. 
 
 2. **Middle-aged Groups (40-59 years):**This line show moderate fluctuation but generally less variance compared to younger adults or older adults. Middle-aged groups generally locate in between 30 -39 years young adult group and 60 - 69 years old adults group. However, on 2023 May, middle-aged group 40 - 49 years exceeds 30 - 39 years young adults group by a few percentage of symptom rates. Overall, both 40 - 49 years age group and 50 - 59 years age group demonstrate similar trends with some points where symptom rates of 50 - 59 years age group surpassed 40 - 49 years age group. For instance, 2021 March and 2022 September. 
@@ -199,6 +197,8 @@ Overall, the younger the age group is, the higher the symptom rates are. @fig-ag
 3. **Old Adults (80 years and above):** Most fluctuating age groups, with a peak in 2021 January and multiple lowest peaks including 2021 July, 2022 March, and 2022 August. This group still score below than majority of the age groups but there are several moments where it overtakes the symptom rates of 70 - 79 years old group. 
 
 ### Population subgroup by sex
+
+@fig-sexandtrend-graph differentiates between the two sex subgroups, highlighting the trends in depressive disorder rates for each:
 
 ```{r}
 #| echo: false
@@ -250,13 +250,14 @@ p + geom_text_repel(
 )
 
 ```
-@fig-sexandtrend-graph differentiates between the two sex subgroups, highlighting the trends in depressive disorder rates for each:
 
 1. **Female Subgroup:** This line consistently shows higher rates of depressive symptoms compared to the male subgroup. The trend line for females exhibits several pronounced peaks. Two major peaks happened in 2020 August and 2021 January. And then as of January 2021 the trends starting to decline up until June 2021. From there the trends are following sideways trends with minor peaks and troughs along the way until the end of 2023.  
 
 2. **Male Subgroup:** Although the rates for the male subgroup are generally lower than those for females, the trend line still shows significant fluctuation with similar peaks and troughs, indicating that males are also significantly affected by the same factors that increase depressive symptoms. Reaching the end of 2023, the line graphs for both population subgroups almost align with each other and exhibits almost identical behaviours. 
 
 ### Trends in Depressive Disorder Rates by Population Subgroup by Race and Ethnicity
+
+The analysis of depressive disorder rates among various racial and ethnic groups @fig-raceandtrend-graph reveals distinct patterns of mental health disparities from 2020 to 2024. The data, visualized through a line graph, indicates varying symptom rates across five subgroups: Hispanic, Caucasian, African American, Asian, and Other. 
 
 ```{r}
 #| echo: false
@@ -324,8 +325,6 @@ print(p)
 
 ```
 
-The analysis of depressive disorder rates among various racial and ethnic groups @fig-raceandtrend-graph reveals distinct patterns of mental health disparities from 2020 to 2024. The data, visualized through a line graph, indicates varying symptom rates across five subgroups: Hispanic, Caucasian, African American, Asian, and Other. 
-
 1. **Hispanic and African American Subgroups:** Both subgroups exhibit relatively higer rates of depressive symptoms throughout the observed period compared to other groups. This may suggest a greater impact of socio-economic and possibly systemic factors affecting these communities disproportionately. The maximum rates observed for Hispanics and African Americans were 41.10% and 41.43%, respectively, with Hispanics showing a minimum rate significantly lower at 18.77%, suggesting more substantial fluctuatinos. 
 
 2. **Caucasian Subgroup:** While the Caucasian group shows lower symptom rates than the Hispanic and African American groups, it follows a similar pattern of fluctuations over time. The maximum rate for Caucasians was 35.17%, with an average rate of 27.92%, indicating that while the intensity may vary, the underlying factors influencing depressive symptoms are somewhat consistent across these groups.
@@ -335,6 +334,8 @@ The analysis of depressive disorder rates among various racial and ethnic groups
 4. **Other (Non-Hispanic, Other Races and Multiple Races):** This category presents a unique trend line with variable rates, which could be indicative of the heterogeneous nature of this group. The highest recorded was 46.07%, and the lowest was 24.23%, with an average of 37.89%, suggesting significant variability possibly stemming from the diverse socio-economic and cultural backgrounds represented within this subgroup. 
 
 ### Trends in Depressive Disorder Rates by Population Subgroup by Education
+
+This analysis highlights the variations in depressive disorder rates across different educational subgroups in the US, utilizing data from mid 2020 up to early 2024. The visualization provided in the @fig-educandtrend-graph reveals distinct temporal trends across various education demographics, illustrating how depressive symptoms fluctuate over time among these groups.
 
 ```{r}
 #| echo: false
@@ -401,8 +402,6 @@ p <- ggplot(data, aes(x = Date, y = Value, group = Subgroup, color = Subgroup)) 
 print(p)
 
 ```
-
-This analysis highlights the variations in depressive disorder rates across different educational subgroups in the US, utilizing data from mid 2020 up to early 2024. The visualization provided in the @fig-educandtrend-graph reveals distinct temporal trends across various education demographics, illustrating how depressive symptoms fluctuate over time among these groups.
 
 @fig-educandtrend-graph presents the depressive disorder rates for several educational subgroups, including those with a college degree or higher, some college or an associate's degree, a high school diploma or GED, and less than a high school diploma. Each line represents the trend within a specific educational subgroup, offering a visual representation of how mental health issues vary based on educational attainment.
 
@@ -539,25 +538,7 @@ The depressive disorder rates among different educational groups emphasize the n
 The survey was designed to meet the goal of accurate and timely weekly estimates. Hence, it was conducted by an internet questionnaire, with invitations to participate sent by email and text message (National Center for Health Statistics, 2024). Internet questionnaires face several significant challenges. One of the primary concerns is self-selection bias, where the survey tends to attract respondents who are particularly interested in the topic, which can skew the results and limit their generalizability. Additionally, these surveys may not reach a diverse demographic due to varying levels of internet access across different population segments, thus excluding certain groups, such as older adults or lower-income individuals, and potentially leading to a lack of representativeness. Respondents might also misunderstand or misinterpret questions without the opportunity for real-time clarification, compromising the accuracy of the data collected. Privacy and security concerns are prevalent too, as individuals may be hesitant to share personal or sensitive information online for fear of data breaches or doubts about the survey platform's security measures. Lastly, the validity and honesty of responses are at risk; while the anonymity of online surveys can encourage candidness, it might also lead to less thoughtful or dishonest answers, affecting the reliability of the survey outcomes (Dillman, Smyth, & Christian, 2014; Morling, 2018).
 
 ## Future Research
-For future research, survey can further ask what are the factors that affect their mood. 
-
-\newpage
-
-\appendix
-
-# Appendix {-}
-
-
-# Additional data details
-
-# Model details {#sec-model-details}
-
-## Posterior predictive check
-
-
-## Diagnostics
-
-
+Given the self-reported nature of the data, researchers should be cautious about biases inherent in self-report surveys, such as social desirability bias or recall bias. Additionally, because the dataset represents a specific period (COVID-19 pandemic), care should be taken when generalizing findings to other times or situations. Mitigating these risks involves robust statistical techniques, clear reporting of the survey's scope and limitations, and, where possible, validation with other data sources. Furthermore, beyond studying the impact of COVID-19, the dataset could be used for longitudinal studies on public health trends, economic analysis, and social science research. It can serve as a baseline for future crises management studies, or for comparative studies on how different demographics cope with societal stressors.
 
 \newpage
 
