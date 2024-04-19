@@ -1,6 +1,6 @@
 ---
-title: "Are we living in a depressive society?"
-subtitle: "Trends in symptoms of depressive disorder in the US population from May 2020 to March 2024"
+title: "Socio-Cultural Influences on Depressive Disorders in the US: An Analysis from 2020 to 2024"
+subtitle: "Exploring the Impact of Age, Gender, Race, and Education on Mental Health Trends During and After the COVID-19 Pandemic"
 author: Chay Park
 thanks: "Code and data are available at: https://github.com/Chay-HyunminPark/Anxiety_depressive_disorder."
 date: today
