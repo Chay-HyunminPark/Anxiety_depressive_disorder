@@ -27,73 +27,79 @@ Extract of the questions from @gebru2021datasheets.
 **Composition**
 
 1. *What do the instances that comprise the dataset represent (for example, documents, photos, people, countries)? Are there multiple types of instances (for example, movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.*
-	- Online questionnaire based survey with texts only.
+	- Each instance in the dataset represents a response to the Household Pulse Survey, reflecting individual experiences and assessments concerning various impacts of COVID-19. The instances include responses about mental health, economic status, and other personal impacts due to the pandemic.
 2. *How many instances are there in total (of each type, if appropriate)?*
-	- Just a single survey questionnaire.
+	- The dataset is composed of multiple responses to the survey, each corresponding to an individual respondent. The total number of instances depends on the number of completed responses collected during the survey period.
 3. *Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (for example, geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (for example, to cover a more diverse range of instances, because instances were withheld or unavailable).*
-	- The dataset contain all possible instances, and yet considered a sample of instances from a larger set as it is still missing some responses from the whole population. The larger set would be a survey response from the whole population in US. The representativeness was verified as the hosting institution is the government associated. 
+	- The dataset is a sample from a larger set, which would be all eligible households in the U.S. The sampling strategy involved random selection from the Census Bureau's Master Address File, aiming to create a representative sample of the U.S. population by using demographic weighting and adjustment for nonresponse.
 4. *What data does each instance consist of? "Raw" data (for example, unprocessed text or images) or features? In either case, please provide a description.*
-	- Raw data is nicely formatted in CSV form. Data types are among the following : 'Text', 'Floating Timestamp', and 'Number.' 
+	- Each instance consists of structed data collected via the survey. This includes both "raw" data in the form of survey responses and derived data such as timestamps and numerical values for responses. Each instance comprises responses to survey questions, which are formatted and categorized by various demographic and situational factors.
 5. *Is there a label or target associated with each instance? If so, please provide a description.*
-	- Columns in this Dataset. (1) Indicator - Data Type [Text] (2) Group - Data Type [Text] (3) State - Data Type [Text] (4) Subgroup - Data Type [Text] (5) Phase - Data Type [Text] (6) Time Period - Data Type [Text] (7) Time Period Label - Data Type [Text] (8) Time Period Start Date - Data Type [Floating Timestamp] (9) Time Period End Date - Data Type [Floating Timestamp] (10) Value - Data Type [Number] (11) Low CI - Data Type [Number] (12) High CI - Data Type [Number] (13) Confidence Interval - Data Type [Text] (14) Quartile Range - Data Type [Text]
+	- While not a label in the machine learning sense, each instance includes several attributes that categorize the data, such as indicators of mental health status, demographic groupings, and time-related information. These can be considered as labels for the purpose of analyzing survey data across different subgroups and times.
 6. *Is any information missing from individual instances? If so, please provide a description, explaining why this information is missing (for example, because it was unavailable). This does not include intentionally removed information, but might include, for example, redacted text.*
-	- Column 'Quartile Range' is missing for non-By State group. Only rows with 'By State' group has Quartile Range information.
+	- Missing information occurs in instances where respondents did not answer all survey questions, or where certain data, such as the 'Quartile Range', is applicable only to specific subgroups. Reasons for missing data typically include nonresponse or the inapplicability of certain questions to all respondents.
 7. *Are relationships between individual instances made explicit (for example, users' movie ratings, social network links)? If so, please describe how these relationships are made explicit.*
-	- The combination of Symptoms of Depressive Disorder and Symptoms of Anxiety Disorder are combined as Symptoms of Anxiety Disorder or Depressive Disorder. 
+	- Relationships in the dataset are not about interactions between instances but rather about the correlations and trends that can be observed across different groups (e.g., demographic categories) or over time periods.
 8. *Are there recommended data splits (for example, training, development/validation, testing)? If so, please provide a description of these splits, explaining the rationale behind them.*
-	- No
+	- The dataset does not specify recommended splits for training and testing as it is primarily designed for analysis and reporting rather than predictive modeling.
 9. *Are there any errors, sources of noise, or redundancies in the dataset? If so, please provide a description.*
-	- Not shown so far.
+	- As with any survey data, errors and noise can occur through misreporting or misunderstanding of survey questions by respondents. Redundancies might exist in the form of repeated demographic categorizations across multiple instances.
 10. *Is the dataset self-contained, or does it link to or otherwise rely on external resources (for example, websites, tweets, other datasets)? If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (that is, including the external resources as they existed at the time the dataset was created); c) are there any restrictions (for example, licenses, fees) associated with any of the external resources that might apply to a dataset consumer? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.*
-	- The dataset is self-contained.
+	- Yes, the dataset is self-contained and does not rely on external resources. It provides all necessary information within the data itself.
 11. *Does the dataset contain data that might be considered confidential (for example, data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals' non-public communications)? If so, please provide a description.*
-	- No
+	- No, the dataset does not contain data considered confidential as personal identifiers are removed to ensure anonymity of the respondents.
 12. *Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? If so, please describe why.*
-	- Dataset could have been labeled White as Caucasian, Black as African American. Also, they are excluding the minorities by grouping them all as 'Non-Hispanic, other races and multiple races.' For instance, South Asian Americans, Middle Eastern Americans, Native Americans. 
+	- The dataset itself is not offensive; however, the content concerning individuals' mental health and economic impacts during the pandemic might be sensitive or cause discomfort due to the nature of the topics.
 13. *Does the dataset identify any sub-populations (for example, by age, gender)? If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset.*
-	- By age, 18 - 29 years, 30 - 39 years, 40 - 49 years, 50 - 59 years, 60 - 69 years, 70 - 79 years, and 80 years and above. By sex, there are male and female.
+	- Yes, the dataset identifies sub-populations by demographic attributes such as age and gender. These are clearly marked, allowing for detailed subgroup analysis within the dataset.
 14. *Is it possible to identify individuals (that is, one or more natural persons), either directly or indirectly (that is, in combination with other data) from the dataset? If so, please describe how.*
-	- No, each subgroup population is the accumulated, therefore it's hard to identify single individual.
+	- No, it is not possible to identify individuals directly from the dataset as the data is aggregated and anonymized, focusing on broader demographic and temporal trends.
 15. *Does the dataset contain data that might be considered sensitive in any way (for example, data that reveals race or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)? If so, please provide a description.*
-	- The data reveals race, highest educational attainment, region (states), age.
+	- Yes, the dataset contains sensitive data related to race, age, and other demographic factors. However, the presentation of this data is in an aggregated form to prevent identification of individual respondents and ensure privacy and ethical compliance.
 
 **Collection process**
 
 1. *How was the data associated with each instance acquired? Was the data directly observable (for example, raw text, movie ratings), reported by subjects (for example, survey responses), or indirectly inferred/derived from other data (for example, part-of-speech tags, model-based guesses for age or language)? If the data was reported by subjects or indirectly inferred/derived from other data, was the data validated/verified? If so, please describe how.*
-	- TBD
+	- The data in the Household Pulse Survey was directly reported by subjects through an internet questionnaire. Given the nature of the survey, the responses were self-reported and not independently verified. However, the data has been weighted to adjust for nonresponse and to align with Census Bureau demographic estimates, which indirectly serves as a form of validation to ensure representativeness.
 2. *What mechanisms or procedures were used to collect the data (for example, hardware apparatuses or sensors, manual human curation, software programs, software APIs)? How were these mechanisms or procedures validated?*
-	- TBD
+	- The data was collected via an internet questionnaire, with invitations sent by email and text message. The Census Bureau and collaborating federal agencies likely validated the digital collection mechanism through pre-launch testing and quality assurance checks to ensure functionality and data integrity.
 3. *If the dataset is a sample from a larger set, what was the sampling strategy (for example, deterministic, probabilistic with specific sampling probabilities)?*
-	- TBD
+	- The survey used a probabilistic sampling strategy where housing units from the Census Bureau's Master Address File Data were randomly selected. This approach ensures that the sample represents the general population.
 4. *Who was involved in the data collection process (for example, students, crowdworkers, contractors) and how were they compensated (for example, how much were crowdworkers paid)?*
-	- TBD
+	- The survey was conducted by the U.S. Census Bureau in collaboration with other federal agencies. Specific details on individual involvement and compensation are not typically disclosed in public documents, but governmnet employees would have conducted and managed the survey.
 5. *Over what timeframe was the data collected? Does this timeframe match the creation timeframe of the data associated with the instances (for example, recent crawl of old news articles)? If not, please describe the timeframe in which the data associated with the instances was created.*
-	- TBD
+	- The timeframe for data collection was during the COVID-19 pandemic, with the survey providing weekly estimates. The timeframe of data collection should match the creation timeframe of the data since the data relates to current experiences of households during the pandemic.
 6. *Were any ethical review processes conducted (for example, by an institutional review board)? If so, please provide a description of these review processes, including the outcomes, as well as a link or other access point to any supporting documentation.*
-	- TBD
+	- Federal surveys often undergo ethical review processes to ensure compliance with standards and regulations, including privacy protections. Details of these processes for the Household Pulse Survey specifically would be documented by the Census Bureau and related agencies.
 7. *Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (for example, websites)?*
-	- TBD
+	- The data was collected directly from individuals, not through third parties. Respondents provided information through the questionnaire based on personal and household experiences.
 8. *Were the individuals in question notified about the data collection? If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or otherwise reproduce, the exact language of the notification itself.*
-	- TBD
+	- Participants were likely notified about the data collection at the point of contact - either through the email or text message invitaion. This notification would include information about the purpose of the survey and its voluntary nature.
 9. *Did the individuals in question consent to the collection and use of their data? If so, please describe (or show with screenshots or other information) how consent was requested and provided, and provide a link or other access point to, or otherwise reproduce, the exact language to which the individuals consented.*
-	- TBD
+	- Consent to participate in the survey was implied by the completion and submission of the online questionnaire. The invitation to participate likely included language regarding consent.
 10. *If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses? If so, please provide a description, as well as a link or other access point to the mechanism (if appropriate).*
-	- TBD
+	- As the data collection involves a one-time survey response, there typically isn't a mechanism to revoke consent post-submission, especially since the data is anonymized for analysis.
 11. *Has an analysis of the potential impact of the dataset and its use on data subjects (for example, a data protection impact analysis) been conducted? If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation.*
-	- TBD
+	- Given the scope and scale of federal surveys, an impact analysis, including considerations for data protection and potential effects on respondents, is likely conducted. Specific outcomes and details might be available through official documnetation or upon request from the Census Bureau.
 12. *Any other comments?*
-	- TBD
+	- These responses are inferred from standard practices for federal surveys like the Household Pulse Survey; specific details would be provided by the Census Bureau or in official survey documentation.
 
 **Preprocessing/cleaning/labeling**
 
 1. *Was any preprocessing/cleaning/labeling of the data done (for example, discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.*
-	- TBD
+	- Cleaning and Validation: The data collected through online surveys typically undergoes initial cleaning to remove any obviously erroneous entries (e.g., ages outside plausible human ranges, invalid characters in numeric fields).
+	- Processing of Missing Values: Missing data is a common issue in survey responses. Techniques such as imputation (replacing missing data with statistical estimates), or simply marking data as missing, may be used depending on the nature of the question and the analysis needs. For weighted surveys like this one, the adjustment for nonresponse is a crucial aspect of ensuring that the results are representative, even with missing data.
+	- Labeling of Categories: Questions with categorical responses (like "yes/no," "frequently/sometimes/never") are labeled for ease of analysis. This process involves coding textual responses into numeric codes that can be easily processed statistically.
+	- Discretization or Bucketing: For continuous variables or ordinal data with a wide range of responses, discretization or bucketing might be used. For example, age might be grouped into categories like 18-24, 25-34, etc., to facilitate analysis and ensure privacy.
+	- Weighting: As mentioned, the data is weighted to adjust for the probability of selection and nonresponse. Weighting ensures that the survey results are representative of the broader population according to key demographic variables like age, gender, race and ethnicity, and educational attainment.
+	- Anonymization: To protect respondents' privacy, personally identifiable information (PII) is removed or obscured. This includes any direct identifiers or combinations of variables that could potentially be used to re-identify individuals.
+	- Quality Assurance Checks: Repeated entries, consistency of responses across questions, and outlier checks are typical quality assurance measures in survey data processing.
 2. *Was the "raw" data saved in addition to the preprocessed/cleaned/labeled data (for example, to support unanticipated future uses)? If so, please provide a link or other access point to the "raw" data.*
-	- TBD
+	- On the GitHub repository, follow inputs/data/Indicators_of_Anxiety_or_Depression_Based_on_Reported_Frequency_of_Symptoms_During_Last_7_Days_20240401.csv
 3. *Is the software that was used to preprocess/clean/label the data available? If so, please provide a link or other access point.*
-	- TBD
+	- None
 4. *Any other comments?*
-	- TBD
+	- Aforementioned steps are generally documented in the methodological reports associated with the survey, which might be accessible through the Census Bureau's website or directly within the docomentation of the survey dataset. For exact specifics, however, reviewing these official documnets or contacting the managing federal agency would be necessary.
 
 **Uses**
 
