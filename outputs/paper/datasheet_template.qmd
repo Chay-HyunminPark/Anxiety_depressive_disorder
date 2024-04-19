@@ -104,53 +104,54 @@ Extract of the questions from @gebru2021datasheets.
 **Uses**
 
 1. *Has the dataset been used for any tasks already? If so, please provide a description.*
-	- TBD
+	- The Household Pulse Survey data has been widely used for tracking and analyzing the social and economic impacts of the COVID-19 pandemic. Researchers, policymakers, and public health officials have utilized the data to understand changes in employment, mental health, food security, and other areas affected by the pandemic.
 2. *Is there a repository that links to any or all papers or systems that use the dataset? If so, please provide a link or other access point.*
-	- TBD
+	- You can find studies and papers utilizing the Household Pulse Survey data through academic databases and resources such as Google Scholar. Additionally, the U.S. Census Bureau’s website often features publications and analysis derived from the data.
 3. *What (other) tasks could the dataset be used for?*
-	- TBD
+	- Beyond studying the impact of COVID-19, the dataset could be used for longitudinal studies on public health trends, economic analysis, and social science research. It can serve as a baseline for future crises management studies, or for comparative studies on how different demographics cope with societal stressors.
 4. *Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (for example, stereotyping, quality of service issues) or other risks or harms (for example, legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?*
-	- TBD
+	- Given the self-reported nature of the data, researchers should be cautious about biases inherent in self-report surveys, such as social desirability bias or recall bias. Additionally, because the dataset represents a specific period (COVID-19 pandemic), care should be taken when generalizing findings to other times or situations. Mitigating these risks involves robust statistical techniques, clear reporting of the survey’s scope and limitations, and, where possible, validation with other data sources.
 5. *Are there tasks for which the dataset should not be used? If so, please provide a description.*
-	- TBD
-6. *Any other comments?*
-	- TBD
+	- The dataset should not be used for predicting individual behaviors or outcomes due to its aggregated and anonymized nature. It is also not suitable for clinical or diagnostic purposes, as the data reflects self-reported indicators rather than medically verified conditions.
+
 
 **Distribution**
 
 1. *Will the dataset be distributed to third parties outside of the entity (for example, company, institution, organization) on behalf of which the dataset was created? If so, please provide a description.*
-	- TBD
+	- The Household Pulse Survey data is publicly available through the U.S. Census Bureau and can be accessed by researchers, policymakers, and the general public, promoting transparency and accessibility.
 2. *How will the dataset be distributed (for example, tarball on website, API, GitHub)? Does the dataset have a digital object identifier (DOI)?*
-	- TBD
+	- The dataset is available for download in various formats (such as CSV) from the Census Bureau’s website. It does not typically have a DOI as it is a governmental statistical data release rather than a publication in a scientific archive.
 3. *When will the dataset be distributed?*
-	- TBD
+	- The dataset is released in phases and updates, often aligned with survey waves. The Census Bureau’s website provides timelines and updates regarding data release schedules.
 4. *Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)? If so, please describe this license and/ or ToU, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms or ToU, as well as any fees associated with these restrictions.*
-	- TBD
+	- As a governmental dataset, the Household Pulse Survey data is typically in the public domain, but users are encouraged to cite the source appropriately. Specific terms of use can be found on the Census Bureau’s website.
 5. *Have any third parties imposed IP-based or other restrictions on the data associated with the instances? If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms, as well as any fees associated with these restrictions.*
-	- TBD
+	- There are no export controls or regulatory restrictions on the dataset, given its nature as publicly available governmental data.
 6. *Do any export controls or other regulatory restrictions apply to the dataset or to individual instances? If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any supporting documentation.*
-	- TBD
+	- As the Household Pulse Survey data is collected and distributed by the U.S. Census Bureau, a federal agency, it is typically not subject to export controls or specific regulatory restrictions. The data is publicly available and designed to be accessible by the general public, researchers, and policymakers both domestically and internationally. This openness aligns with the mission of the Census Bureau to provide useful data to help government officials, businesses, and the public make informed decisions.
+However, users of the data should be aware of the general legal responsibilities that come with handling data, especially when used in research and publication. These responsibilities may include ensuring privacy protections and ethical use of the data, particularly when integrating this data with other datasets that might have their own restrictions or sensitive information.
 7. *Any other comments?*
-	- TBD
+	- For specific details about any applicable terms of use, users can refer to the Census Bureau’s website or the direct Household Pulse Survey page, which provide guidelines and updates on data usage, distribution, and any pertinent legal notices. These resources ensure users are fully informed of their rights and obligations when accessing and using the dataset.
 
 **Maintenance**
 
 1. *Who will be supporting/hosting/maintaining the dataset?*
-	- TBD
+	- The U.S. Census Bureau, along with collaborating federal agencies, is responsible for maintaining, updating, and hosting the dataset.
 2. *How can the owner/curator/manager of the dataset be contacted (for example, email address)?*
-	- TBD
+	- Contact Name	: National Center for Health Statistics and Contact Email	: cdcinfo@cdc.gov
 3. *Is there an erratum? If so, please provide a link or other access point.*
-	- TBD
+	- https://data.cdc.gov/NCHS/Indicators-of-Anxiety-or-Depression-Based-on-Repor/8pt5-q6wp/about_data
 4. *Will the dataset be updated (for example, to correct labeling errors, add new instances, delete instances)? If so, please describe how often, by whom, and how updates will be communicated to dataset consumers (for example, mailing list, GitHub)?*
-	- TBD
+	- The dataset is updated periodically with new survey waves. The Census Bureau communicates these updates through its website and via press releases to registered users and the public.
 5. *If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (for example, were the individuals in question told that their data would be retained for a fixed period of time and then deleted)? If so, please describe these limits and explain how they will be enforced.*
-	- TBD
+	- While specific retention limits are not typically imposed on public domain data like this, the data is managed in accordance with federal records management laws and guidelines.
 6. *Will older versions of the dataset continue to be supported/hosted/maintained? If so, please describe how. If not, please describe how its obsolescence will be communicated to dataset consumers.*
-	- TBD
+	- Older versions of the Household Pulse Survey data are typically archived and remain accessible through the U.S. Census Bureau’s website. This ensures that historical data can be reviewed and utilized for longitudinal studies or comparative analyses. Each release is clearly dated and labeled, allowing researchers to access specific data waves or versions according to their needs.
+The Census Bureau typically does not remove older data versions but instead adds new survey data as additional files or entries within their data portal. In the event of any significant changes to the dataset or its availability, the Census Bureau communicates these updates through announcements on their website and potentially via email notifications to users who have registered for updates.
+Researchers and data users are encouraged to regularly check the Census Bureau’s website for the most current data and for any notices regarding updates or changes to the dataset’s maintenance and availability. This proactive approach helps ensure that all users have access to the latest information and data resources provided by the agency.
 7. *If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so? If so, please provide a description. Will these contributions be validated/verified? If so, please describe how. If not, why not? Is there a process for communicating/distributing these contributions to dataset consumers? If so, please provide a description.*
-	- TBD
-8. *Any other comments?*
-	- TBD
+	- Generally, external contributions to governmental datasets like this are not standard practice. However, researchers can use the data to build secondary datasets or augment it with other data sources for specific studies, which they can then make available independently.
+
 
 
 \newpage
