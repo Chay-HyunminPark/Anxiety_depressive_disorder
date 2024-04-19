@@ -1,10 +1,10 @@
 ---
-title: "Datasheet for 'Indicators_of_Anxiety_or_Depression_Based_on_Reported_Frequency_of_Symptoms_During_Last_7_Days_20240401'"
+title: "Datasheet for 'Anxiety_or_Depression'"
 author: Chay Park
 thanks: "Code and data are available at: https://github.com/Chay-HyunminPark/Anxiety_depressive_disorder"
-date: "`r Sys.time()`"
-date-format: "D MMMM YYYY"
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+date: today
+date-format: long
+abstract: "The Household Pulse Survey, conducted by the U.S. Census Bureau in collaboration with several federal agencies, serves as a critical dataset to evaluate the socioeconomic and health impacts of the COVID-19 pandemic on American households. This dataset includes self-reported data collected through an internet questionnaire, focusing on areas such as mental health, economic status, and educational disruptions. The survey employs a probabilistic sampling strategy from the Census Bureau's Master Address File to ensure representativeness, with data being weighted according to demographic benchmarks. This datasheet provides detailed insights into the datasetâ€™s composition, collection process, usage, distribution, and maintenance, offering essential information for researchers and policymakers utilizing this resource to understand and respond to the pandemic's effects."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -158,12 +158,3 @@ Researchers and data users are encouraged to regularly check the Census Bureauâ€
 
 # References
 
-@online{cdc_nchs_rate,
-    title = {Indicators of Anxiety or Depression Based on Reported Frequency of Symptoms During Last 7 Days},
-    author = {National Center for Health Statistics},
-    year = {2024},
-    url = {https://data.cdc.gov/NCHS/Indicators-of-Anxiety-or-Depression-Based-on-Repor/8pt5-q6wp/about_data},
-    organization = {National Center for Health Statistics},
-    address = {United States},
-    note = {Accessed on April 1, 2024},
-}
